@@ -19,7 +19,8 @@ using LLMs via OpenRouter, with five differently-worded prompts, then asks:
 | `grid.csv` | 23 spaced statements x 5 prompts (Gemini) |
 | `changes*.csv` | Consecutive 2015–19 (and 2004–07) blocks, per model |
 | `full_gemini.csv` | Full corpus, 5 prompts, gemini-2.5-flash |
-| `full_fable.csv`, `fable_p1.csv`, `fable_fill.csv` | Full corpus, claude-fable-5.1 (split across runs; `full_fable.csv` contains FAILED rows) |
+| `scores_fable.csv` | Full corpus, claude-fable-5.1, all runs merged (built by `consolidate.py`; use this) |
+| `full_fable.csv`, `fable_p1.csv`, `fable_fill.csv` | Raw Fable runs that feed `scores_fable.csv` (`full_fable.csv` contains FAILED rows) |
 
 ## Scripts
 - `pilot.py` – the five prompts, score parsing, one-statement demo
@@ -27,10 +28,15 @@ using LLMs via OpenRouter, with five differently-worded prompts, then asks:
 - `run_all2.py` – resumable parallel full-corpus scorer (`run_all.py` is the older, buggy version)
 - `finish_fable.py` – fill missing statements with a single prompt
 - `report.py` – reliability report across score files
+- `consolidate.py` – merge the Fable runs into `scores_fable.csv` (drops failures, keeps repeat runs tagged by source)
+- `analysis.py` – reproduces all results: reliability table, market regressions (MPS, MPS_ORTH, d2, d10 on dScore; hold subsample; OLS/HC1/Newey-West), post-2024 check
 - `diagnose.py` – OpenRouter credit / rate-limit diagnostics
 
 ## Running
 ```bash
-export OPENROUTER_API_KEY="your-key"
+python3 consolidate.py          # rebuild scores_fable.csv (no API)
+python3 analysis.py             # all tables; --score P1_minimal, --csv out.csv
+
+export OPENROUTER_API_KEY="your-key"   # only for the scoring scripts
 python3 report.py changes.csv changes_frontier.csv
 ```
