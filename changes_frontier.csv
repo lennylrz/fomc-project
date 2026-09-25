@@ -1,0 +1,206 @@
+date,prompt,score,model,temperature,raw_reply
+2015-01-28,P1_minimal,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2015-01-28,P2_defined,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2015-01-28,P3_analyst,0.1,anthropic/claude-fable-5.1,0.0,0.1
+2015-01-28,P4_reversed,-0.4,anthropic/claude-fable-5.1,0.0,0.4
+2015-01-28,P5_reason_first,-0.1,anthropic/claude-fable-5.1,0.0,"This is the January 2015 FOMC statement.  **Hawkish elements** - Upgraded growth assessment: activity ""expanding at a solid pace"" (vs. ""moderate"" previously). - Labor market described as improving ""further, with strong job gains and a lower unemployment rate""; labor underutilization ""continues to di"
+2015-03-18,P1_minimal,0.1,anthropic/claude-fable-5.1,0.0,0.1
+2015-03-18,P2_defined,-0.2,anthropic/claude-fable-5.1,0.0,"This is the March 2015 FOMC statement, which removed ""patient"" from forward guidance—a hawkish shift signaling rate hikes were approaching—but coupled it with dovish caveats (growth moderated, inflation declined further, April hike unlikely, rates to stay below normal for some time).  -0.2"
+2015-03-18,P3_analyst,0.1,anthropic/claude-fable-5.1,0.0,0.1
+2015-03-18,P4_reversed,-0.1,anthropic/claude-fable-5.1,0.0,0.1
+2015-03-18,P5_reason_first,0.15,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Forward guidance shifts: the ""patient"" language is gone, replaced by an explicit conditional for liftoff (""further improvement in the labor market"" and ""reasonably confident"" inflation returns to 2%), moving the Committee a step closer to the first hike. - Only April is ruled "
+2015-04-29,P1_minimal,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2015-04-29,P2_defined,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2015-04-29,P3_analyst,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2015-04-29,P4_reversed,-0.5,anthropic/claude-fable-5.1,0.0,0.5
+2015-04-29,P5_reason_first,-0.3,anthropic/claude-fable-5.1,0.0,"This is the April 2015 FOMC statement.  **Hawkish elements** - Weakness attributed partly to ""transitory factors,"" signaling the Committee is looking through the soft Q1 data rather than reassessing its path. - Continued expectation that inflation will ""rise gradually toward 2 percent"" as energy/imp"
+2015-06-17,P1_minimal,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2015-06-17,P2_defined,-0.4,anthropic/claude-fable-5.1,0.0,"This is the June 2015 FOMC statement. Rates at zero lower bound, maintaining accommodation, but signaling eventual liftoff when labor market improves and confident on inflation. Economy improving moderately, labor underutilization diminishing, energy prices stabilized. Slightly more upbeat than Apri"
+2015-06-17,P3_analyst,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2015-06-17,P4_reversed,-0.4,anthropic/claude-fable-5.1,0.0,"This is the June 2015 FOMC statement. Rates held at zero, reinvestment maintained, forward guidance on gradual normalization and rates staying below normal for some time. Economic assessment modestly upgraded (activity expanding moderately, job gains picked up), but inflation still below target. Ove"
+2015-06-17,P5_reason_first,0.1,anthropic/claude-fable-5.1,0.0,"This is the June 2015 FOMC statement.  **Hawkish elements** - Growth described as ""expanding moderately"" after a weak Q1, signaling the soft patch is viewed as transitory. - Job gains ""picked up""; labor underutilization ""diminished somewhat"" — continued labor market progress toward liftoff condition"
+2015-07-29,P1_minimal,0.1,anthropic/claude-fable-5.1,0.0,"This is the July 2015 FOMC statement. It maintains the zero lower bound but signals rate hikes are approaching (""some further improvement"" in labor market — a modestly hawkish tweak from June). Overall still accommodative but leaning toward liftoff.  0.1"
+2015-07-29,P2_defined,-0.2,anthropic/claude-fable-5.1,0.0,-0.2
+2015-07-29,P3_analyst,0.2,anthropic/claude-fable-5.1,0.0,0.2
+2015-07-29,P4_reversed,-0.3,anthropic/claude-fable-5.1,0.0,0.3
+2015-07-29,P5_reason_first,0.15,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Labor market described positively: ""solid job gains and declining unemployment,"" and labor underutilization ""has diminished since early this year."" - Economic activity ""expanding moderately,"" housing showing ""additional improvement."" - Liftoff guidance edged closer: the Commit"
+2015-09-17,P1_minimal,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2015-09-17,P2_defined,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2015-09-17,P3_analyst,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2015-09-17,P4_reversed,-0.4,anthropic/claude-fable-5.1,0.0,"This is the September 2015 FOMC statement, where the Fed held rates at zero amid global financial turmoil (China concerns), noting downward pressure on inflation from global developments. This was interpreted as dovish relative to expectations of a possible hike, though the statement still signals e"
+2015-09-17,P5_reason_first,-0.3,anthropic/claude-fable-5.1,0.0,"This is the September 2015 FOMC statement, where the Committee held rates at zero amid global market turmoil (China devaluation, equity selloff) despite widespread expectations of a possible liftoff.  **Hawkish elements** - Economic activity described as expanding at a moderate pace; household spend"
+2015-10-28,P1_minimal,0.4,anthropic/claude-fable-5.1,0.0,"This is the October 2015 FOMC statement, which notably inserted the ""at its next meeting"" language signaling a likely December hike, removed the September reference to global developments restraining activity, and had a hawkish dissent (Lacker). Rates held at zero, but the forward guidance shifted h"
+2015-10-28,P2_defined,0.25,anthropic/claude-fable-5.1,0.0,"This is the October 2015 FOMC statement. Rates held at zero, but the statement explicitly signals a possible hike ""at its next meeting"" — a notable hawkish shift — while dropping the prior warning that global developments ""may restrain economic activity."" Still, policy remains highly accommodative w"
+2015-10-28,P3_analyst,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2015-10-28,P4_reversed,0.4,anthropic/claude-fable-5.1,0.0,"This is the October 2015 FOMC statement. Key features: rates held at 0–0.25% (accommodative), but the explicit reference to ""whether it will be appropriate to raise the target range at its next meeting"" was a notably hawkish signal, removing the prior warning about global developments restraining ac"
+2015-10-28,P5_reason_first,0.35,anthropic/claude-fable-5.1,0.0,"This is the October 2015 FOMC statement.  **Hawkish elements** - Explicit reference to ""whether it will be appropriate to raise the target range at its next meeting"" — a new, unusually direct signal of a possible December hike. - Household spending and business investment described as increasing ""at"
+2015-12-16,P1_minimal,0.4,anthropic/claude-fable-5.1,0.0,"This is the December 2015 statement — the first rate hike since 2006, but heavily couched in ""gradual"" language, continued reinvestment, and emphasis on accommodative stance.  0.4"
+2015-12-16,P2_defined,0.3,anthropic/claude-fable-5.1,0.0,"This is the December 2015 statement — the first rate hike since 2006, but heavily couched in dovish language (""only gradual increases,"" ""remains accommodative,"" reinvestment continues, inflation shortfall emphasized).  0.3"
+2015-12-16,P3_analyst,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2015-12-16,P4_reversed,0.35,anthropic/claude-fable-5.1,0.0,-0.35
+2015-12-16,P5_reason_first,0.4,anthropic/claude-fable-5.1,0.0,"This is the December 2015 FOMC statement — the first rate hike since 2006, lifting off from the zero lower bound.  **Hawkish elements** - The headline action: raising the target range to 1/4–1/2 percent, ending seven years at zero. - Upbeat growth assessment: activity ""expanding at a moderate pace,"""
+2016-01-27,P1_minimal,-0.3,anthropic/claude-fable-5.1,0.0,"This is the January 2016 FOMC statement. Rates held after December liftoff; language about slowing growth, declining inflation compensation, closely monitoring global developments, and removal of ""balance of risks"" assessment — a dovish tilt relative to December, though still on a gradual hiking pat"
+2016-01-27,P2_defined,-0.3,anthropic/claude-fable-5.1,0.0,"This is the January 2016 FOMC statement. Rates held at 1/4 to 1/2 after December liftoff. Notable dovish shifts: growth slowed, market-based inflation compensation declined further, added ""closely monitoring global economic and financial developments,"" and dropped the balance-of-risks assessment. St"
+2016-01-27,P3_analyst,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2016-01-27,P4_reversed,-0.3,anthropic/claude-fable-5.1,0.0,0.3
+2016-01-27,P5_reason_first,-0.3,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Labor market ""improved further,"" with ""strong job gains"" and further decline in labor underutilization. - Household spending, business investment, and housing described as increasing/improving. - Inflation still expected to rise to 2% over the medium term as transitory energy/"
+2016-03-16,P1_minimal,-0.3,anthropic/claude-fable-5.1,0.0,"This is the March 2016 FOMC statement. Rates held, ""global economic and financial developments continue to pose risks,"" ""only gradual increases,"" inflation below target, but one hawkish dissent (George) and acknowledgment of strengthening labor market and inflation picking up. Overall mildly dovish "
+2016-03-16,P2_defined,-0.2,anthropic/claude-fable-5.1,0.0,"This is the March 2016 FOMC statement. Rates held steady, emphasis on global risks, gradual increases, inflation below target, but a hawkish dissent (George) and acknowledgment of strong labor market. Overall mildly dovish/neutral-leaning.  -0.2"
+2016-03-16,P3_analyst,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2016-03-16,P4_reversed,-0.35,anthropic/claude-fable-5.1,0.0,0.35
+2016-03-16,P5_reason_first,-0.3,anthropic/claude-fable-5.1,0.0,"This is the March 2016 FOMC statement, where the Committee held rates steady after the December 2015 liftoff and signaled a slower path of hikes.  **Hawkish elements** - Economic activity described as expanding at a moderate pace *despite* global turbulence; household spending and housing improving."
+2016-04-27,P1_minimal,-0.2,anthropic/claude-fable-5.1,0.0,-0.2
+2016-04-27,P2_defined,-0.3,anthropic/claude-fable-5.1,0.0,"This is the April 2016 FOMC statement. Rates held at 1/4 to 1/2 percent, accommodative stance, inflation below target, ""only gradual increases"" expected, growth slowed. However, they dropped the explicit warning that ""global economic and financial developments continue to pose risks,"" which was read"
+2016-04-27,P3_analyst,-0.2,anthropic/claude-fable-5.1,0.0,-0.2
+2016-04-27,P4_reversed,-0.4,anthropic/claude-fable-5.1,0.0,"This is the April 2016 FOMC statement. Rates held at 1/4 to 1/2 percent, growth slowed, inflation below target, gradual increases expected, accommodative stance. One hawkish dissent (George). Removed the ""global developments pose risks"" language, which was slightly hawkish relative to March, but ove"
+2016-04-27,P5_reason_first,-0.1,anthropic/claude-fable-5.1,0.0,"This is the April 2016 FOMC statement (rates held at 0.25–0.50%).  **Hawkish elements** - Labor market described as improving further, with ""strong job gains"" pointing to additional strengthening. - Housing sector improving; real household income rising solidly; consumer sentiment high. - Inflation "
+2016-06-15,P1_minimal,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2016-06-15,P2_defined,-0.4,anthropic/claude-fable-5.1,0.0,"This is the June 2016 FOMC statement. Rates held at 1/4 to 1/2 percent, labor market improvement slowed, inflation below target, market-based inflation compensation declined, expects only gradual increases, unanimous vote (George dropped her dissent for a hike). Dovish tilt relative to the prior mee"
+2016-06-15,P3_analyst,-0.35,anthropic/claude-fable-5.1,0.0,-0.35
+2016-06-15,P4_reversed,-0.4,anthropic/claude-fable-5.1,0.0,"This is the June 2016 FOMC statement. Rates held steady, labor market improvement ""slowed,"" job gains ""diminished,"" inflation below target, market-based inflation compensation declined, unanimous vote (George dropped her dissent for a hike). Gradual increases anticipated but dovish tilt relative to "
+2016-06-15,P5_reason_first,-0.35,anthropic/claude-fable-5.1,0.0,"This is the June 2016 FOMC statement, issued after the weak May jobs report.  **Hawkish elements** - Growth in economic activity ""appears to have picked up""; household spending ""has strengthened."" - Housing continues to improve; drag from net exports has lessened. - Continued expectation that inflat"
+2016-07-27,P1_minimal,0.2,anthropic/claude-fable-5.1,0.0,"This is the July 2016 FOMC statement. Rates held steady, but with notably improved labor market language, ""near-term risks to the economic outlook have diminished"" (a hawkish addition), and a hawkish dissent from George preferring a hike. Still, inflation below target and ""only gradual increases"" la"
+2016-07-27,P2_defined,0.1,anthropic/claude-fable-5.1,0.0,"This is the July 2016 FOMC statement. Rates held steady, accommodative stance, but with notable upgrades: ""labor market strengthened,"" ""near-term risks have diminished,"" strong June job gains, and a hawkish dissent from George preferring a hike. Still, inflation below target and ""only gradual increa"
+2016-07-27,P3_analyst,0.3,anthropic/claude-fable-5.1,0.0,"This is the July 2016 FOMC statement. Key hawkish elements: ""labor market strengthened,"" ""near-term risks to the economic outlook have diminished"" (new language signaling openness to hikes), strong household spending, and a hawkish dissent from George preferring a hike. Dovish elements: rates held, "
+2016-07-27,P4_reversed,0.2,anthropic/claude-fable-5.1,0.0,"This is the July 2016 FOMC statement. Rates held steady with accommodative stance and gradual increase language (dovish elements), but ""near-term risks have diminished,"" strengthening labor market, and a hawkish dissent from George tilt it toward slightly hawkish relative to prior statement.  -0.2"
+2016-07-27,P5_reason_first,0.2,anthropic/claude-fable-5.1,0.0,"This is the July 2016 FOMC statement (post-Brexit, following weak May jobs report and strong June rebound).  **Hawkish elements:** - Labor market ""strengthened""; June job gains ""strong,"" pointing to increased labor utilization. - Household spending ""growing strongly."" - ""Near-term risks to the econo"
+2016-09-21,P1_minimal,0.3,anthropic/claude-fable-5.1,0.0,"This is the September 2016 FOMC statement. Held rates but signaled ""case for an increase has strengthened,"" three hawkish dissents, risks ""roughly balanced."" Moderately hawkish lean despite hold.  0.3"
+2016-09-21,P2_defined,0.3,anthropic/claude-fable-5.1,0.0,"This is the September 2016 FOMC statement. Held rates, but stated ""the case for an increase has strengthened,"" three hawkish dissents favoring a hike, risks ""roughly balanced."" Still accommodative and only gradual increases expected, inflation below target. Net mildly hawkish tilt.  0.3"
+2016-09-21,P3_analyst,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2016-09-21,P4_reversed,0.3,anthropic/claude-fable-5.1,0.0,"This is the September 2016 FOMC statement. Key features: rates held steady (dovish action), but ""the case for an increase has strengthened"" (hawkish signal), three dissents favoring a hike (hawkish tilt), risks ""roughly balanced"" (shift from prior downside risks), yet inflation still below target an"
+2016-09-21,P5_reason_first,0.3,anthropic/claude-fable-5.1,0.0,"This is the September 2016 FOMC statement.  **Hawkish elements** - ""The case for an increase in the federal funds rate has strengthened"" — explicit new signal that a hike is nearing. - Three dissents (George, Mester, Rosengren) in favor of an immediate hike — an unusually large hawkish minority. - U"
+2016-11-02,P1_minimal,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2016-11-02,P2_defined,0.35,anthropic/claude-fable-5.1,0.0,0.35
+2016-11-02,P3_analyst,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2016-11-02,P4_reversed,0.4,anthropic/claude-fable-5.1,0.0,"This is the November 2016 FOMC statement. Rates held, but ""case for an increase has continued to strengthen,"" two hawkish dissents, signaling an imminent hike in December. Leaning hawkish.  -0.4"
+2016-11-02,P5_reason_first,0.3,anthropic/claude-fable-5.1,0.0,"This is the November 2016 FOMC statement (rates held at 1/4–1/2%).  **Hawkish elements** - ""The case for an increase in the federal funds rate has continued to strengthen"" — explicit signal that a hike is approaching (widely read as teeing up December). - Growth ""picked up,"" labor market ""continued "
+2016-12-14,P1_minimal,0.4,anthropic/claude-fable-5.1,0.0,"This is the December 2016 FOMC statement, which raised rates by 25bp to 1/2–3/4 percent, with unanimous vote, while emphasizing gradual increases and accommodative stance.  0.4"
+2016-12-14,P2_defined,0.4,anthropic/claude-fable-5.1,0.0,"This is the December 2016 FOMC statement: a rate hike (second in the cycle), unanimous vote, labor market strengthening, inflation moving up, but still emphasizing gradual increases and accommodative stance.  0.4"
+2016-12-14,P3_analyst,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2016-12-14,P4_reversed,0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2016-12-14,P5_reason_first,0.4,anthropic/claude-fable-5.1,0.0,"This is the December 2016 FOMC statement, in which the Committee delivered its second rate hike of the cycle.  **Hawkish elements** - Actual policy action: raised the target range to 1/2–3/4 percent. - Labor market ""continued to strengthen,"" job gains ""solid,"" unemployment rate declined. - Inflation"
+2017-02-01,P1_minimal,0.1,anthropic/claude-fable-5.1,0.0,"This is the February 2017 FOMC statement. Rates held steady, gradual increases expected, accommodative stance, inflation below target but rising, sentiment improved. Mildly hawkish tilt within a tightening cycle but with dovish language on gradual hikes and accommodation.  0.1"
+2017-02-01,P2_defined,0.15,anthropic/claude-fable-5.1,0.0,"This is the February 2017 FOMC statement. Rates held steady at 1/2 to 3/4 percent after the December hike. Language is balanced: labor market strengthening, sentiment improved, inflation increased but still below target, gradual increases expected, risks roughly balanced. Slightly tilted toward tigh"
+2017-02-01,P3_analyst,0.15,anthropic/claude-fable-5.1,0.0,0.15
+2017-02-01,P4_reversed,0.1,anthropic/claude-fable-5.1,0.0,"This is the February 2017 FOMC statement. Rates held steady, gradual increases expected, accommodative stance, inflation below target noted. Mildly hawkish tilt from improving sentiment and labor market, but overall balanced with gradual tightening path.  -0.1"
+2017-02-01,P5_reason_first,0.15,anthropic/claude-fable-5.1,0.0,"This is the February 1, 2017 FOMC statement (hold at 0.50–0.75% following the December 2016 hike).  **Hawkish elements** - Labor market ""continued to strengthen,"" job gains ""solid,"" unemployment near recent low. - ""Inflation increased in recent quarters"" — an upgrade from prior language, acknowledgi"
+2017-03-15,P1_minimal,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2017-03-15,P2_defined,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2017-03-15,P3_analyst,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2017-03-15,P4_reversed,0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2017-03-15,P5_reason_first,0.3,anthropic/claude-fable-5.1,0.0,"This is the March 2017 FOMC statement, in which the Committee raised the federal funds rate by 25 bp to 0.75–1.00%.  **Hawkish elements** - Rate hike delivered, with the justification framed around ""realized and expected labor market conditions and inflation."" - Upbeat economic assessment: labor mar"
+2017-05-03,P1_minimal,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2017-05-03,P2_defined,0.3,anthropic/claude-fable-5.1,0.0,"This is the May 2017 FOMC statement. Rates held steady, Q1 slowdown viewed as transitory (hawkish signal, keeps June hike on track), continued expectation of gradual increases. Mildly hawkish overall.  0.3"
+2017-05-03,P3_analyst,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2017-05-03,P4_reversed,0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2017-05-03,P5_reason_first,0.3,anthropic/claude-fable-5.1,0.0,"This is the May 2017 FOMC statement (rates held at 0.75–1.00% after the March hike).  **Hawkish elements** - Labor market ""continued to strengthen""; job gains solid, unemployment declined. - Q1 growth slowdown explicitly dismissed as ""likely to be transitory"" — a deliberate signal that the weak data"
+2017-06-14,P1_minimal,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2017-06-14,P2_defined,0.5,anthropic/claude-fable-5.1,0.0,"This is the June 2017 FOMC statement: a rate hike to 1-1.25%, announcement of balance sheet normalization expected to begin this year, and guidance for gradual further increases — all hawkish actions. Tempering factors: inflation running below 2% with the Committee ""monitoring inflation developments"
+2017-06-14,P3_analyst,0.55,anthropic/claude-fable-5.1,0.0,0.55
+2017-06-14,P4_reversed,0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2017-06-14,P5_reason_first,0.4,anthropic/claude-fable-5.1,0.0,"This is the June 2017 FOMC statement.  **Hawkish elements** - Rate hike: target range raised 25bp to 1–1¼%. - Balance sheet normalization: explicit expectation to begin reducing reinvestment ""this year,"" with a detailed addendum released — a concrete new tightening step. - Continued expectation of """
+2017-07-26,P1_minimal,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2017-07-26,P2_defined,0.2,anthropic/claude-fable-5.1,0.0,0.2
+2017-07-26,P3_analyst,0.2,anthropic/claude-fable-5.1,0.0,0.2
+2017-07-26,P4_reversed,0.1,anthropic/claude-fable-5.1,0.0,-0.1
+2017-07-26,P5_reason_first,0.1,anthropic/claude-fable-5.1,0.0,"This is the July 2017 FOMC statement (rates held at 1–1.25%).  **Hawkish elements** - Labor market ""continued to strengthen""; job gains ""solid""; unemployment declined; household spending and business investment expanding. - Reaffirms expectation of ""gradual increases in the federal funds rate."" - Ba"
+2017-09-20,P1_minimal,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2017-09-20,P2_defined,0.3,anthropic/claude-fable-5.1,0.0,"This is the September 2017 FOMC statement. Rates held, but balance sheet normalization initiated in October, expectation of gradual rate increases, monitoring inflation closely despite it running below 2%. Moderately hawkish tilt.  0.3"
+2017-09-20,P3_analyst,0.35,anthropic/claude-fable-5.1,0.0,0.35
+2017-09-20,P4_reversed,0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2017-09-20,P5_reason_first,0.3,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Labor market ""continued to strengthen,"" job gains ""solid,"" unemployment ""low""; business fixed investment ""picked up."" - Reiterates expectation of ""gradual increases in the federal funds rate"" and ""gradual adjustments"" to policy. - Announces that balance sheet normalization (ru"
+2017-11-01,P1_minimal,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2017-11-01,P2_defined,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2017-11-01,P3_analyst,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2017-11-01,P4_reversed,0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2017-11-01,P5_reason_first,0.3,anthropic/claude-fable-5.1,0.0,"This is the November 1, 2017 FOMC statement (rates held at 1–1.25%, following the September meeting and preceding the December hike).  **Hawkish elements** - Economic activity upgraded to ""rising at a solid rate"" (from ""moderately"" in September), despite hurricane disruptions. - Labor market ""contin"
+2017-12-13,P1_minimal,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2017-12-13,P2_defined,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2017-12-13,P3_analyst,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2017-12-13,P4_reversed,0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2017-12-13,P5_reason_first,0.3,anthropic/claude-fable-5.1,0.0,"This is the December 2017 FOMC statement.  **Hawkish elements** - Rate hike: target range raised 25bp to 1.25–1.50%. - Upbeat growth assessment: activity ""rising at a solid rate,"" job gains ""solid,"" unemployment ""declined further,"" business investment ""picked up."" - Hurricane effects dismissed as no"
+2018-01-31,P1_minimal,0.4,anthropic/claude-fable-5.1,0.0,"This is the January 2018 FOMC statement. Rates held steady, but with upgraded language: ""further gradual increases"" (plural, changed from ""adjustments""), inflation ""expected to move up this year,"" economic activity ""solid,"" and unanimous vote. Modestly hawkish signaling within a tightening cycle.  0"
+2018-01-31,P2_defined,0.35,anthropic/claude-fable-5.1,0.0,"This is the January 2018 FOMC statement. It holds rates but strengthens language: ""further gradual increases,"" inflation ""expected to move up this year,"" solid activity. Moderately hawkish tilt versus prior statement.  0.35"
+2018-01-31,P3_analyst,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2018-01-31,P4_reversed,0.4,anthropic/claude-fable-5.1,0.0,"This is the January 2018 FOMC statement. It holds rates but signals ""further gradual increases,"" upgrades economic assessment (""solid rate,"" ""solid"" gains), and expects inflation to ""move up this year"" — a hawkish shift versus December. Still describes policy as accommodative and rates below longer-"
+2018-01-31,P5_reason_first,0.35,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Upgraded growth language: economic activity ""rising at a solid rate""; employment, household spending, and business investment gains all ""solid."" - Inflation expected to ""move up this year"" and stabilize around 2% — a firmer forward view than prior statements. - Market-based in"
+2018-03-21,P1_minimal,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2018-03-21,P2_defined,0.55,anthropic/claude-fable-5.1,0.0,"This is the March 2018 FOMC statement: rate hike, ""economic outlook has strengthened,"" expectation of further gradual increases, but inflation still below 2% and stance ""remains accommodative.""  0.55"
+2018-03-21,P3_analyst,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2018-03-21,P4_reversed,0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2018-03-21,P5_reason_first,0.45,anthropic/claude-fable-5.1,0.0,"This is the March 2018 FOMC statement (Powell's first as Chair), in which the Committee raised rates by 25bp.  **Hawkish elements** - Rate hike: target range raised to 1-1/2 to 1-3/4 percent. - ""The economic outlook has strengthened in recent months"" — new, upgraded language versus January. - Labor "
+2018-05-02,P1_minimal,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2018-05-02,P2_defined,0.4,anthropic/claude-fable-5.1,0.0,"This is the May 2018 FOMC statement. Rates held at 1.5-1.75%, but with inflation moving close to 2%, expectation of ""further gradual increases,"" and removal of language about monitoring inflation closely (replaced by ""symmetric"" emphasis). Tightening cycle underway, moderately hawkish.  0.4"
+2018-05-02,P3_analyst,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2018-05-02,P4_reversed,0.4,anthropic/claude-fable-5.1,0.0,"This is the May 2018 FOMC statement. Rates held, but forward guidance for ""further gradual increases,"" inflation moved close to 2 percent, emphasis on ""symmetric"" objective (slightly dovish signal tolerating overshoot), labor market strong. Overall moderately hawkish tilt.  -0.4"
+2018-05-02,P5_reason_first,0.3,anthropic/claude-fable-5.1,0.0,"This is the May 2018 FOMC statement (rate held at 1.50–1.75%).  **Hawkish elements** - Inflation language upgraded: both headline and core ""have moved close to 2 percent"" (previously running below), and the forecast shifts to inflation running ""near"" the 2% objective rather than moving up toward it."
+2018-06-13,P1_minimal,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2018-06-13,P2_defined,0.6,anthropic/claude-fable-5.1,0.0,"This is the June 2018 FOMC statement: rate hike to 1.75-2%, ""further gradual increases"" expected, solid economic activity, inflation near 2%, dropped forward guidance about rates remaining below longer-run levels. Hawkish but gradual.  0.6"
+2018-06-13,P3_analyst,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2018-06-13,P4_reversed,0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2018-06-13,P5_reason_first,0.6,anthropic/claude-fable-5.1,0.0,"This is the June 2018 FOMC statement.  **Hawkish elements** - Rate hike: target range raised to 1.75–2.00%. - Upgraded growth language: economic activity ""rising at a solid rate"" (vs. ""moderate"" previously); household spending ""picked up""; business investment growing ""strongly."" - Labor market: ""job"
+2018-08-01,P1_minimal,0.5,anthropic/claude-fable-5.1,0.0,"This is the August 2018 FOMC statement. Held rates but upgraded economic assessment to ""strong,"" signaled further gradual increases, policy ""remains accommodative."" Moderately hawkish.  0.5"
+2018-08-01,P2_defined,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2018-08-01,P3_analyst,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2018-08-01,P4_reversed,0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2018-08-01,P5_reason_first,0.4,anthropic/claude-fable-5.1,0.0,"This is the August 2018 FOMC statement (rates held at 1.75–2.00%).  **Hawkish elements** - Upgraded economic assessment: activity ""rising at a strong rate"" (vs. ""solid"" in June); household spending and business investment ""have grown strongly."" - Labor market ""continued to strengthen,"" job gains ""st"
+2018-09-26,P1_minimal,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2018-09-26,P2_defined,0.6,anthropic/claude-fable-5.1,0.0,"This is the September 2018 FOMC statement: rate hike to 2-2.25%, strong economy, ""further gradual increases"" expected, removed ""accommodative"" language. Clearly hawkish but measured (gradual, balanced risks, inflation at target).  0.6"
+2018-09-26,P3_analyst,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2018-09-26,P4_reversed,0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2018-09-26,P5_reason_first,0.6,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - The Committee raised the target range by 25 bp to 2–2¼%. - Explicit forward guidance that ""further gradual increases"" are expected — the tightening cycle is signaled to continue. - Very strong characterization of the economy: activity ""rising at a strong rate,"" job gains ""stro"
+2018-11-08,P1_minimal,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2018-11-08,P2_defined,0.4,anthropic/claude-fable-5.1,0.0,"This is the November 2018 FOMC statement. Rates held at 2-2.25%, but the statement signals ""further gradual increases"" are expected, strong economy, labor market strengthening, inflation near target. Business fixed investment moderated slightly — a minor dovish note. Overall moderately hawkish given"
+2018-11-08,P3_analyst,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2018-11-08,P4_reversed,0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2018-11-08,P5_reason_first,0.4,anthropic/claude-fable-5.1,0.0,"This is the November 2018 FOMC statement (rates held at 2–2.25% after the September hike).  **Hawkish elements** - Explicit forward guidance for ""further gradual increases"" in the federal funds rate. - Strong characterization of the economy: labor market ""continued to strengthen,"" activity ""rising a"
+2018-12-19,P1_minimal,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2018-12-19,P2_defined,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2018-12-19,P3_analyst,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2018-12-19,P4_reversed,0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2018-12-19,P5_reason_first,0.3,anthropic/claude-fable-5.1,0.0,"**Hawkish elements:** - Rate hike delivered: target range raised to 2¼–2½%. - Strong characterization of the economy: labor market ""continued to strengthen,"" activity ""rising at a strong rate,"" strong job gains, strongly growing household spending. - Forward guidance still points to ""some further gr"
+2019-01-30,P1_minimal,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2019-01-30,P2_defined,-0.35,anthropic/claude-fable-5.1,0.0,"This is the January 2019 FOMC statement — the famous ""patient"" pivot. The Committee held rates, dropped the forward guidance about ""further gradual increases,"" and cited ""global economic and financial developments and muted inflation pressures."" Economic assessment remains positive (strong labor mar"
+2019-01-30,P3_analyst,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2019-01-30,P4_reversed,-0.5,anthropic/claude-fable-5.1,0.0,"This is the January 2019 FOMC statement — the famous ""patient"" pivot. It removed forward guidance on ""further gradual increases,"" cited ""global economic and financial developments and muted inflation pressures,"" and signaled a pause after a hiking cycle. Relative to the prior stance, this is a notab"
+2019-01-30,P5_reason_first,-0.5,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Labor market ""continued to strengthen""; job gains ""strong,"" unemployment ""low."" - Economic activity ""rising at a solid rate""; household spending growing ""strongly."" - Inflation (headline and core) ""near 2 percent""; survey-based long-term expectations ""little changed."" - Rates "
+2019-03-20,P1_minimal,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2019-03-20,P2_defined,-0.35,anthropic/claude-fable-5.1,0.0,-0.35
+2019-03-20,P3_analyst,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2019-03-20,P4_reversed,-0.4,anthropic/claude-fable-5.1,0.0,0.4
+2019-03-20,P5_reason_first,-0.3,anthropic/claude-fable-5.1,0.0,"This is the March 2019 FOMC statement (rates held at 2.25–2.50%).  **Hawkish elements** - Labor market described as ""strong""; unemployment ""remained low""; job gains ""solid, on average"" despite the weak February payroll print. - Core inflation ""remains near 2 percent"" — no sign of undershooting requi"
+2019-05-01,P1_minimal,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2019-05-01,P2_defined,-0.2,anthropic/claude-fable-5.1,0.0,-0.2
+2019-05-01,P3_analyst,-0.2,anthropic/claude-fable-5.1,0.0,-0.2
+2019-05-01,P4_reversed,-0.3,anthropic/claude-fable-5.1,0.0,0.3
+2019-05-01,P5_reason_first,-0.2,anthropic/claude-fable-5.1,0.0,"This is the May 2019 FOMC statement (rates held at 2.25–2.50%).  **Hawkish elements** - Labor market described as ""strong,"" with solid job gains and low unemployment. - Economic activity ""rose at a solid rate"" — an upgrade from the March description of slower growth. - Baseline outlook still calls f"
+2019-06-19,P1_minimal,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2019-06-19,P2_defined,-0.5,anthropic/claude-fable-5.1,0.0,"This is the June 2019 FOMC statement. Rates held, but ""patient"" removed, replaced with ""will act as appropriate to sustain the expansion,"" uncertainties increased, muted inflation pressures, and a dissent favoring a cut. Clearly dovish tilt signaling upcoming cuts.  -0.5"
+2019-06-19,P3_analyst,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2019-06-19,P4_reversed,-0.6,anthropic/claude-fable-5.1,0.0,"This is the June 2019 FOMC statement. Key dovish signals: removed ""patient"" language, replaced with ""will act as appropriate to sustain the expansion,"" noted increased uncertainties and muted inflation pressures, inflation running below 2 percent, market-based inflation compensation declined, and a "
+2019-06-19,P5_reason_first,-0.6,anthropic/claude-fable-5.1,0.0,"This is the June 2019 FOMC statement, which marked a clear pivot toward easing ahead of the July 2019 cut.  **Hawkish elements** - Labor market ""remains strong,"" job gains ""solid,"" unemployment ""low."" - Economic activity ""rising at a moderate rate""; household spending ""picked up."" - Rates held stead"
+2019-07-31,P1_minimal,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2019-07-31,P2_defined,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2019-07-31,P3_analyst,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2019-07-31,P4_reversed,-0.6,anthropic/claude-fable-5.1,0.0,0.6
+2019-07-31,P5_reason_first,-0.5,anthropic/claude-fable-5.1,0.0,"This is the July 31, 2019 FOMC statement — the first rate cut since 2008.  **Hawkish elements** - Economic assessment remains upbeat: labor market ""remains strong,"" job gains ""solid,"" unemployment ""low,"" activity rising at a ""moderate rate,"" household spending ""picked up."" - Two dissents (George and"
+2019-09-18,P1_minimal,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2019-09-18,P2_defined,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2019-09-18,P3_analyst,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2019-09-18,P4_reversed,-0.6,anthropic/claude-fable-5.1,0.0,0.6
+2019-09-18,P5_reason_first,-0.4,anthropic/claude-fable-5.1,0.0,"This is the September 2019 FOMC statement, the second of the three ""insurance"" cuts.  **Hawkish elements** - Strong labor market, solid job gains, low unemployment, strong household spending. - Two dissents (George, Rosengren) preferring no cut at all — a sign of internal resistance to further easin"
+2019-10-11,P1_minimal,-0.2,anthropic/claude-fable-5.1,0.0,-0.2
+2019-10-11,P2_defined,-0.15,anthropic/claude-fable-5.1,0.0,-0.15
+2019-10-11,P3_analyst,-0.2,anthropic/claude-fable-5.1,0.0,-0.2
+2019-10-11,P4_reversed,-0.15,anthropic/claude-fable-5.1,0.0,0.15
+2019-10-11,P5_reason_first,-0.2,anthropic/claude-fable-5.1,0.0,"**Hawkish elements:** - The statement explicitly states these actions ""do not represent a change in the stance of monetary policy"" — it is not signaling additional accommodation or rate cuts. - Fed funds target range held at 1-3/4 to 2 percent; no easing announced. - Framed purely as ""technical meas"
+2019-10-30,P1_minimal,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2019-10-30,P2_defined,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2019-10-30,P3_analyst,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2019-10-30,P4_reversed,-0.4,anthropic/claude-fable-5.1,0.0,0.4
+2019-10-30,P5_reason_first,-0.3,anthropic/claude-fable-5.1,0.0,"This is the October 2019 FOMC statement — the third consecutive ""insurance"" cut.  **Hawkish elements** - Characterization of the economy remains upbeat: labor market ""strong,"" unemployment ""low,"" job gains ""solid,"" household spending ""rising at a strong pace."" - Notable language shift: the prior ""wi"
+2019-12-11,P1_minimal,-0.2,anthropic/claude-fable-5.1,0.0,"This is the December 2019 FOMC statement: rates held steady after three cuts, ""current stance appropriate,"" acknowledges muted inflation pressures and weak business investment, unanimous vote. Neutral with a slight dovish lean.  -0.2"
+2019-12-11,P2_defined,-0.2,anthropic/claude-fable-5.1,0.0,"This is the December 2019 FOMC statement: hold after three cuts, unanimous vote, ""current stance appropriate,"" inflation below 2%, ""muted inflation pressures"" noted. Neutral with a slight dovish tilt.  -0.2"
+2019-12-11,P3_analyst,-0.2,anthropic/claude-fable-5.1,0.0,-0.2
+2019-12-11,P4_reversed,-0.2,anthropic/claude-fable-5.1,0.0,"This is the December 2019 FOMC statement: rates held at 1.50-1.75% after three cuts, unanimous vote, ""current stance appropriate,"" acknowledging muted inflation pressures and weak business investment/exports. Neutral-to-slightly dovish holding pattern.  0.2"
+2019-12-11,P5_reason_first,-0.2,anthropic/claude-fable-5.1,0.0,"This is the December 2019 FOMC statement, following three consecutive rate cuts (July, September, October 2019). The Committee held rates steady and signaled a pause.  **Hawkish elements** - Rates held steady after three cuts — the easing cycle is paused; the ""act as appropriate to sustain the expan"

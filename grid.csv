@@ -1,0 +1,116 @@
+date,prompt,run,score,model,temperature,raw_reply
+2000-02-02,P1_minimal,0,0.7,google/gemini-2.5-flash,0.0,0.7
+2000-02-02,P2_defined,0,0.8,google/gemini-2.5-flash,0.0,0.8
+2000-02-02,P3_analyst,0,0.7,google/gemini-2.5-flash,0.0,0.7
+2000-02-02,P4_reversed,0,0.8,google/gemini-2.5-flash,0.0,-0.8
+2000-02-02,P5_reason_first,0,1.0,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Rate Hike:** The FOMC voted to raise the federal funds rate by 25 basis points, and the Board of Governors approved a 25 basis point increase in the discount rate. This is a direct tightening of monetary policy. *   **Inflation Concern:** The Committee explicitly states "
+2001-01-31,P1_minimal,0,-1.0,google/gemini-2.5-flash,0.0,-1
+2001-01-31,P2_defined,0,-0.9,google/gemini-2.5-flash,0.0,-0.9
+2001-01-31,P3_analyst,0,-1.0,google/gemini-2.5-flash,0.0,-1
+2001-01-31,P4_reversed,0,-0.8,google/gemini-2.5-flash,0.0,0.8
+2001-01-31,P5_reason_first,0,-1.0,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   None explicitly stated in terms of future tightening or concern about inflation. The statement is overwhelmingly dovish.  **Dovish Elements:**  *   **50 basis point cut in federal funds rate:** A significant reduction, indicating a strong easing of monetary policy. *   **5"
+2001-12-11,P1_minimal,0,-0.8,google/gemini-2.5-flash,0.0,-0.8
+2001-12-11,P2_defined,0,-0.8,google/gemini-2.5-flash,0.0,-0.8
+2001-12-11,P3_analyst,0,-0.8,google/gemini-2.5-flash,0.0,-0.8
+2001-12-11,P4_reversed,0,-0.75,google/gemini-2.5-flash,0.0,0.75
+2001-12-11,P5_reason_first,0,-1.0,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   None explicitly stated in terms of future tightening or a strong economic outlook. The statement is overwhelmingly dovish.  **Dovish Elements:**  *   **Interest Rate Cut:** The primary action is a 25 basis point reduction in the federal funds rate and the discount rate, in"
+2003-01-29,P1_minimal,0,0.0,google/gemini-2.5-flash,0.0,0
+2003-01-29,P2_defined,0,-0.2,google/gemini-2.5-flash,0.0,-0.2
+2003-01-29,P3_analyst,0,-0.5,google/gemini-2.5-flash,0.0,-0.5
+2003-01-29,P4_reversed,0,-0.0,google/gemini-2.5-flash,0.0,0
+2003-01-29,P5_reason_first,0,0.0,google/gemini-2.5-flash,0.0,"**Hawkish Elements:** *   The statement notes that the accommodative stance of monetary policy will provide support to an improving economic climate over time, implying that the current low rates are temporary and will likely need to be adjusted as the economy strengthens. *   The phrase ""risks are "
+2004-03-16,P1_minimal,0,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2004-03-16,P2_defined,0,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2004-03-16,P3_analyst,0,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2004-03-16,P4_reversed,0,-0.2,google/gemini-2.5-flash,0.0,0.2
+2004-03-16,P5_reason_first,0,-0.7,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Output expanding at a solid pace:** This suggests a healthy economy that might eventually warrant tighter policy. *   **Probability of unwelcome fall in inflation has diminished:** This indicates less concern about deflation, which could open the door for future rate hik"
+2005-05-03,P1_minimal,0,0.5,google/gemini-2.5-flash,0.0,0.5
+2005-05-03,P2_defined,0,0.4,google/gemini-2.5-flash,0.0,0.4
+2005-05-03,P3_analyst,0,0.7,google/gemini-2.5-flash,0.0,0.7
+2005-05-03,P4_reversed,0,0.2,google/gemini-2.5-flash,0.0,-0.2
+2005-05-03,P5_reason_first,0,0.5,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Rate Hike:** The primary hawkish element is the decision to raise the federal funds rate by 25 basis points. *   **Accommodative Stance:** The statement explicitly notes that ""the stance of monetary policy remains accommodative,"" implying further tightening may be needed"
+2006-06-29,P1_minimal,0,0.7,google/gemini-2.5-flash,0.0,0.7
+2006-06-29,P2_defined,0,0.7,google/gemini-2.5-flash,0.0,0.7
+2006-06-29,P3_analyst,0,0.7,google/gemini-2.5-flash,0.0,0.7
+2006-06-29,P4_reversed,0,0.7,google/gemini-2.5-flash,0.0,-0.7
+2006-06-29,P5_reason_first,0,0.7,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Rate Hike:** The most significant hawkish element is the decision to raise the federal funds rate by 25 basis points. *   **Elevated Core Inflation:** The statement explicitly notes that ""Readings on core inflation have been elevated in recent months."" *   **Potential fo"
+2007-08-07,P1_minimal,0,0.5,google/gemini-2.5-flash,0.0,0.5
+2007-08-07,P2_defined,0,0.4,google/gemini-2.5-flash,0.0,0.4
+2007-08-07,P3_analyst,0,0.7,google/gemini-2.5-flash,0.0,0.7
+2007-08-07,P4_reversed,0,0.2,google/gemini-2.5-flash,0.0,-0.2
+2007-08-07,P5_reason_first,0,0.6,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Predominant Policy Concern is Inflation:** The statement explicitly states that ""the Committee's predominant policy concern remains the risk that inflation will fail to moderate as expected."" This is a strong hawkish signal, indicating a bias towards controlling inflatio"
+2008-03-18,P1_minimal,0,-0.9,google/gemini-2.5-flash,0.0,-0.9
+2008-03-18,P2_defined,0,-0.8,google/gemini-2.5-flash,0.0,-0.8
+2008-03-18,P3_analyst,0,-1.0,google/gemini-2.5-flash,0.0,-1
+2008-03-18,P4_reversed,0,-0.8,google/gemini-2.5-flash,0.0,0.8
+2008-03-18,P5_reason_first,0,-0.8,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Inflation concerns:** The statement explicitly mentions that ""Inflation has been elevated, and some indicators of inflation expectations have risen."" It also notes that ""uncertainty about the inflation outlook has increased"" and that it will be necessary to ""monitor infl"
+2009-03-18,P1_minimal,0,-1.0,google/gemini-2.5-flash,0.0,-1
+2009-03-18,P2_defined,0,-0.9,google/gemini-2.5-flash,0.0,-0.9
+2009-03-18,P3_analyst,0,-0.9,google/gemini-2.5-flash,0.0,-0.9
+2009-03-18,P4_reversed,0,-0.9,google/gemini-2.5-flash,0.0,0.9
+2009-03-18,P5_reason_first,0,-1.0,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   None explicitly stated. The overall tone is one of significant concern for economic contraction and deflationary risks.  **Dovish Elements:**  *   **Acknowledgement of severe economic contraction:** ""economy continues to contract,"" ""Job losses, declining equity and housing"
+2010-04-28,P1_minimal,0,-0.8,google/gemini-2.5-flash,0.0,-0.8
+2010-04-28,P2_defined,0,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2010-04-28,P3_analyst,0,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2010-04-28,P4_reversed,0,-0.7,google/gemini-2.5-flash,0.0,0.7
+2010-04-28,P5_reason_first,0,-0.7,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Economic Activity Strengthening:** The statement notes that ""economic activity has continued to strengthen"" and the ""labor market is beginning to improve."" This positive economic outlook could, in theory, lead to earlier tightening. *   **Growth in Household Spending and"
+2011-04-27,P1_minimal,0,-0.8,google/gemini-2.5-flash,0.0,-0.8
+2011-04-27,P2_defined,0,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2011-04-27,P3_analyst,0,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2011-04-27,P4_reversed,0,-0.7,google/gemini-2.5-flash,0.0,0.7
+2011-04-27,P5_reason_first,0,-0.7,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Inflation has picked up:** The statement explicitly mentions that ""Inflation has picked up in recent months"" and that ""Commodity prices have risen significantly."" *   **Concerns about global crude oil supplies:** This is noted as contributing to further oil price increas"
+2012-06-20,P1_minimal,0,-0.8,google/gemini-2.5-flash,0.0,-0.8
+2012-06-20,P2_defined,0,-0.8,google/gemini-2.5-flash,0.0,-0.8
+2012-06-20,P3_analyst,0,-0.8,google/gemini-2.5-flash,0.0,-0.8
+2012-06-20,P4_reversed,0,-0.8,google/gemini-2.5-flash,0.0,0.8
+2012-06-20,P5_reason_first,0,-0.8,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Business fixed investment has continued to advance:** This indicates a positive, albeit moderate, sign of economic health from businesses. *   **Longer-term inflation expectations have remained stable:** This suggests that the Committee is not overly concerned about runa"
+2013-07-31,P1_minimal,0,-0.8,google/gemini-2.5-flash,0.0,-0.8
+2013-07-31,P2_defined,0,-0.8,google/gemini-2.5-flash,0.0,-0.8
+2013-07-31,P3_analyst,0,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2013-07-31,P4_reversed,0,-0.8,google/gemini-2.5-flash,0.0,0.8
+2013-07-31,P5_reason_first,0,-0.7,google/gemini-2.5-flash,0.0,"**Hawkish Elements:** *   ""mortgage rates have risen somewhat"" - suggests some tightening in financial conditions. *   ""The Committee sees the downside risks to the outlook for the economy and the labor market as having diminished since the fall."" - a more optimistic view reduces the need for furthe"
+2014-09-17,P1_minimal,0,0.4,google/gemini-2.5-flash,0.0,0.4
+2014-09-17,P2_defined,0,0.1,google/gemini-2.5-flash,0.0,0.1
+2014-09-17,P3_analyst,0,0.2,google/gemini-2.5-flash,0.0,0.2
+2014-09-17,P4_reversed,0,0.2,google/gemini-2.5-flash,0.0,-0.2
+2014-09-17,P5_reason_first,0,0.2,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Further measured reduction in asset purchases:** The Committee decided to reduce the pace of asset purchases, indicating a move towards tightening monetary policy. *   **Likelihood of inflation running persistently below 2 percent has diminished somewhat:** This suggests"
+2015-10-28,P1_minimal,0,-0.2,google/gemini-2.5-flash,0.0,-0.2
+2015-10-28,P2_defined,0,-0.2,google/gemini-2.5-flash,0.0,-0.2
+2015-10-28,P3_analyst,0,-0.2,google/gemini-2.5-flash,0.0,-0.2
+2015-10-28,P4_reversed,0,-0.2,google/gemini-2.5-flash,0.0,0.2
+2015-10-28,P5_reason_first,0,0.4,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Explicit mention of considering a rate hike at the ""next meeting"":** This is a direct signal that a December hike is on the table and actively being discussed. *   **Focus on ""further improvement in the labor market"" and ""reasonably confident that inflation will move bac"
+2016-12-14,P1_minimal,0,0.5,google/gemini-2.5-flash,0.0,0.5
+2016-12-14,P2_defined,0,0.4,google/gemini-2.5-flash,0.0,0.4
+2016-12-14,P3_analyst,0,0.7,google/gemini-2.5-flash,0.0,0.7
+2016-12-14,P4_reversed,0,0.2,google/gemini-2.5-flash,0.0,-0.2
+2016-12-14,P5_reason_first,0,0.4,google/gemini-2.5-flash,0.0,**Hawkish Elements:**  *   **Interest Rate Hike:** The most significant hawkish element is the decision to raise the target range for the federal funds rate to 1/2 to 3/4 percent. This is a concrete tightening of monetary policy. *   **Strong Labor Market:** The statement repeatedly emphasizes the s
+2018-01-31,P1_minimal,0,0.2,google/gemini-2.5-flash,0.0,0.2
+2018-01-31,P2_defined,0,0.2,google/gemini-2.5-flash,0.0,0.2
+2018-01-31,P3_analyst,0,0.4,google/gemini-2.5-flash,0.0,0.4
+2018-01-31,P4_reversed,0,-0.2,google/gemini-2.5-flash,0.0,0.2
+2018-01-31,P5_reason_first,0,0.4,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Strong Economic Activity and Labor Market:** The statement repeatedly highlights the strengthening labor market, solid economic activity, and low unemployment rate, suggesting the economy can withstand further tightening. *   **""Further Gradual Adjustments"" and ""Further "
+2019-03-20,P1_minimal,0,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2019-03-20,P2_defined,0,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2019-03-20,P3_analyst,0,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2019-03-20,P4_reversed,0,-0.2,google/gemini-2.5-flash,0.0,0.2
+2019-03-20,P5_reason_first,0,-0.8,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Labor market remains strong:** Despite some slowing, the overall assessment of the labor market is positive, which could support future rate hikes if other conditions align. *   **Inflation for items other than food and energy remains near 2 percent:** This suggests unde"
+2020-03-03,P1_minimal,0,-0.8,google/gemini-2.5-flash,0.0,-0.8
+2020-03-03,P2_defined,0,-0.9,google/gemini-2.5-flash,0.0,-0.9
+2020-03-03,P3_analyst,0,-1.0,google/gemini-2.5-flash,0.0,-1
+2020-03-03,P4_reversed,0,-0.9,google/gemini-2.5-flash,0.0,0.9
+2020-03-03,P5_reason_first,0,-0.7,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   ""The fundamentals of the U.S. economy remain strong."" - This suggests underlying confidence in the economy's resilience, despite the immediate risks. *   ""The Committee is closely monitoring developments and their implications for the economic outlook and will use its tool"
+2020-11-05,P1_minimal,0,-0.9,google/gemini-2.5-flash,0.0,-0.9
+2020-11-05,P2_defined,0,-0.8,google/gemini-2.5-flash,0.0,-0.8
+2020-11-05,P3_analyst,0,-0.8,google/gemini-2.5-flash,0.0,-0.8
+2020-11-05,P4_reversed,0,-0.9,google/gemini-2.5-flash,0.0,0.9
+2020-11-05,P5_reason_first,0,-0.8,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Commitment to Price Stability:** The statement reiterates the Fed's commitment to its price stability goal, implying a readiness to act if inflation were to become a concern. *   **Readiness to Adjust Policy:** The Committee states it would be ""prepared to adjust the sta"
+2021-12-15,P1_minimal,0,0.2,google/gemini-2.5-flash,0.0,0.2
+2021-12-15,P2_defined,0,0.2,google/gemini-2.5-flash,0.0,0.2
+2021-12-15,P3_analyst,0,0.6,google/gemini-2.5-flash,0.0,0.6
+2021-12-15,P4_reversed,0,0.2,google/gemini-2.5-flash,0.0,-0.2
+2021-12-15,P5_reason_first,0,0.6,google/gemini-2.5-flash,0.0,**Hawkish Elements:**  *   **Reduction in Asset Purchases (Tapering):** The most significant hawkish element is the decision to reduce the monthly pace of net asset purchases by a substantial $30 billion ($20 billion for Treasuries and $10 billion for MBS). This signals a withdrawal of monetary stim
+2023-02-01,P1_minimal,0,0.7,google/gemini-2.5-flash,0.0,0.7
+2023-02-01,P2_defined,0,0.7,google/gemini-2.5-flash,0.0,0.7
+2023-02-01,P3_analyst,0,0.7,google/gemini-2.5-flash,0.0,0.7
+2023-02-01,P4_reversed,0,0.7,google/gemini-2.5-flash,0.0,-0.7
+2023-02-01,P5_reason_first,0,0.6,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Continued Rate Hikes:** The statement explicitly says ""The Committee anticipates that ongoing increases in the target range will be appropriate."" This signals more rate hikes are coming. *   **Strong Commitment to 2% Inflation:** The phrase ""strongly committed to returni"

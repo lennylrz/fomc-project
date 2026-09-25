@@ -1,0 +1,3 @@
+date,prompt,score,model,temperature,raw_reply,error
+2022-11-02,P1_minimal,0.7,anthropic/claude-fable-5.1,0.0,0.7,
+2023-02-01,P1_minimal,0.6,anthropic/claude-fable-5.1,0.0,0.6,
