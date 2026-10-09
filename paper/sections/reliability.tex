@@ -1,0 +1,112 @@
+%=====================================================================================
+\section{Reliability across prompts and models}\label{sec:reliability}
+
+\subsection{Measures}
+
+I measure agreement across the five prompts in two ways. The intraclass correlation ICC(3,1) of
+\citet{shrout1979} treats the prompts as fixed raters and asks what share of the variance in a single
+prompt's scores is variance between statements, after removing each prompt's average level. It equals 1
+when all prompts rank and space the statements identically, up to a constant shift. Krippendorff's alpha
+with the interval metric \citep{hayes2007,krippendorff2018} also counts a constant shift between prompts
+as disagreement, so it is at or below the ICC when prompts differ in level.
+
+Each measure is computed four ways: on raw score levels; on levels after the rate decision is regressed
+out (``resid''); on hold meetings only; and on meeting-to-meeting changes. For ``resid'' each prompt's
+scores are regressed on a single code for the decision ($+1$ hike, $0$ hold, $-1$ cut). Separate hike
+and cut dummies give similar results (below).
+The \emph{drop} is $1-\text{resid}/\text{raw}$. It asks how much of the agreement is agreement about the
+decision itself, which no one needs an LLM to read.
+
+\subsection{Results}
+
+Table~\ref{tab:reliability} and Figure~\ref{fig:icc} report the results. The first block crosses the same
+\R{icc.fable.n} policy statements from 2015--2019 with all five prompts and four models. On raw levels
+the three inexpensive models reach an ICC between \R{icc.haiku.raw} and \R{icc.gem.raw}. Once the rate
+decision is removed, their ICC falls to between \R{icc.haiku.resid} and \R{icc.gem.resid}, a drop of
+\R{icc.mini.drop} to \R{icc.haiku.drop}. Fable starts at \R{icc.fable.raw} and keeps \R{icc.fable.resid}
+(a drop of \R{icc.fable.drop}). The block contains \R{block.hikes} hikes and \R{block.cuts} cuts. With
+separate hike and cut dummies instead of the single code, the drops are \R{dummy.cheap.min} to
+\R{dummy.cheap.max} for the inexpensive models and \R{dummy.fable.drop} for Fable. Alpha tells the same
+story. Its drops for the inexpensive models are
+smaller (\R{alpha.haiku.drop} to \R{alpha.gem.drop}) because alpha already penalises their level
+differences in the raw scores, but on hold meetings it shows how little some of them agree: alpha is
+\R{alpha.haiku.hold} for Claude 3 Haiku and \R{alpha.mini.hold} for GPT-4o mini, against
+\R{alpha.fable.hold} for Fable. On meeting-to-meeting changes, the quantity that market regressions use,
+the inexpensive models reach an ICC of \R{icc.haiku.chg} to \R{icc.gem.chg} and Fable \R{icc.fable.chg}.
+
+\begin{table}[t]
+\centering
+\caption{Agreement across five prompts}\label{tab:reliability}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\input{tables/tab_reliability}
+\tabnote{\emph{Notes:} Policy corpus; statements with all five prompts. Raw = score levels; Resid =
+levels after regressing each prompt's scores on the rate decision coded $+1/0/-1$; Hold = hold meetings
+only; Chg = changes between consecutive corpus statements; Drop $=1-\text{Resid}/\text{Raw}$. ICC(3,1)
+follows \citet{shrout1979}; alpha uses the interval metric.}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\input{figures/fig_icc}
+\caption{Agreement across prompts by model, 2015--2019 block ($n=\R{icc.fable.n}$ statements). Part of
+the inexpensive models' agreement on levels is agreement on the rate decision.}\label{fig:icc}
+\end{figure}
+
+The size of the drop depends on the sample. For Gemini it is \R{icc.gem.drop} in the 2015--2019 block but
+\R{icc.gem04.drop} on 2004--2007 and \R{icc.gemfull.drop} on the full corpus. ICC is a ratio of
+between-statement to total variance, so it is high when the statements in the sample differ a lot in
+stance, as they do across the whole period from 2000 to 2026. Within a few years of similar statements,
+prompt noise weighs more. The reliability of an LLM score is therefore a property of the model, the
+prompt set and the sample together, and a researcher should report it for the sample actually used.
+
+Fable's consistency is also high in a second sense: the \R{retest.n} cells it scored twice in separate
+runs correlate at \R{retest.r}.
+
+\subsection{Model choice versus prompt choice}
+
+Prompt sensitivity is only one source of arbitrariness. A researcher also chooses a model. On the crossed
+block I decompose the variance of the scores into statement, prompt and model effects and their
+interactions, with a random-effects analysis of variance. With one score per cell, the three-way
+interaction cannot be separated from noise, so it is part of the residual. Table~\ref{tab:variance}
+reports the shares.
+
+\begin{table}[t]
+\centering
+\caption{Variance decomposition: statement $\times$ prompt $\times$ model, 2015--2019 block}\label{tab:variance}
+\small
+\input{tables/tab_variance}
+\tabnote{\emph{Notes:} Shares of total variance (\%), random-effects ANOVA, \R{var.n} statements $\times$ 5
+prompts $\times$ 4 models (Gemini 2.5 Flash, Claude 3 Haiku, GPT-4o mini, Claude Fable 5.1); negative
+variance estimates are set to zero. ``Std.\ within model'' z-scores each model's scores first, which
+removes scale differences between models. S$\times$P: prompts disagree about which statements are more
+hawkish; S$\times$M: models disagree; the residual contains the three-way interaction and noise.}
+\end{table}
+
+On levels, agreed differences between statements account for \R{var.levels.raw.stmt} of the variance.
+On changes, the agreed part falls to \R{var.changes.raw.stmt}. The main disagreement on changes is between
+models: the statement-by-model interaction, which measures models disagreeing about which statements
+became more hawkish, takes \R{var.changes.raw.sxm}, against \R{var.changes.raw.sxp} for the
+statement-by-prompt interaction. The residual rises from \R{var.levels.raw.resid} on levels to
+\R{var.changes.raw.resid} on changes. Standardising each model's scores first leaves these shares almost
+unchanged, so they do not reflect differences in scale. For meeting-to-meeting changes, the choice of
+model matters about twice as much as the choice of prompt. A robustness check across prompts alone
+understates how much an LLM stance measure depends on the researcher's choices.
+
+\subsection{Is the frontier model consistent because it recognises the text?}
+
+One reading of Fable's high reliability is that it is simply a better reader. Another is that it
+recognises each statement and recalls a fixed view of it, whatever the prompt
+(Section~\ref{sec:recognition} shows it does recognise them). The two readings predict different
+behaviour on statements the model has not seen. Fable's dating probe (Section~\ref{sec:cutoff}) suggests
+that its knowledge fades from March 2026, so I scored the seven latest statements with all five prompts
+and split them by whether the probe dated them exactly and with high confidence. The prompt spread (the standard deviation of the five scores) averages \R{spread.unknown}
+on the \R{spread.unknown.n} statements it probably has not seen (March to July 2026) and \R{spread.known}
+on the \R{spread.known.n} it dates confidently, against a median of \R{spread.pre.median} and a 90th
+percentile of \R{spread.pre.p90} on the \R{spread.pre.n} pre-2024 statements with all prompts (Appendix
+Table~\ref{tab:spread}). All seven recent statements lie between the \R{spread.pctmin} and
+\R{spread.pctmax} quantiles of the pre-2024 spread, so Fable is somewhat less consistent on recent
+statements than on old ones, whether it knows them or not. Two of the four statements it probably has
+not seen are the unverified texts of June and July 2026 (Section~\ref{sec:data}); without them, the mean
+spread of the remaining \R{spread.unknown.verified.n} is \R{spread.unknown.verified}, slightly above that
+of the known statements. Statements this few cannot settle the question.

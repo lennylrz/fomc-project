@@ -1,0 +1,206 @@
+date,prompt,score,model,temperature,raw_reply
+2015-01-28,P1_minimal,-0.2,google/gemini-2.5-flash,0.0,-0.2
+2015-01-28,P2_defined,-0.2,google/gemini-2.5-flash,0.0,-0.2
+2015-01-28,P3_analyst,-0.5,google/gemini-2.5-flash,0.0,-0.5
+2015-01-28,P4_reversed,-0.7,google/gemini-2.5-flash,0.0,0.7
+2015-01-28,P5_reason_first,-0.7,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Strong Economic Activity and Labor Market:** The statement highlights ""economic activity has been expanding at a solid pace,"" ""strong job gains,"" and a ""lower unemployment rate,"" suggesting the economy is robust enough to potentially handle tighter policy. *   **Diminish"
+2015-03-18,P1_minimal,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2015-03-18,P2_defined,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2015-03-18,P3_analyst,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2015-03-18,P4_reversed,-0.2,google/gemini-2.5-flash,0.0,0.2
+2015-03-18,P5_reason_first,-0.2,google/gemini-2.5-flash,0.0,"**Hawkish Elements:** *   ""Labor market conditions have improved further, with strong job gains and a lower unemployment rate."" *   ""A range of labor market indicators suggests that underutilization of labor resources continues to diminish."" *   ""The Committee anticipates that it will be appropriate"
+2015-04-29,P1_minimal,-0.5,google/gemini-2.5-flash,0.0,-0.5
+2015-04-29,P2_defined,-0.4,google/gemini-2.5-flash,0.0,-0.4
+2015-04-29,P3_analyst,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2015-04-29,P4_reversed,-0.2,google/gemini-2.5-flash,0.0,0.2
+2015-04-29,P5_reason_first,-0.2,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Anticipation of Rate Hike:** The statement explicitly says the Committee ""anticipates that it will be appropriate to raise the target range for the federal funds rate when it has seen further improvement in the labor market and is reasonably confident that inflation will"
+2015-06-17,P1_minimal,-0.5,google/gemini-2.5-flash,0.0,-0.5
+2015-06-17,P2_defined,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2015-06-17,P3_analyst,-0.2,google/gemini-2.5-flash,0.0,-0.2
+2015-06-17,P4_reversed,-0.2,google/gemini-2.5-flash,0.0,0.2
+2015-06-17,P5_reason_first,0.2,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Improved Labor Market:** The statement notes ""the pace of job gains picked up"" and ""underutilization of labor resources diminished somewhat,"" suggesting progress towards full employment. *   **Anticipation of Rate Hike:** The Committee ""anticipates that it will be approp"
+2015-07-29,P1_minimal,-0.5,google/gemini-2.5-flash,0.0,-0.5
+2015-07-29,P2_defined,-0.2,google/gemini-2.5-flash,0.0,-0.2
+2015-07-29,P3_analyst,-0.2,google/gemini-2.5-flash,0.0,-0.2
+2015-07-29,P4_reversed,-0.2,google/gemini-2.5-flash,0.0,0.2
+2015-07-29,P5_reason_first,-0.2,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Continued Labor Market Improvement:** The statement highlights ""solid job gains and declining unemployment"" and that ""underutilization of labor resources has diminished."" This suggests progress towards the maximum employment mandate, a prerequisite for rate hikes. *   **"
+2015-09-17,P1_minimal,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2015-09-17,P2_defined,-0.2,google/gemini-2.5-flash,0.0,-0.2
+2015-09-17,P3_analyst,-0.2,google/gemini-2.5-flash,0.0,-0.2
+2015-09-17,P4_reversed,-0.2,google/gemini-2.5-flash,0.0,0.2
+2015-09-17,P5_reason_first,-0.2,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Solid job gains and declining unemployment:** The labor market is improving, suggesting less need for accommodative policy. *   **Underutilization of labor resources has diminished:** This indicates the economy is moving closer to full employment. *   **Anticipates it wi"
+2015-10-28,P1_minimal,-0.5,google/gemini-2.5-flash,0.0,-0.5
+2015-10-28,P2_defined,-0.2,google/gemini-2.5-flash,0.0,-0.2
+2015-10-28,P3_analyst,0.2,google/gemini-2.5-flash,0.0,0.2
+2015-10-28,P4_reversed,-0.6,google/gemini-2.5-flash,0.0,0.6
+2015-10-28,P5_reason_first,0.6,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Explicit mention of considering a rate hike at the ""next meeting"":** This is a direct signal that a December hike is on the table and actively being discussed. *   **Focus on ""further improvement in the labor market"" and ""reasonably confident that inflation will move bac"
+2015-12-16,P1_minimal,1.0,google/gemini-2.5-flash,0.0,+1
+2015-12-16,P2_defined,0.2,google/gemini-2.5-flash,0.0,0.2
+2015-12-16,P3_analyst,0.7,google/gemini-2.5-flash,0.0,0.7
+2015-12-16,P4_reversed,0.5,google/gemini-2.5-flash,0.0,-0.5
+2015-12-16,P5_reason_first,0.6,google/gemini-2.5-flash,0.0,"**Hawkish Elements:** *   **Interest Rate Hike:** The Committee decided to raise the target range for the federal funds rate to 1/4 to 1/2 percent, a concrete tightening of monetary policy. *   **Confidence in Inflation:** The Committee is ""reasonably confident that inflation will rise, over the med"
+2016-01-27,P1_minimal,-0.5,google/gemini-2.5-flash,0.0,-0.5
+2016-01-27,P2_defined,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2016-01-27,P3_analyst,-0.2,google/gemini-2.5-flash,0.0,-0.2
+2016-01-27,P4_reversed,-0.2,google/gemini-2.5-flash,0.0,0.2
+2016-01-27,P5_reason_first,-0.2,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Strong Labor Market:** The statement highlights ""further improvement"" in labor market conditions, ""strong job gains,"" and ""some additional decline in underutilization of labor resources."" This suggests progress towards the maximum employment mandate, which could support "
+2016-03-16,P1_minimal,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2016-03-16,P2_defined,-0.2,google/gemini-2.5-flash,0.0,-0.2
+2016-03-16,P3_analyst,-0.2,google/gemini-2.5-flash,0.0,-0.2
+2016-03-16,P4_reversed,-0.6,google/gemini-2.5-flash,0.0,0.6
+2016-03-16,P5_reason_first,-0.2,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Strong Job Gains:** The statement highlights ""strong job gains"" and anticipates ""additional strengthening of the labor market."" *   **Inflation Picked Up:** ""Inflation picked up in recent months,"" suggesting some upward pressure. *   **Gradual Increases in Federal Funds "
+2016-04-27,P1_minimal,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2016-04-27,P2_defined,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2016-04-27,P3_analyst,-0.2,google/gemini-2.5-flash,0.0,-0.2
+2016-04-27,P4_reversed,-0.7,google/gemini-2.5-flash,0.0,0.7
+2016-04-27,P5_reason_first,0.2,google/gemini-2.5-flash,0.0,"**Hawkish Elements:** *   **Strong Job Gains:** The statement notes ""strong job gains"" and ""additional strengthening of the labor market,"" indicating progress towards the maximum employment mandate. *   **Consumer Sentiment High:** High consumer sentiment suggests underlying economic resilience. *  "
+2016-06-15,P1_minimal,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2016-06-15,P2_defined,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2016-06-15,P3_analyst,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2016-06-15,P4_reversed,-0.5,google/gemini-2.5-flash,0.0,0.5
+2016-06-15,P5_reason_first,-0.5,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **""economic activity will expand at a moderate pace and labor market indicators will strengthen.""**: This suggests a positive outlook that could support future rate hikes. *   **""Inflation is expected... to rise to 2 percent over the medium term""**: The expectation of infl"
+2016-07-27,P1_minimal,-0.5,google/gemini-2.5-flash,0.0,-0.5
+2016-07-27,P2_defined,-0.6,google/gemini-2.5-flash,0.0,-0.6
+2016-07-27,P3_analyst,-0.2,google/gemini-2.5-flash,0.0,-0.2
+2016-07-27,P4_reversed,-0.2,google/gemini-2.5-flash,0.0,0.2
+2016-07-27,P5_reason_first,-0.2,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Labor market strengthening:** ""labor market strengthened"" and ""Job gains were strong in June."" *   **Diminished near-term risks:** ""Near-term risks to the economic outlook have diminished."" *   **Inflation expected to rise:** ""Inflation is expected...to rise to 2 percent"
+2016-09-21,P1_minimal,0.2,google/gemini-2.5-flash,0.0,0.2
+2016-09-21,P2_defined,0.1,google/gemini-2.5-flash,0.0,0.1
+2016-09-21,P3_analyst,0.2,google/gemini-2.5-flash,0.0,0.2
+2016-09-21,P4_reversed,-0.2,google/gemini-2.5-flash,0.0,0.2
+2016-09-21,P5_reason_first,0.2,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Strengthening Labor Market and Economic Activity:** The statement notes that the labor market has continued to strengthen and economic activity has picked up. *   **Solid Job Gains:** Despite the unemployment rate being little changed, job gains have been solid. *   **St"
+2016-11-02,P1_minimal,0.0,google/gemini-2.5-flash,0.0,0
+2016-11-02,P2_defined,0.2,google/gemini-2.5-flash,0.0,0.2
+2016-11-02,P3_analyst,0.2,google/gemini-2.5-flash,0.0,0.2
+2016-11-02,P4_reversed,-0.2,google/gemini-2.5-flash,0.0,0.2
+2016-11-02,P5_reason_first,0.2,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Strengthening Case for Rate Hike:** The statement explicitly says, ""The Committee judges that the case for an increase in the federal funds rate has continued to strengthen."" This indicates a growing consensus for tightening monetary policy. *   **Improved Economic Condi"
+2016-12-14,P1_minimal,0.5,google/gemini-2.5-flash,0.0,0.5
+2016-12-14,P2_defined,0.4,google/gemini-2.5-flash,0.0,0.4
+2016-12-14,P3_analyst,0.7,google/gemini-2.5-flash,0.0,0.7
+2016-12-14,P4_reversed,0.2,google/gemini-2.5-flash,0.0,-0.2
+2016-12-14,P5_reason_first,0.4,google/gemini-2.5-flash,0.0,**Hawkish Elements:**  *   **Interest Rate Hike:** The most significant hawkish element is the decision to raise the target range for the federal funds rate to 1/2 to 3/4 percent. This is a concrete tightening of monetary policy. *   **Strong Labor Market:** The statement repeatedly emphasizes the s
+2017-02-01,P1_minimal,-0.2,google/gemini-2.5-flash,0.0,-0.2
+2017-02-01,P2_defined,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2017-02-01,P3_analyst,-0.2,google/gemini-2.5-flash,0.0,-0.2
+2017-02-01,P4_reversed,-0.2,google/gemini-2.5-flash,0.0,0.2
+2017-02-01,P5_reason_first,-0.2,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Strengthening Labor Market:** The statement notes a continued strengthening of the labor market, solid job gains, and the unemployment rate near its recent low. These are conditions that typically support tighter monetary policy. *   **Inflation Increase:** Inflation ""in"
+2017-03-15,P1_minimal,0.7,google/gemini-2.5-flash,0.0,0.7
+2017-03-15,P2_defined,0.4,google/gemini-2.5-flash,0.0,0.4
+2017-03-15,P3_analyst,0.7,google/gemini-2.5-flash,0.0,0.7
+2017-03-15,P4_reversed,0.7,google/gemini-2.5-flash,0.0,-0.7
+2017-03-15,P5_reason_first,0.4,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Interest Rate Hike:** The most significant hawkish element is the decision to raise the target range for the federal funds rate to 3/4 to 1 percent. This is a concrete tightening of monetary policy. *   **Inflation Nearing Target:** The statement notes that ""Inflation ha"
+2017-05-03,P1_minimal,0.0,google/gemini-2.5-flash,0.0,0
+2017-05-03,P2_defined,0.1,google/gemini-2.5-flash,0.0,0.1
+2017-05-03,P3_analyst,0.2,google/gemini-2.5-flash,0.0,0.2
+2017-05-03,P4_reversed,-0.2,google/gemini-2.5-flash,0.0,0.2
+2017-05-03,P5_reason_first,0.1,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Strong Labor Market:** The statement repeatedly emphasizes the strengthening labor market, with ""solid"" job gains and a declining unemployment rate. This suggests less need for accommodative policy. *   **Transitory Slowdown:** The Committee views the first-quarter slowd"
+2017-06-14,P1_minimal,0.7,google/gemini-2.5-flash,0.0,0.7
+2017-06-14,P2_defined,0.4,google/gemini-2.5-flash,0.0,0.4
+2017-06-14,P3_analyst,0.6,google/gemini-2.5-flash,0.0,0.6
+2017-06-14,P4_reversed,0.7,google/gemini-2.5-flash,0.0,-0.7
+2017-06-14,P5_reason_first,0.6,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Interest Rate Hike:** The Committee decided to raise the target range for the federal funds rate to 1 to 1-1/4 percent. This is a direct tightening of monetary policy. *   **Balance Sheet Normalization:** The Committee ""currently expects to begin implementing a balance s"
+2017-07-26,P1_minimal,0.0,google/gemini-2.5-flash,0.0,0
+2017-07-26,P2_defined,0.1,google/gemini-2.5-flash,0.0,0.1
+2017-07-26,P3_analyst,0.2,google/gemini-2.5-flash,0.0,0.2
+2017-07-26,P4_reversed,-0.2,google/gemini-2.5-flash,0.0,0.2
+2017-07-26,P5_reason_first,0.2,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Strong Labor Market:** The statement repeatedly highlights the strengthening labor market, solid job gains, and declining unemployment rate, suggesting the economy is robust enough to withstand tighter policy. *   **Gradual Rate Increases Expected:** The Committee ""expec"
+2017-09-20,P1_minimal,0.0,google/gemini-2.5-flash,0.0,0
+2017-09-20,P2_defined,0.1,google/gemini-2.5-flash,0.0,0.1
+2017-09-20,P3_analyst,0.2,google/gemini-2.5-flash,0.0,0.2
+2017-09-20,P4_reversed,-0.1,google/gemini-2.5-flash,0.0,0.1
+2017-09-20,P5_reason_first,0.2,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Strong Labor Market:** Continued strengthening of the labor market, solid job gains, and low unemployment rate. *   **Economic Activity Rising:** Economic activity rising moderately and household spending expanding. *   **Business Investment Picked Up:** Growth in busine"
+2017-11-01,P1_minimal,0.0,google/gemini-2.5-flash,0.0,0
+2017-11-01,P2_defined,0.1,google/gemini-2.5-flash,0.0,0.1
+2017-11-01,P3_analyst,0.1,google/gemini-2.5-flash,0.0,0.1
+2017-11-01,P4_reversed,-0.2,google/gemini-2.5-flash,0.0,0.2
+2017-11-01,P5_reason_first,0.4,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Strengthening Labor Market:** The statement repeatedly emphasizes the continued strengthening of the labor market and declining unemployment rate. *   **Solid Economic Activity:** Economic activity is described as ""rising at a solid rate."" *   **Gradual Adjustments in Mo"
+2017-12-13,P1_minimal,0.5,google/gemini-2.5-flash,0.0,0.5
+2017-12-13,P2_defined,0.4,google/gemini-2.5-flash,0.0,0.4
+2017-12-13,P3_analyst,0.7,google/gemini-2.5-flash,0.0,0.7
+2017-12-13,P4_reversed,0.5,google/gemini-2.5-flash,0.0,-0.5
+2017-12-13,P5_reason_first,0.5,google/gemini-2.5-flash,0.0,**Hawkish Elements:**  *   **Interest Rate Hike:** The most significant hawkish element is the decision to raise the target range for the federal funds rate to 1-1/4 to 1-1/2 percent. This is a concrete tightening of monetary policy. *   **Strong Labor Market:** The statement repeatedly emphasizes t
+2018-01-31,P1_minimal,0.5,google/gemini-2.5-flash,0.0,0.5
+2018-01-31,P2_defined,0.2,google/gemini-2.5-flash,0.0,0.2
+2018-01-31,P3_analyst,0.4,google/gemini-2.5-flash,0.0,0.4
+2018-01-31,P4_reversed,-0.2,google/gemini-2.5-flash,0.0,0.2
+2018-01-31,P5_reason_first,0.4,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Strong Economic Activity and Labor Market:** The statement repeatedly highlights the strengthening labor market, solid economic activity, and low unemployment rate, suggesting the economy can withstand further tightening. *   **""Further Gradual Adjustments"" and ""Further "
+2018-03-21,P1_minimal,0.7,google/gemini-2.5-flash,0.0,0.7
+2018-03-21,P2_defined,0.6,google/gemini-2.5-flash,0.0,0.6
+2018-03-21,P3_analyst,0.7,google/gemini-2.5-flash,0.0,0.7
+2018-03-21,P4_reversed,0.7,google/gemini-2.5-flash,0.0,-0.7
+2018-03-21,P5_reason_first,0.7,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Interest Rate Hike:** The most significant hawkish element is the decision to ""raise the target range for the federal funds rate to 1-1/2 to 1-3/4 percent."" This is a concrete tightening of monetary policy. *   **Strong Labor Market:** The statement repeatedly emphasizes"
+2018-05-02,P1_minimal,0.0,google/gemini-2.5-flash,0.0,0
+2018-05-02,P2_defined,0.2,google/gemini-2.5-flash,0.0,0.2
+2018-05-02,P3_analyst,0.2,google/gemini-2.5-flash,0.0,0.2
+2018-05-02,P4_reversed,-0.0,google/gemini-2.5-flash,0.0,0
+2018-05-02,P5_reason_first,0.4,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Strong Labor Market:** The statement repeatedly emphasizes the strengthening labor market, strong job gains, and low unemployment rate, suggesting the economy is robust enough to handle tighter monetary policy. *   **Inflation Near Target:** Both overall and core inflati"
+2018-06-13,P1_minimal,0.7,google/gemini-2.5-flash,0.0,0.7
+2018-06-13,P2_defined,0.7,google/gemini-2.5-flash,0.0,0.7
+2018-06-13,P3_analyst,0.7,google/gemini-2.5-flash,0.0,0.7
+2018-06-13,P4_reversed,0.2,google/gemini-2.5-flash,0.0,-0.2
+2018-06-13,P5_reason_first,0.6,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Strong Economic Data:** The statement highlights a strengthening labor market, solid economic activity, strong job gains, declining unemployment, picked-up household spending, and continued strong business fixed investment. *   **Inflation Near Target:** Both overall and"
+2018-08-01,P1_minimal,0.0,google/gemini-2.5-flash,0.0,0
+2018-08-01,P2_defined,0.2,google/gemini-2.5-flash,0.0,0.2
+2018-08-01,P3_analyst,0.2,google/gemini-2.5-flash,0.0,0.2
+2018-08-01,P4_reversed,-0.0,google/gemini-2.5-flash,0.0,0
+2018-08-01,P5_reason_first,0.7,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Strong Economic Activity:** The statement repeatedly highlights strong economic activity, a strengthening labor market, strong job gains, and strong growth in household spending and business fixed investment. This robust economic picture provides ample justification for "
+2018-09-26,P1_minimal,0.7,google/gemini-2.5-flash,0.0,0.7
+2018-09-26,P2_defined,0.7,google/gemini-2.5-flash,0.0,0.7
+2018-09-26,P3_analyst,0.7,google/gemini-2.5-flash,0.0,0.7
+2018-09-26,P4_reversed,0.7,google/gemini-2.5-flash,0.0,-0.7
+2018-09-26,P5_reason_first,0.7,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Strong Economic Activity:** The statement repeatedly emphasizes the strength of the labor market (""continued to strengthen,"" ""strong job gains,"" ""unemployment rate has stayed low"") and economic activity (""rising at a strong rate,"" ""household spending and business fixed i"
+2018-11-08,P1_minimal,0.0,google/gemini-2.5-flash,0.0,0
+2018-11-08,P2_defined,0.4,google/gemini-2.5-flash,0.0,0.4
+2018-11-08,P3_analyst,0.2,google/gemini-2.5-flash,0.0,0.2
+2018-11-08,P4_reversed,-0.0,google/gemini-2.5-flash,0.0,0
+2018-11-08,P5_reason_first,0.7,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Strong Economic Activity:** The statement repeatedly emphasizes the strength of the labor market (""continued to strengthen,"" ""job gains have been strong,"" ""unemployment rate has declined"") and economic activity (""rising at a strong rate,"" ""household spending has continue"
+2018-12-19,P1_minimal,0.7,google/gemini-2.5-flash,0.0,0.7
+2018-12-19,P2_defined,0.4,google/gemini-2.5-flash,0.0,0.4
+2018-12-19,P3_analyst,0.7,google/gemini-2.5-flash,0.0,0.7
+2018-12-19,P4_reversed,0.7,google/gemini-2.5-flash,0.0,-0.7
+2018-12-19,P5_reason_first,0.7,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Continued Strength in Labor Market and Economic Activity:** The statement repeatedly emphasizes the strength of the labor market (""continued to strengthen,"" ""strong job gains,"" ""unemployment rate has remained low"") and economic activity (""rising at a strong rate,"" ""house"
+2019-01-30,P1_minimal,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2019-01-30,P2_defined,-0.2,google/gemini-2.5-flash,0.0,-0.2
+2019-01-30,P3_analyst,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2019-01-30,P4_reversed,-0.2,google/gemini-2.5-flash,0.0,0.2
+2019-01-30,P5_reason_first,-0.5,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Strong Economic Activity:** The statement notes that ""economic activity has been rising at a solid rate"" and ""household spending has continued to grow strongly."" *   **Strong Labor Market:** ""The labor market has continued to strengthen,"" ""Job gains have been strong,"" an"
+2019-03-20,P1_minimal,-0.5,google/gemini-2.5-flash,0.0,-0.5
+2019-03-20,P2_defined,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2019-03-20,P3_analyst,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2019-03-20,P4_reversed,-0.2,google/gemini-2.5-flash,0.0,0.2
+2019-03-20,P5_reason_first,-0.8,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Labor market remains strong:** Despite some slowing, the overall assessment of the labor market is positive, which could support future rate hikes if other conditions align. *   **Inflation for items other than food and energy remains near 2 percent:** This suggests unde"
+2019-05-01,P1_minimal,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2019-05-01,P2_defined,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2019-05-01,P3_analyst,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2019-05-01,P4_reversed,-0.5,google/gemini-2.5-flash,0.0,0.5
+2019-05-01,P5_reason_first,-0.7,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   ""The labor market remains strong and that economic activity rose at a solid rate."" *   ""Job gains have been solid, on average, in recent months, and the unemployment rate has remained low."" *   The Committee ""continues to view sustained expansion of economic activity, stro"
+2019-06-19,P1_minimal,-0.2,google/gemini-2.5-flash,0.0,-0.2
+2019-06-19,P2_defined,-0.2,google/gemini-2.5-flash,0.0,-0.2
+2019-06-19,P3_analyst,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2019-06-19,P4_reversed,-0.2,google/gemini-2.5-flash,0.0,0.2
+2019-06-19,P5_reason_first,-0.2,google/gemini-2.5-flash,0.0,"**Hawkish Elements:** *   ""Labor market remains strong"" and ""job gains have been solid."" *   ""Economic activity is rising at a moderate rate."" *   ""Growth of household spending appears to have picked up."" *   The Committee ""continues to view sustained expansion of economic activity, strong labor mar"
+2019-07-31,P1_minimal,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2019-07-31,P2_defined,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2019-07-31,P3_analyst,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2019-07-31,P4_reversed,-0.7,google/gemini-2.5-flash,0.0,0.7
+2019-07-31,P5_reason_first,-0.7,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Strong Labor Market:** The statement repeatedly emphasizes the strength of the labor market, with ""solid"" job gains and a ""low"" unemployment rate. This suggests less need for monetary stimulus. *   **Dissenting Votes:** Two members (George and Rosengren) voted against th"
+2019-09-18,P1_minimal,-0.5,google/gemini-2.5-flash,0.0,-0.5
+2019-09-18,P2_defined,-0.4,google/gemini-2.5-flash,0.0,-0.4
+2019-09-18,P3_analyst,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2019-09-18,P4_reversed,-0.5,google/gemini-2.5-flash,0.0,0.5
+2019-09-18,P5_reason_first,-0.6,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Strong Labor Market:** The statement notes that the labor market ""remains strong"" and ""job gains have been solid,"" indicating a healthy economy that might not require aggressive easing. *   **Moderate Economic Activity:** Economic activity has been ""rising at a moderate "
+2019-10-11,P1_minimal,0.0,google/gemini-2.5-flash,0.0,0
+2019-10-11,P2_defined,0.0,google/gemini-2.5-flash,0.0,0
+2019-10-11,P3_analyst,-0.8,google/gemini-2.5-flash,0.0,-0.8
+2019-10-11,P4_reversed,-0.0,google/gemini-2.5-flash,0.0,0
+2019-10-11,P5_reason_first,-0.2,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Target Federal Funds Rate:** The directive maintains the federal funds rate target range at 1-3/4 to 2 percent, indicating no immediate intention to lower interest rates. *   **""Purely Technical Measures"":** The statement explicitly states that the actions are ""purely te"
+2019-10-30,P1_minimal,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2019-10-30,P2_defined,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2019-10-30,P3_analyst,-0.7,google/gemini-2.5-flash,0.0,-0.7
+2019-10-30,P4_reversed,-0.7,google/gemini-2.5-flash,0.0,0.7
+2019-10-30,P5_reason_first,-0.7,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Strong Labor Market:** The statement repeatedly emphasizes the strength of the labor market, with ""strong"" and ""solid"" job gains and a ""low"" unemployment rate. This suggests less need for accommodative policy. *   **Sustained Economic Expansion:** The Committee's view th"
+2019-12-11,P1_minimal,0.0,google/gemini-2.5-flash,0.0,0
+2019-12-11,P2_defined,0.0,google/gemini-2.5-flash,0.0,0
+2019-12-11,P3_analyst,-0.5,google/gemini-2.5-flash,0.0,-0.5
+2019-12-11,P4_reversed,-0.2,google/gemini-2.5-flash,0.0,0.2
+2019-12-11,P5_reason_first,-0.2,google/gemini-2.5-flash,0.0,"**Hawkish Elements:**  *   **Strong Labor Market:** The statement notes the labor market ""remains strong"" with ""solid"" job gains and a ""low"" unemployment rate. This suggests less need for accommodative policy. *   **Moderate Economic Activity:** Economic activity has been ""rising at a moderate rate,"

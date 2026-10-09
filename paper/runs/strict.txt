@@ -1,0 +1,562 @@
+
+  --corpus strict: 219 statements; left out: 2007-08-10, 2007-08-17, 2008-03-11, 2010-05-09, 2019-10-11, 2020-03-23, 2020-03-31, 2020-08-27, 2025-08-22
+==============================================================================
+A. RELIABILITY  (ICC(3,1) across prompts; statements with all prompts only)
+==============================================================================
+
+  model [file]                                   n  window             raw  resid   hold    chg   drop
+  gemini-2.5-flash [changes.csv]                40  2015-01..2019-12 0.810  0.562  0.580  0.697    31%
+  claude-3-haiku [changes_claude.csv]           40  2015-01..2019-12 0.609  0.333  0.420  0.419    45%
+  gpt-4o-mini [changes_openai.csv]              40  2015-01..2019-12 0.728  0.517  0.537  0.577    29%
+  claude-fable-5.1 [changes_frontier.csv]       40  2015-01..2019-12 0.957  0.929  0.937  0.920     3%
+  gemini-2.5-flash [changes_2004.csv]           32  2004-01..2007-12 0.902  0.804  0.882  0.712    11%
+  gemini-2.5-flash [full_gemini.csv]           219  2000-02..2026-07 0.933  0.871  0.883  0.731     7%
+  claude-fable-5.1 [scores_fable.csv]          173  2000-02..2026-07 0.976  0.957  0.961  0.896     2%
+
+  raw = levels; resid = after regressing out hike/hold/cut; hold = no-change
+  meetings only; chg = meeting-to-meeting changes; drop = 1 - resid/raw.
+
+  Same table, Krippendorff's alpha (interval metric) instead of ICC(3,1):
+
+  model [file]                                   n  window             raw  resid   hold    chg   drop
+  gemini-2.5-flash [changes.csv]                40  2015-01..2019-12 0.791  0.564  0.524  0.698    29%
+  claude-3-haiku [changes_claude.csv]           40  2015-01..2019-12 0.398  0.336  0.084  0.422    16%
+  gpt-4o-mini [changes_openai.csv]              40  2015-01..2019-12 0.634  0.519  0.355  0.579    18%
+  claude-fable-5.1 [changes_frontier.csv]       40  2015-01..2019-12 0.953  0.930  0.928  0.921     2%
+  gemini-2.5-flash [changes_2004.csv]           32  2004-01..2007-12 0.877  0.805  0.848  0.713     8%
+  gemini-2.5-flash [full_gemini.csv]           219  2000-02..2026-07 0.932  0.871  0.879  0.732     7%
+  claude-fable-5.1 [scores_fable.csv]          173  2000-02..2026-07 0.972  0.957  0.950  0.896     2%
+  Alpha also penalises consistent prompt offsets (ICC(3,1) does not), so
+  it is at or below ICC when prompts differ in level.
+
+  Fable test-retest: 245 cells scored in two runs, r = 0.996, mean |diff| = 0.024, 78 differ
+
+  Three-way variance decomposition, 40 statements (2015-01..2019-12) x 5 prompts x 4 models
+  models: gemini-2.5-flash, claude-3-haiku, gpt-4o-mini, claude-fable-5.1
+
+  data                       n    stmt  prompt   model     SxP     SxM     PxM   resid
+  levels, raw               40   61.0%    4.5%    0.0%    3.0%    9.7%    5.7%   16.1%
+  levels, std in model      40   61.3%    4.6%    0.0%    3.0%    9.2%    6.0%   15.9%
+  changes, raw              39   49.1%    0.0%    0.0%    6.7%   15.2%    0.0%   29.0%
+  changes, std in model     39   50.2%    0.0%    0.0%    6.4%   15.2%    0.0%   28.3%
+
+  Shares of total variance. stmt = agreed statement differences (signal);
+  SxM = models disagree about which statements are hawkish; SxP = prompts
+  disagree; resid = statement x prompt x model interaction plus noise.
+  std in model: each model's scores z-scored over all its cells first,
+  which removes scale differences (the model share is then 0 by design).
+
+==============================================================================
+B. VALIDITY: market move on dScore (consensus), statements to 2023-12
+==============================================================================
+  fable: 197 dScore pairs before 2024-01-01; sd(dScore) = 0.245
+  gemini: 197 dScore pairs before 2024-01-01; sd(dScore) = 0.304
+  dict: 197 dScore pairs before 2024-01-01; sd(dScore) = 0.336
+  clean: 197 dScore pairs before 2024-01-01; sd(dScore) = 0.263
+  blind: 197 dScore pairs before 2024-01-01; sd(dScore) = 0.252
+  para: 197 dScore pairs before 2024-01-01; sd(dScore) = 0.224
+  gpt4: 192 dScore pairs before 2024-01-01; sd(dScore) = 0.390
+  corr(fable dScore, gemini dScore) = 0.740
+  corr(fable dScore, dict dScore) = 0.452
+  corr(fable dScore, clean dScore) = 0.943
+  corr(fable dScore, blind dScore) = 0.916
+  corr(fable dScore, para dScore) = 0.829
+  corr(fable dScore, gpt4 dScore) = 0.568
+  corr(gemini dScore, dict dScore) = 0.423
+  corr(gemini dScore, clean dScore) = 0.755
+  corr(gemini dScore, blind dScore) = 0.776
+  corr(gemini dScore, para dScore) = 0.803
+  corr(gemini dScore, gpt4 dScore) = 0.693
+  corr(dict dScore, clean dScore) = 0.454
+  corr(dict dScore, blind dScore) = 0.442
+  corr(dict dScore, para dScore) = 0.448
+  corr(dict dScore, gpt4 dScore) = 0.349
+  corr(clean dScore, blind dScore) = 0.914
+  corr(clean dScore, para dScore) = 0.802
+  corr(clean dScore, gpt4 dScore) = 0.573
+  corr(blind dScore, para dScore) = 0.815
+  corr(blind dScore, gpt4 dScore) = 0.582
+  corr(para dScore, gpt4 dScore) = 0.644
+
+  y        sample    control    model      n     beta  t_ols  t_hc1   t_nw   p_nw     R2
+  MPS      all       -          fable    196    0.061   3.63   3.28   3.05  0.003  0.064
+  MPS      all       -          gemini   196    0.024   1.75   1.65   1.59  0.113  0.016
+  MPS      all       -          dict     196    0.023   1.81   1.58   1.64  0.102  0.017
+  MPS      all       -          clean    196    0.049   3.12   3.00   2.77  0.006  0.048
+  MPS      all       -          blind    196    0.043   2.59   2.36   2.16  0.032  0.033
+  MPS      all       -          para     196    0.046   2.46   2.09   1.91  0.057  0.030
+  MPS      all       -          gpt4     191    0.012   1.08   0.90   0.93  0.352  0.006
+  MPS      all       change_bp  fable    196    0.043   2.88   2.65   2.42  0.017  0.266
+  MPS      all       change_bp  gemini   196    0.001   0.06   0.06   0.05  0.958  0.234
+  MPS      all       change_bp  dict     196    0.013   1.13   0.97   1.00  0.320  0.239
+  MPS      all       change_bp  clean    196    0.032   2.22   2.25   2.04  0.042  0.253
+  MPS      all       change_bp  blind    196    0.024   1.61   1.52   1.37  0.172  0.244
+  MPS      all       change_bp  para     196    0.020   1.17   1.05   0.95  0.344  0.240
+  MPS      all       change_bp  gpt4     191   -0.001  -0.13  -0.11  -0.11  0.911  0.236
+
+  MPS      hold      -          fable    130    0.033   2.52   2.18   2.18  0.031  0.047
+  MPS      hold      -          gemini   130   -0.000  -0.04  -0.04  -0.04  0.971  0.000
+  MPS      hold      -          dict     130   -0.012  -1.25  -1.14  -1.23  0.221  0.012
+  MPS      hold      -          clean    130    0.025   2.07   1.96   1.95  0.053  0.032
+  MPS      hold      -          blind    130    0.016   1.24   1.14   1.13  0.262  0.012
+  MPS      hold      -          para     130    0.012   0.79   0.70   0.67  0.504  0.005
+  MPS      hold      -          gpt4     127   -0.009  -1.03  -0.70  -0.84  0.402  0.008
+
+  MPS_ORTH all       -          fable    188    0.027   1.74   1.40   1.24  0.216  0.016
+  MPS_ORTH all       -          gemini   188    0.007   0.53   0.45   0.41  0.683  0.002
+  MPS_ORTH all       -          dict     188    0.010   0.83   0.66   0.61  0.545  0.004
+  MPS_ORTH all       -          clean    188    0.020   1.40   1.19   1.04  0.299  0.010
+  MPS_ORTH all       -          blind    188    0.013   0.84   0.69   0.60  0.552  0.004
+  MPS_ORTH all       -          para     188    0.010   0.61   0.47   0.42  0.677  0.002
+  MPS_ORTH all       -          gpt4     183   -0.003  -0.32  -0.26  -0.27  0.788  0.001
+  MPS_ORTH all       change_bp  fable    188    0.021   1.38   1.14   1.01  0.312  0.056
+  MPS_ORTH all       change_bp  gemini   188   -0.002  -0.20  -0.17  -0.16  0.875  0.047
+  MPS_ORTH all       change_bp  dict     188    0.005   0.45   0.37   0.34  0.731  0.047
+  MPS_ORTH all       change_bp  clean    188    0.014   1.00   0.89   0.77  0.443  0.051
+  MPS_ORTH all       change_bp  blind    188    0.006   0.42   0.36   0.31  0.758  0.047
+  MPS_ORTH all       change_bp  para     188    0.001   0.08   0.06   0.05  0.957  0.046
+  MPS_ORTH all       change_bp  gpt4     183   -0.008  -0.83  -0.69  -0.71  0.481  0.050
+
+  MPS_ORTH hold      -          fable    124    0.013   0.89   0.78   0.79  0.432  0.006
+  MPS_ORTH hold      -          gemini   124   -0.009  -0.72  -0.79  -0.80  0.426  0.004
+  MPS_ORTH hold      -          dict     124   -0.021  -1.98  -1.70  -1.82  0.072  0.031
+  MPS_ORTH hold      -          clean    124    0.009   0.71   0.64   0.62  0.536  0.004
+  MPS_ORTH hold      -          blind    124   -0.000  -0.00  -0.00  -0.00  0.999  0.000
+  MPS_ORTH hold      -          para     124   -0.009  -0.52  -0.47  -0.46  0.647  0.002
+  MPS_ORTH hold      -          gpt4     121   -0.018  -1.86  -1.54  -1.82  0.071  0.028
+
+  d2       all       -          fable    171    6.831   2.83   2.29   1.94  0.054  0.045
+  d2       all       -          gemini   171   -0.443  -0.22  -0.24  -0.21  0.830  0.000
+  d2       all       -          dict     171    1.930   1.06   0.91   0.75  0.453  0.007
+  d2       all       -          clean    171    4.685   2.08   1.85   1.51  0.133  0.025
+  d2       all       -          blind    171    3.187   1.34   1.28   1.02  0.311  0.011
+  d2       all       -          para     171    3.099   1.13   0.99   0.79  0.431  0.007
+  d2       all       -          gpt4     166   -1.105  -0.71  -0.67  -0.74  0.462  0.003
+  d2       all       change_bp  fable    171    6.801   2.77   2.37   2.01  0.046  0.045
+  d2       all       change_bp  gemini   171   -0.796  -0.39  -0.42  -0.39  0.699  0.003
+  d2       all       change_bp  dict     171    1.850   1.01   0.85   0.72  0.472  0.008
+  d2       all       change_bp  clean    171    4.607   2.01   1.88   1.55  0.123  0.025
+  d2       all       change_bp  blind    171    3.042   1.25   1.26   1.01  0.313  0.011
+  d2       all       change_bp  para     171    2.893   1.01   0.97   0.78  0.439  0.008
+  d2       all       change_bp  gpt4     166   -1.384  -0.86  -0.84  -0.99  0.325  0.007
+
+  d2       hold      -          fable    118    5.918   2.60   2.04   1.98  0.050  0.055
+  d2       hold      -          gemini   118   -1.142  -0.55  -0.76  -0.82  0.412  0.003
+  d2       hold      -          dict     118   -1.057  -0.63  -0.50  -0.54  0.592  0.003
+  d2       hold      -          clean    118    3.571   1.73   1.44   1.37  0.173  0.025
+  d2       hold      -          blind    118    1.511   0.68   0.64   0.60  0.548  0.004
+  d2       hold      -          para     118    1.369   0.48   0.43   0.41  0.685  0.002
+  d2       hold      -          gpt4     115   -1.803  -1.12  -0.94  -1.31  0.192  0.011
+
+  d10      all       -          fable    171    4.854   1.93   1.81   1.75  0.082  0.022
+  d10      all       -          gemini   171   -1.245  -0.61  -0.72  -0.76  0.449  0.002
+  d10      all       -          dict     171    0.323   0.17   0.20   0.20  0.845  0.000
+  d10      all       -          clean    171    3.187   1.36   1.43   1.39  0.166  0.011
+  d10      all       -          blind    171    1.928   0.78   0.88   0.83  0.410  0.004
+  d10      all       -          para     171    1.759   0.62   0.62   0.60  0.546  0.002
+  d10      all       -          gpt4     166   -0.786  -0.49  -0.57  -0.65  0.513  0.001
+  d10      all       change_bp  fable    171    5.087   1.98   2.00   1.89  0.060  0.023
+  d10      all       change_bp  gemini   171   -1.250  -0.59  -0.70  -0.71  0.480  0.002
+  d10      all       change_bp  dict     171    0.354   0.19   0.22   0.21  0.834  0.000
+  d10      all       change_bp  clean    171    3.371   1.41   1.59   1.52  0.130  0.012
+  d10      all       change_bp  blind    171    2.086   0.83   0.98   0.92  0.361  0.004
+  d10      all       change_bp  para     171    1.995   0.68   0.76   0.71  0.480  0.003
+  d10      all       change_bp  gpt4     166   -0.801  -0.48  -0.58  -0.67  0.507  0.001
+
+  d10      hold      -          fable    118    7.197   2.41   2.98   2.73  0.007  0.048
+  d10      hold      -          gemini   118    0.958   0.35   0.74   0.69  0.490  0.001
+  d10      hold      -          dict     118    0.255   0.12   0.17   0.17  0.867  0.000
+  d10      hold      -          clean    118    4.394   1.63   2.15   2.02  0.045  0.023
+  d10      hold      -          blind    118    2.768   0.96   1.28   1.16  0.250  0.008
+  d10      hold      -          para     118    3.714   1.01   1.39   1.24  0.218  0.009
+  d10      hold      -          gpt4     115    0.840   0.40   0.57   0.65  0.519  0.001
+
+  t2       all       -          fable    196    5.425   3.81   3.41   2.84  0.005  0.070
+  t2       all       -          gemini   196    1.173   0.99   1.00   0.93  0.354  0.005
+  t2       all       -          dict     196    0.634   0.59   0.54   0.54  0.589  0.002
+  t2       all       -          clean    196    4.136   3.08   2.94   2.40  0.018  0.047
+  t2       all       -          blind    196    3.536   2.50   2.33   1.97  0.050  0.031
+  t2       all       -          para     196    3.420   2.14   1.86   1.56  0.121  0.023
+  t2       all       -          gpt4     191    0.167   0.18   0.13   0.15  0.881  0.000
+  t2       all       change_bp  fable    196    4.435   3.22   2.79   2.37  0.019  0.159
+  t2       all       change_bp  gemini   196   -0.237  -0.21  -0.21  -0.19  0.849  0.114
+  t2       all       change_bp  dict     196    0.024   0.02   0.02   0.02  0.983  0.114
+  t2       all       change_bp  clean    196    3.128   2.41   2.29   1.88  0.061  0.139
+  t2       all       change_bp  blind    196    2.442   1.79   1.66   1.43  0.154  0.128
+  t2       all       change_bp  para     196    1.904   1.23   1.07   0.92  0.358  0.120
+  t2       all       change_bp  gpt4     191   -0.633  -0.70  -0.52  -0.60  0.549  0.116
+
+  t2       hold      -          fable    130    4.060   2.74   2.30   2.11  0.037  0.055
+  t2       hold      -          gemini   130   -0.090  -0.07  -0.07  -0.07  0.945  0.000
+  t2       hold      -          dict     130   -1.670  -1.54  -1.54  -1.52  0.130  0.018
+  t2       hold      -          clean    130    2.771   2.03   1.89   1.73  0.085  0.031
+  t2       hold      -          blind    130    1.787   1.24   1.15   1.06  0.289  0.012
+  t2       hold      -          para     130    1.516   0.87   0.76   0.70  0.485  0.006
+  t2       hold      -          gpt4     127   -1.314  -1.28  -0.83  -1.08  0.283  0.013
+
+  t10      all       -          fable    196    3.325   2.78   3.22   2.77  0.006  0.038
+  t10      all       -          gemini   196    0.330   0.34   0.53   0.48  0.629  0.001
+  t10      all       -          dict     196   -0.344  -0.39  -0.53  -0.52  0.606  0.001
+  t10      all       -          clean    196    2.244   1.99   2.65   2.27  0.024  0.020
+  t10      all       -          blind    196    2.098   1.78   2.39   2.10  0.037  0.016
+  t10      all       -          para     196    1.743   1.31   1.54   1.37  0.173  0.009
+  t10      all       -          gpt4     191   -0.199  -0.25  -0.25  -0.36  0.722  0.000
+  t10      all       change_bp  fable    196    2.889   2.41   2.73   2.39  0.018  0.064
+  t10      all       change_bp  gemini   196   -0.336  -0.34  -0.50  -0.46  0.646  0.036
+  t10      all       change_bp  dict     196   -0.635  -0.72  -0.96  -0.93  0.354  0.038
+  t10      all       change_bp  clean    196    1.788   1.58   2.09   1.84  0.067  0.048
+  t10      all       change_bp  blind    196    1.607   1.36   1.81   1.66  0.098  0.045
+  t10      all       change_bp  para     196    1.049   0.78   0.94   0.84  0.400  0.039
+  t10      all       change_bp  gpt4     191   -0.580  -0.74  -0.69  -1.00  0.321  0.039
+
+  t10      hold      -          fable    130    3.505   2.38   2.87   2.48  0.014  0.043
+  t10      hold      -          gemini   130    0.226   0.17   0.34   0.31  0.757  0.000
+  t10      hold      -          dict     130   -0.998  -0.93  -1.44  -1.41  0.162  0.007
+  t10      hold      -          clean    130    2.141   1.58   2.24   2.02  0.045  0.019
+  t10      hold      -          blind    130    1.782   1.25   1.78   1.68  0.095  0.012
+  t10      hold      -          para     130    1.521   0.89   1.10   0.99  0.322  0.006
+  t10      hold      -          gpt4     127   -0.549  -0.54  -0.46  -0.75  0.455  0.002
+
+  beta: market units (MPS in pct pts, d2/d10/t2/t10 in bp) per 1.0 of dScore.
+  t2/t10 = 30-minute intraday yield changes; not in part P's frozen family.
+  NW lag = floor(4 (n/100)^(2/9)) meetings; p_nw two-sided, Student t.
+
+==============================================================================
+C. POST-CUTOFF: statements from 2024-01-01 (no MPS available)
+==============================================================================
+  21 dScore pairs, 2024-01-31 to 2026-07-29
+
+  y        sample    control    model      n     beta  t_ols  t_hc1   t_nw   p_nw     R2
+  d10      all       -          fable     21    0.470   0.10   0.12   0.12  0.902  0.001
+  d10      all       -          gemini    21   -0.795  -0.21  -0.40  -0.40  0.693  0.002
+  d10      all       -          dict      21    2.728   0.78   0.98   0.98  0.338  0.031
+  d10      all       -          gpt4      21   -1.606  -0.61  -0.85  -0.85  0.408  0.019
+  d10      all       change_bp  fable     21    1.671   0.35   0.44   0.44  0.663  0.050
+  d10      all       change_bp  gemini    21    1.704   0.37   0.50   0.50  0.624  0.051
+  d10      all       change_bp  dict      21    2.650   0.76   0.94   0.94  0.359  0.073
+  d10      all       change_bp  gpt4      21   -0.600  -0.20  -0.24  -0.24  0.812  0.045
+
+  d10      hold      -          fable     15    2.730   0.62   0.76   0.76  0.459  0.028
+  d10      hold      -          gemini    15    2.712   0.55   1.03   1.03  0.324  0.023
+  d10      hold      -          dict      15    1.950   0.62   0.69   0.69  0.500  0.028
+  d10      hold      -          gpt4      15    0.094   0.03   0.04   0.04  0.965  0.000
+
+  d2       all       -          fable     21    3.772   0.68   0.78   0.78  0.443  0.024
+  d2       all       -          gemini    21    1.299   0.29   0.74   0.74  0.471  0.004
+  d2       all       -          dict      21    2.865   0.68   0.70   0.70  0.495  0.023
+  d2       all       -          gpt4      21   -0.955  -0.30  -0.43  -0.43  0.675  0.005
+  d2       all       change_bp  fable     21    4.921   0.85   1.01   1.01  0.327  0.054
+  d2       all       change_bp  gemini    21    4.094   0.74   1.14   1.14  0.268  0.045
+  d2       all       change_bp  dict      21    2.807   0.65   0.66   0.66  0.520  0.039
+  d2       all       change_bp  gpt4      21   -0.127  -0.03  -0.04  -0.04  0.966  0.017
+
+  d2       hold      -          fable     15    5.657   0.92   1.06   1.06  0.309  0.061
+  d2       hold      -          gemini    15    3.621   0.52   1.17   1.17  0.264  0.020
+  d2       hold      -          dict      15    1.854   0.41   0.42   0.42  0.681  0.013
+  d2       hold      -          gpt4      15    0.349   0.09   0.12   0.12  0.905  0.001
+
+  Too few points for Newey-West here; lag set to 0 (t_nw = t_hc1).
+
+==============================================================================
+D. POWER: post-cutoff meetings needed to detect Fable's pre-2024 effect
+==============================================================================
+
+  y    sample   R2 pre  n for 80%  n now  power now  per year  years more
+  d2   all       0.045        168     21       17%       8.1          18
+  d2   hold      0.055        137     15       15%       5.8          21
+  d10  all       0.022        359     21       10%       8.1          42
+  d10  hold      0.048        159     15       14%       5.8          25
+
+  n for 80%: meetings needed if the pre-2024 R2 were the truth (normal
+  approximation). per year: post-cutoff dScore pairs per year so far.
+  Waiting for new statements cannot settle contamination in any useful
+  time frame; the blinded re-score (blind.py) is the test that can.
+
+==============================================================================
+E. RECOGNITION: can Fable date the blinded statement? (probe_fable.csv)
+==============================================================================
+
+  206 statements answered, 2000-02-02 to 2023-12-13
+  exact month        202 / 206  (98.1%)
+  within 1 month     204 / 206  (99.0%)
+  within 3 months    206 / 206  (100.0%)
+  within 12 months   206 / 206  (100.0%)
+  exact year         206 / 206
+  ZLB 2009-15 exact   55 / 56  (same 0-1/4 rate at every meeting)
+
+  Text-similarity baseline (nearest other blinded statement, TF-IDF; no memory):
+                              all      ZLB   Fable (all / ZLB)
+  within 1 month          106/206   34/56    204 / 56
+  within 3 months         190/206   54/56    206 / 56
+  nearest = adjacent      181/206   52/56 
+  2 nearest bracket it     89/206   28/56    202 / 55
+  bracket = the exact meeting is recoverable from the text sequence; the
+  Fable column on that row is its exact-month count.
+
+  hold meetings probed: 138; dated to the exact month: 134; not: 4
+
+  y        sample    control    model      n     beta  t_ols  t_hc1   t_nw   p_nw     R2
+  MPS      recog     -          fable    126    0.032   2.40   2.09   2.18  0.031  0.044
+  MPS      recog     -          clean    126    0.026   2.15   2.03   2.05  0.042  0.036
+  MPS      recog     -          blind    126    0.015   1.14   1.05   1.06  0.290  0.010
+  MPS      recog     -          para     126    0.011   0.74   0.66   0.66  0.511  0.004
+  MPS      recog     -          gpt4     123   -0.009  -1.03  -0.70  -0.86  0.391  0.009
+
+  d2       recog     -          fable    115    5.777   2.51   1.98   1.94  0.055  0.053
+  d2       recog     -          clean    115    3.554   1.71   1.43   1.36  0.175  0.025
+  d2       recog     -          blind    115    1.513   0.68   0.64   0.60  0.548  0.004
+  d2       recog     -          para     115    1.303   0.46   0.41   0.39  0.701  0.002
+  d2       recog     -          gpt4     112   -1.801  -1.11  -0.94  -1.34  0.182  0.011
+
+  d10      recog     -          fable    115    6.804   2.32   2.84   2.62  0.010  0.046
+  d10      recog     -          clean    115    4.240   1.61   2.09   1.96  0.053  0.022
+  d10      recog     -          blind    115    2.777   0.99   1.27   1.15  0.252  0.009
+  d10      recog     -          para     115    3.606   1.00   1.34   1.20  0.234  0.009
+  d10      recog     -          gpt4     112    0.850   0.41   0.57   0.67  0.504  0.002
+
+  recog = statement dated to the exact month; not = any miss.
+  Groups with fewer than 8 meetings are not run (no row).
+
+==============================================================================
+F. YIELDS ON MPS, WITH AND WITHOUT dScore (statements to 2023-12)
+==============================================================================
+
+  y    sample controls       model      n  R2 base  R2 +dS  gain pp  beta dS   t_nw   p_nw
+  d2   all    MPS+change_bp  fable    171    0.346   0.351     0.50    2.365   0.94  0.350
+  d2   all    MPS+change_bp  gemini   171    0.346   0.347     0.09   -0.813  -0.57  0.570
+  d2   all    MPS+change_bp  clean    171    0.346   0.349     0.21    1.416   0.65  0.515
+  d2   all    MPS+change_bp  blind    171    0.346   0.347     0.03    0.510   0.26  0.795
+  d2   all    MPS+change_bp  para     171    0.346   0.347     0.02    0.491   0.20  0.841
+  d2   all    MPS+change_bp  gpt4     166    0.343   0.347     0.34   -1.193  -1.20  0.231
+  d2   hold   MPS            fable    118    0.538   0.542     0.37    1.580   0.81  0.421
+  d2   hold   MPS            gemini   118    0.538   0.539     0.06   -0.531  -0.36  0.716
+  d2   hold   MPS            clean    118    0.538   0.539     0.03    0.412   0.22  0.824
+  d2   hold   MPS            blind    118    0.538   0.538     0.01   -0.217  -0.14  0.892
+  d2   hold   MPS            para     118    0.538   0.538     0.00    0.020   0.01  0.993
+  d2   hold   MPS            gpt4     115    0.533   0.534     0.03    0.308   0.22  0.830
+
+  d10  all    MPS+change_bp  fable    171    0.137   0.141     0.42    2.242   0.92  0.360
+  d10  all    MPS+change_bp  gemini   171    0.137   0.139     0.21   -1.261  -0.78  0.439
+  d10  all    MPS+change_bp  clean    171    0.137   0.139     0.17    1.309   0.64  0.522
+  d10  all    MPS+change_bp  blind    171    0.137   0.137     0.02    0.442   0.22  0.824
+  d10  all    MPS+change_bp  para     171    0.137   0.137     0.01    0.435   0.18  0.859
+  d10  all    MPS+change_bp  gpt4     166    0.135   0.136     0.10   -0.677  -0.54  0.589
+  d10  hold   MPS            fable    118    0.130   0.149     1.86    4.622   1.89  0.061
+  d10  hold   MPS            gemini   118    0.130   0.132     0.21    1.352   0.70  0.487
+  d10  hold   MPS            clean    118    0.130   0.137     0.67    2.450   1.11  0.269
+  d10  hold   MPS            blind    118    0.130   0.133     0.29    1.678   0.69  0.490
+  d10  hold   MPS            para     118    0.130   0.135     0.52    2.860   0.96  0.338
+  d10  hold   MPS            gpt4     115    0.127   0.137     0.97    2.245   1.55  0.125
+
+  gain pp = R2 with dScore minus R2 without, in percentage points.
+
+==============================================================================
+G. PAIRED BETA GAPS vs clean, hold meetings, statements to 2023-12
+==============================================================================
+
+  y    other      n  b clean  b other     gap  boot se     z  95% interval      
+  MPS  blind    130    0.025    0.016   0.009    0.006  1.48  [-0.003, 0.022]
+  MPS  para     130    0.025    0.012   0.013    0.011  1.19  [-0.011, 0.034]
+  MPS  gpt4     127    0.025   -0.009   0.035    0.016  2.22  [0.005, 0.066]
+  d2   blind    118    3.571    1.511   2.060    1.055  1.95  [-0.233, 3.982]
+  d2   para     118    3.571    1.369   2.202    1.897  1.16  [-1.120, 6.294]
+  d2   gpt4     115    3.687   -1.803   5.490    2.676  2.05  [0.119, 10.562]
+  d10  blind    118    4.394    2.768   1.626    1.267  1.28  [-0.639, 4.274]
+  d10  para     118    4.394    3.714   0.681    2.157  0.32  [-3.748, 4.954]
+  d10  gpt4     115    4.528    0.840   3.688    2.461  1.50  [-0.676, 8.905]
+
+  gap = beta(clean) - beta(other) on the same meetings; moving-block
+  bootstrap over meetings in time order (block 4, 2000 draws, seed 1).
+
+==============================================================================
+H. gpt4: before vs after its training cutoff 2021-09-30
+==============================================================================
+
+  y        sample    control    model      n     beta  t_ols  t_hc1   t_nw   p_nw     R2
+  MPS      all-pre   -          gpt4     173    0.014   1.21   1.00   1.05  0.295  0.009
+  MPS      all-pre   change_bp  gpt4     173   -0.000  -0.02  -0.01  -0.01  0.990  0.268
+
+  MPS      hold-pre  -          gpt4     120   -0.005  -0.56  -0.38  -0.46  0.645  0.003
+
+  MPS      all-post  -          gpt4      18   -0.010  -0.26  -0.31  -0.31  0.761  0.004
+  MPS      all-post  -          fable     18    0.119   1.85   2.16   2.16  0.046  0.176
+  MPS      all-post  change_bp  gpt4      18   -0.013  -0.32  -0.43  -0.43  0.674  0.015
+  MPS      all-post  change_bp  fable     18    0.121   1.83   2.22   2.22  0.042  0.188
+
+  d2       all-pre   -          gpt4     148   -1.359  -0.89  -0.81  -0.86  0.391  0.005
+  d2       all-pre   change_bp  gpt4     148   -2.292  -1.48  -1.34  -1.61  0.110  0.047
+
+  d2       hold-pre  -          gpt4     108   -2.894  -1.89  -1.66  -2.71  0.008  0.032
+
+  d2       all-post  -          gpt4      39   -0.248  -0.07  -0.09  -0.09  0.929  0.000
+  d2       all-post  -          fable     39   11.099   1.95   1.90   1.90  0.065  0.093
+  d2       all-post  change_bp  gpt4      39    0.778   0.23   0.30   0.30  0.765  0.052
+  d2       all-post  change_bp  fable     39   11.238   2.01   1.93   1.93  0.062  0.146
+
+  d2       hold-post -          gpt4      22    2.054   0.53   0.56   0.56  0.581  0.014
+  d2       hold-post -          fable     22   12.952   2.26   1.90   1.90  0.072  0.204
+
+  d10      all-pre   -          gpt4     148   -1.121  -0.64  -0.76  -0.87  0.386  0.003
+  d10      all-pre   change_bp  gpt4     148   -1.677  -0.94  -1.10  -1.24  0.218  0.014
+
+  d10      hold-pre  -          gpt4     108   -0.261  -0.11  -0.17  -0.22  0.829  0.000
+
+  d10      all-post  -          gpt4      39   -0.348  -0.15  -0.18  -0.18  0.857  0.001
+  d10      all-post  -          fable     39    6.271   1.57   1.77   1.77  0.086  0.063
+  d10      all-post  change_bp  gpt4      39    0.650   0.29   0.40   0.40  0.690  0.104
+  d10      all-post  change_bp  fable     39    6.405   1.68   1.85   1.85  0.073  0.167
+
+  d10      hold-post -          gpt4      22    2.655   1.04   1.33   1.33  0.199  0.052
+  d10      hold-post -          fable     22    8.847   2.31   2.37   2.37  0.028  0.211
+
+  pre = statements up to 2021-09-30; post = after it (NW lag 0 there: few
+  points, t_nw = t_hc1). Rows need 8+ meetings.
+
+==============================================================================
+I. RECOGNITION WHILE SCORING: replies that name the statement's date
+==============================================================================
+
+  file                text         prompt            replies  name date     %  own m+y     %
+  scores_fable.csv    original     all                  1228        245  20.0      241  19.6
+  scores_fable.csv    original     P1_minimal            255         21   8.2       21   8.2
+  scores_fable.csv    original     P2_defined            244         43  17.6       43  17.6
+  scores_fable.csv    original     P3_analyst            242          2   0.8        2   0.8
+  scores_fable.csv    original     P4_reversed           244         32  13.1       32  13.1
+  scores_fable.csv    original     P5_reason_first       243        147  60.5      143  58.8
+  clean_fable.csv     original     all                   206         20   9.7       20   9.7
+  blind_fable.csv     blinded      all                   206         23  11.2       23  11.2
+  para_fable.csv      paraphrased  all                   206          7   3.4        7   3.4
+  full_gemini.csv     original     all                  1140          0   0.0        0   0.0
+  gpt4_p1.csv         original     all                   228          0   0.0        0   0.0
+
+  Examples (blinded/paraphrased input, own month and year named):
+    blind 2014-01-29: ...This is the January 2014 FOMC statement: a second measured taper...
+    blind 2013-10-30: ...This is the October 2013 FOMC statement: continued QE at $85B/mo...
+    blind 2014-03-19: ...This is the March 2014 FOMC statement: continued tapering ($10...
+    blind 2014-04-30: ...This is the April 2014 FOMC statement: continued tapering (haw...
+
+  own m+y = the reply names the statement's own month and year.
+
+==============================================================================
+N. PUBLISHED HUMAN LABELS (Shah et al. 2023): 100 statements with 2+ labelled sentences (2004-2022)
+==============================================================================
+
+  model         n  level r  n hold  hold r  n chg  dScore r
+  fable       100    0.459      76   0.366     94     0.044
+  gemini      100    0.511      76   0.516     94     0.080
+  dict        100    0.309      76   0.199     94     0.117
+  gpt4         97    0.514      73   0.455     89     0.078
+
+  level r: model score vs mean human label of the statement's matched
+  sentences. dScore r: uninformative by construction (see docstring).
+
+==============================================================================
+L. FABLE'S CUTOFF (2024-26 dating probe) AND PROMPT SPREAD ON UNSEEN TEXT
+==============================================================================
+
+  period       n  exact  conf high   misses (err months, confidence)
+  2024H1       4      3          3   2024-03-20 (-2, medium)
+  2024H2       4      4          4   
+  2025H1       4      4          4   
+  2025H2       5      5          5   
+  2026H1       4      3          1   2026-04-29 (-1, medium)
+  2026H2       1      0          0   2026-07-29 (-1, low)
+
+  Spread across the 5 prompts (sd per statement); pre-2024 statements with
+  all prompts: n 171, median 0.040, 90th pct 0.117
+
+  statement   probe             P1    P2    P3    P4    P5     sd  pctile
+  2025-10-29  known          -0.60 -0.50 -0.50 -0.50 -0.40  0.063    0.70
+  2025-12-10  known          -0.50 -0.40 -0.40 -0.50 -0.40  0.049    0.62
+  2026-01-28  known          -0.10 -0.10  0.25 -0.15  0.20  0.169    0.94
+  2026-03-18  not known       0.10 -0.10  0.10 -0.10  0.15  0.108    0.89
+  2026-04-29  not known      -0.10 -0.10  0.20 -0.10  0.10  0.126    0.91
+  2026-06-17  not known       0.40  0.45  0.50  0.40  0.40  0.040    0.44
+  2026-07-29  not known       0.40  0.50  0.60  0.50  0.45  0.066    0.72
+  mean sd, known: 0.094 (n 3)
+  mean sd, not known: 0.085 (n 4)
+
+  known = dated to the exact month with 'high' confidence. pctile = share of
+  pre-2024 statements whose prompt spread is at or below this one.
+
+==============================================================================
+K. CHECKS: placebo days, influence, GPT-4 coarseness (Fable, hold, to 2023-12)
+==============================================================================
+
+  (1) placebo days   real t  n days  |t|>1.96  |t|>=real  p95 |t|  max |t|
+  d2                  1.98      60         6          6     2.07     2.35
+  d10                 2.73      60         6          2     2.44     3.05
+
+  (2) influence      full t  LOO min  LOO max   greedy drop of 5 (t after each)
+  MPS                 2.18     1.87     2.84   1.87 -> 1.58 -> 1.34 -> 1.11 -> 0.89
+                   dropped: 2023-12-13, 2002-08-13, 2004-01-28, 2015-10-28, 2019-06-19
+  d2                  1.98     1.71     2.36   1.71 -> 1.47 -> 1.14 -> 0.80 -> 0.52
+                   dropped: 2015-10-28, 2023-12-13, 2004-01-28, 2015-09-17, 2019-06-19
+  d10                 2.73     2.49     3.08   2.49 -> 2.24 -> 2.05 -> 1.88 -> 1.70
+                   dropped: 2015-09-17, 2015-10-28, 2023-12-13, 2013-12-18, 2013-06-19
+  t2                  2.11     1.80     2.63   1.80 -> 1.56 -> 1.32 -> 1.07 -> 0.83
+                   dropped: 2023-12-13, 2015-10-28, 2004-01-28, 2019-01-30, 2002-08-13
+  t10                 2.48     2.24     3.14   2.24 -> 2.04 -> 1.87 -> 1.73 -> 1.58
+                   dropped: 2023-12-13, 2015-10-28, 2019-01-30, 2002-08-13, 2013-06-19
+
+  (3) GPT-4 P1: 225 scores, 10 distinct values, 98 at -1 (44%)
+      hold dScores exactly 0: GPT-4 85/127 (67%), Fable 5/130; ZLB statements at -1: 40/56
+
+==============================================================================
+J. FABLE vs GEMINI, hold meetings, statements to 2023-12, dScores in sd units
+==============================================================================
+
+  y       n  joint bF   t_nw  joint bG   t_nw    sep bF  sep bG     gap  boot se     z  95% interval
+  MPS   130     0.019   3.36    -0.014  -2.64     0.008  -0.000   0.009    0.004  2.38  [0.002, 0.016]
+  d2    118     3.120   2.99    -2.468  -3.19     1.409  -0.304   1.713    0.588  2.91  [0.378, 2.677]
+  d10   118     2.959   3.33    -1.797  -2.92     1.713   0.255   1.458    0.514  2.84  [0.434, 2.491]
+  t2    130     2.315   3.19    -1.730  -2.73     1.042  -0.026   1.068    0.432  2.47  [0.287, 1.976]
+  t10   130     1.857   3.39    -1.302  -3.25     0.899   0.065   0.834    0.317  2.63  [0.302, 1.513]
+
+  joint: both z-scored dScores in one regression (NW t). sep: per-sd betas
+  from separate regressions; gap = sep bF - sep bG, block bootstrap as in G.
+  MPS in pct pts, yields in bp, per 1 sd of dScore.
+
+==============================================================================
+P. PRIMARY SPECIFICATION AND MULTIPLE TESTING
+==============================================================================
+
+  NOTE: not the frozen defaults (--corpus policy, --dscore demeaned,
+  --score consensus); the 'primary' row below is not the primary.
+
+  Family: Fable's 12 part-B regressions. Total regressions printed in
+  this run: 224 (all parts, all models).
+
+  y        sample control       n     beta   t_nw    p_nw    Holm    Bonf
+  MPS      all    -           196    0.061   3.05   0.003   0.031   0.031
+  d10      hold   -           118    7.197   2.73   0.007   0.080   0.087
+  MPS      all    change_bp   196    0.043   2.42   0.017   0.165   0.199
+  MPS      hold   -           130    0.033   2.18   0.031   0.283   0.377  <- PRIMARY
+  d2       all    change_bp   171    6.801   2.01   0.046   0.370   0.555
+  d2       hold   -           118    5.918   1.98   0.050   0.370   0.604
+  d2       all    -           171    6.831   1.94   0.054   0.370   0.646
+  d10      all    change_bp   171    5.087   1.89   0.060   0.370   0.718
+  d10      all    -           171    4.854   1.75   0.082   0.370   0.986
+  MPS_ORTH all    -           188    0.027   1.24   0.216   0.648   1.000
+  MPS_ORTH all    change_bp   188    0.021   1.01   0.312   0.648   1.000
+  MPS_ORTH hold   -           124    0.013   0.79   0.432   0.648   1.000
+
+  Primary on the 2003+ sample (as d2/d10): n 118, beta 0.038, t_nw 2.45, p 0.016
+
+  Holm/Bonf: adjusted for the 12 tests in the family only, not for the
+  specification search that came before the freeze (corpus, sample,
+  target and consensus choices were made after seeing results).
+
+==============================================================================
+PARSE AUDIT: stored scores dropped (see PARSE_ERRORS)
+==============================================================================
+  scores_fable.csv2000-11-15  P4_reversed     stored +0.00  reply '-0.'
+  scores_fable.csv2002-03-19  P4_reversed     stored -1.00  reply 'This is the March 2002 FOMC statement: rates uncha'...
+  gpt4_p1.csv     2017-05-03  P1_minimal      stored +0.00  reply '0.'
+  gpt4_p1.csv     2017-09-20  P1_minimal      stored +0.00  reply '0.'
+  gpt4_p1.csv     2017-11-01  P1_minimal      stored +0.00  reply '0.'
+  Replies were stored cut at 300 characters until 2026-10-03, so longer
+  ones cannot be re-parsed; they are kept unless listed in PARSE_ERRORS.
+
+Wrote 225 regressions to paper/runs/strict.csv
+

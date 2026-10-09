@@ -1,0 +1,7 @@
+The Federal Reserve has introduced a new, temporary mechanism to assist in the orderly operation of financial markets. This initiative, known as the FIMA Repo Facility, aims to ensure the continued flow of credit to American households and businesses by supporting the smooth functioning of the U.S. Treasury market.
+
+This facility enables foreign and international monetary authorities holding accounts at the Federal Reserve Bank of New York to engage in repurchase agreements with the Federal Reserve. Through these transactions, these account holders can temporarily exchange their U.S. Treasury securities, held at the Federal Reserve, for U.S. dollars. These dollars can then be channeled to institutions within their respective jurisdictions.
+
+The FIMA Repo Facility is designed to bolster the U.S. Treasury market's smooth operation by offering an alternative, temporary source of U.S. dollars, thereby reducing the need for outright sales of securities in the open market. Furthermore, in conjunction with the U.S. dollar liquidity swap lines already established with other central banks, this facility is expected to alleviate pressures in global U.S. dollar funding markets.
+
+The Federal Reserve offers U.S. dollar banking services to FIMA account holders, aligning with its objectives and acknowledging the U.S. dollar's significant international role. This new facility, expanding the range of services provided by the Federal Reserve, will become operational on [month] 6 and will remain active for a minimum of six months.

@@ -1,0 +1,43 @@
+%=====================================================================================
+\section{Conclusion}\label{sec:conclusion}
+
+Can an applied researcher trust an LLM stance score of FOMC statements, and can they tell whether the
+model read the text or remembered it? For the frontier model studied here, the answer to the first
+question is largely yes, as a matter of measurement: its scores barely depend on the wording of the
+prompt, and they survive the removal of the rate decision. That consistency may itself owe something to
+recognition, and the few statements the model probably has not seen are too few to tell. The answer to
+the second question is no, at least with the tools tested here. The model identifies almost every
+statement even after blinding and paraphrasing, and it sometimes cites later events while scoring. Its
+scores are weakly related to monetary policy surprises at no-change meetings, but that relation does not
+survive a multiple-testing correction, is concentrated in recent years, and cannot be attributed to
+reading rather than remembering.
+
+Four practical lessons follow for work that uses LLMs to measure text.
+\begin{enumerate}
+\item Report reliability where it matters. Agreement on raw levels can be driven by the obvious content
+(here, the rate decision). Report agreement after removing it and on changes, and report variation across
+models as well as prompts: for changes, the model mattered about twice as much as the prompt.
+\item Test recognition directly. A dating probe calibrated against a text-similarity baseline, and a
+search of the scoring replies for unprompted identification, are cheap and should accompany any LLM
+measure of well-known documents.
+\item Do not rely on anonymisation or paraphrase to rule out look-ahead bias for well-known documents.
+They do not prevent identification. Only models trained on data that stop before the documents, or
+documents the model cannot have seen, can rule it out.
+\item Treat a frontier model's market validation on well-known documents as possibly contaminated until such
+a test confirms it, and report the specification search, the placebo distribution of the test statistic
+and the influence of individual observations, calibrated against what a real effect would show.
+\end{enumerate}
+
+\paragraph{Limitations.} The study uses one frontier model; another may behave differently, and the
+dating probe was not run on a second frontier model. The crossed
+reliability block covers \R{icc.fable.n} statements from 2015--2019. Replies were stored cut at 300
+characters until October 2026, so the counts of unprompted recognition are lower bounds and some long
+replies could not be re-parsed. The two latest statements could not be checked against the Federal
+Reserve's website. The paper uses no fine-tuned text classifier (such as FinBERT) as a further baseline,
+does not split the surprises into the forward-guidance and asset-purchase factors of
+\citet{swanson2021}, and has no human labels of meeting-to-meeting changes. It does not control for the Chair's press
+conferences, which affect the daily yield changes, and it does not compare the scores with the text
+measures of \citet{lucca2009}, \citet{hansen2016} or \citet{gardner2022}. Finally, the models were
+accessed through a commercial interface in 2026; providers can change the model
+behind a name, so exact replication of the scores may not be possible later, although every number in
+this paper can be recomputed from the stored scores.

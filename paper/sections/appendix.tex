@@ -1,0 +1,198 @@
+%=====================================================================================
+\clearpage
+\appendix
+\renewcommand{\thetable}{A\arabic{table}}
+\setcounter{table}{0}
+\section*{Appendix}
+\addcontentsline{toc}{section}{Appendix}
+
+\section{Prompts}\label{app:prompts}
+
+\subsection{Scoring prompts}
+Each prompt is sent with the statement text in place of \texttt{\{statement\}}, at temperature 0. The
+reply of P4 is multiplied by $-1$. P5 is given a larger reply budget so that it can write its reasons.
+
+\input{tables/prompts_scoring}
+
+\subsection{Dating probe}
+For the paraphrased statements, ``\texttt{\{reworded\}}'' is replaced by ``(it may have been reworded)'';
+for blinded statements it is empty.
+
+\input{tables/prompt_probe}
+
+\subsection{Paraphrase prompt (Gemini 2.5 Flash)}
+\texttt{\{decision\}} states the true change in the federal funds target, for example ``the federal funds
+rate target was left unchanged at this meeting.''
+
+\input{tables/prompt_para}
+
+%-------------------------------------------------------------------------------------
+\section{Corpus classification}\label{app:corpus}
+
+\begin{table}[H]
+\centering
+\caption{Statements that are not scheduled post-meeting statements}\label{tab:corpus}
+\small
+\input{tables/tab_corpus}
+\tabnote{\emph{Notes:} All other \R{corpus.scheduled} files are scheduled post-meeting statements. The
+policy corpus keeps every type except ``notice''; the strict corpus also drops ``unscheduled policy''.
+Classification by hand after reading each text.}
+\end{table}
+
+%-------------------------------------------------------------------------------------
+\FloatBarrier
+\section{Parse audit}\label{app:parse}
+
+The scorers originally took the last number in a reply and clipped it to $[-1,1]$. Since 3 October 2026
+the parser requires the reply to end in the number (or to contain a ``SCORE:'' line) and rejects
+truncated numbers and values outside the range. Every stored reply shorter than the old 300-character
+storage limit was re-parsed with the strict rule; cells whose stored score differs from the re-parsed
+one are dropped. Replies stored at the 300-character limit cannot be re-parsed: \R{trunc.fable} of
+Fable's \R{trunc.fable.of} stored replies and \R{trunc.gemini} of Gemini's \R{trunc.gemini.of}. One of them
+was found wrong by reading it: the reply was cut off after a rate level (``1.75\%''), which the old parser
+read as 1 and flipped to $-1$. Among the other cut-off replies, the scores of exactly $\pm1$, where a
+clipped rate level would show up, agree in sign with the mean of the statement's other prompts in
+\R{trunc.fable.agree} of \R{trunc.fable.ext} cases for Fable and \R{trunc.gemini.agree} of
+\R{trunc.gemini.ext} for Gemini.
+
+\begin{table}[H]
+\centering
+\caption{Cells dropped by the parse audit}\label{tab:parse}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\input{tables/tab_parse}
+\end{table}
+
+%-------------------------------------------------------------------------------------
+\FloatBarrier
+\section{Additional results}\label{app:more}
+
+\begin{table}[h]
+\centering
+\caption{Daily yields on MPS, with and without dScore}\label{tab:beyond}
+\footnotesize
+\input{tables/tab_beyond}
+\tabnote{\emph{Notes:} Statements to December 2023, policy corpus. ``All'' controls for MPS and the rate
+change; ``hold'' for MPS. Gain = $R^2$ with dScore minus $R^2$ without, in percentage points. Newey--West
+$t$ for the dScore coefficient.}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Clean minus blinded or paraphrased slopes, hold meetings}\label{tab:gaps}
+\small
+\input{tables/tab_gaps}
+\tabnote{\emph{Notes:} Fable, prompt P1. Gap = slope on the clean-text dScore minus slope on the
+blinded or paraphrased dScore, same meetings. Standard error, $z$ and percentile interval from a
+moving-block bootstrap over meetings in time order (block length 4, 2{,}000 draws).}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{GPT-4 before and after its listed training cutoff (September 2021)}\label{tab:gpt4}
+\small
+\input{tables/tab_gpt4}
+\tabnote{\emph{Notes:} Pre: statements up to 30 September 2021; post: after it. MPS ends in December 2023,
+so the post-cutoff MPS sample is short. Post-cutoff rows use heteroskedasticity-robust $t$ (no lags,
+few observations). Fable is shown on the same post-cutoff statements; it may know them.}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Statements from 2024 onwards (daily yields only)}\label{tab:post}
+\small
+\input{tables/tab_post}
+\tabnote{\emph{Notes:} Policy corpus, \R{post.pairs} statement pairs from January 2024 to July 2026.
+Heteroskedasticity-robust $t$.}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Power of the post-2024 test}\label{tab:power}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\input{tables/tab_power}
+\tabnote{\emph{Notes:} Power of a two-sided 5\% test if Fable's pre-2024 $R^2$ were the true effect
+(normal approximation). ``Pairs per year'': post-2024 statement pairs per year so far.}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Dating probe on the 2024--2026 statements (blinded)}\label{tab:lateprobe}
+\small
+\input{tables/tab_lateprobe}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Five-prompt scores of the seven latest statements}\label{tab:spread}
+\small
+\input{tables/tab_spread}
+\tabnote{\emph{Notes:} Fable, original text. ``Known'' = dated to the exact month with high confidence by
+the probe in Table~\ref{tab:lateprobe}. SD = standard deviation across the five prompts. Percentile =
+share of the \R{spread.pre.n} pre-2024 statements with all five prompts whose spread is at or below this
+one.}
+\end{table}
+
+\clearpage
+%-------------------------------------------------------------------------------------
+\section{Disclosures}\label{app:disclose}
+
+\begin{enumerate}
+\item \textbf{Specification search.} The primary specification was frozen on 3 October 2026, after
+earlier specifications had been estimated. The hold-meeting sample, the outcome, the five-prompt
+consensus, the treatment of the rate-change control and the corpus definition were chosen after seeing
+results. The default run of the analysis reports \R{regs.csv} regression coefficients with their tests
+(its printout counts \R{regs.printed}, before the primary regression on the 2003+ sample is added); the
+exploratory checks of Table~\ref{tab:extra} add \R{regs.extra}, and the Fable--Gemini comparison without
+influential meetings ten more; the five variant runs of
+Table~\ref{tab:variants} repeat the full set; and the placebo-day and influence diagnostics run several
+hundred more. Earlier ad-hoc checks during the project and the exploratory tests of an independent
+review are not counted.
+\item \textbf{Corpus definition.} The policy corpus was defined after an independent review found that
+seven non-policy notices, then treated as hold meetings and as the base of the next statement's dScore,
+drove the earlier daily-yield results. It was fixed before the strict variant was run. Under the strict
+corpus the daily yield $t$-statistics are \R{var.strict.d2.t} ($d_2$) and \R{var.strict.d10.t}
+($d_{10}$), against \R{var.default.d2.t} and \R{var.default.d10.t} under the policy corpus.
+\item \textbf{Date correction.} The statement of 27--28 June 2007 was first filed as 18 June 2007
+because of the date in its web address. It is dated 28 June here.
+\item \textbf{Text seen by the five-prompt runs.} For \R{nav.n} statements from
+\R{nav.first}--\R{nav.last}, the text scored in the five-prompt runs ended with a page-navigation line
+that included a year (the statement's own year in \R{nav.own} cases). Later runs used cleaned text.
+\item \textbf{Paraphrases.} The paraphrase prompt was given the true change in the federal funds target.
+\R{para.sixhalf} paraphrases keep the 6.5 percent unemployment threshold of 2012--2014, and
+\R{para.flagged} still carry a number flagged by the automatic checks.
+\item \textbf{Unverified texts.} The statements of 17 June and 29 July 2026 could not be checked against
+the Federal Reserve's website. They enter the post-2024 checks, the dating probe on recent statements and
+the prompt-spread comparison of Section~\ref{sec:reliability}.
+\item \textbf{Yield data.} Daily yields are FRED DGS2 and DGS10. The file matches a FRED download on all
+\R{fred.days} overlapping days (\R{fred.first} to \R{fred.last}); earlier dates were not checked against a
+download.
+\item \textbf{Stored replies.} Until 3 October 2026 the scorers stored the first 300 characters of each
+reply (\R{trunc.fable} Fable and \R{trunc.gemini} Gemini replies are cut). The parse audit
+(Appendix~\ref{app:parse}) dropped \R{parse.dropped} cells.
+\item \textbf{Missing prompts.} Fable has all five prompts for \R{cover.fable.five} policy statements and
+one to four for \R{cover.fable.fewer}; the consensus uses prompt fixed effects
+(Table~\ref{tab:variants} shows the alternatives).
+\item \textbf{Reliability residuals.} ``Resid'' regresses on a linear $-1/0/+1$ decision code; separate
+hike and cut dummies give drops of \R{dummy.cheap.min} to \R{dummy.cheap.max} for the inexpensive models
+and \R{dummy.fable.drop} for Fable.
+\item \textbf{Models and access.} All models were called through OpenRouter at temperature 0. GPT-4's
+training cutoff is the one OpenRouter lists. Fable's effective knowledge end is estimated from the dating
+probe only.
+\item \textbf{Use of AI tools.} The code, the analysis and the drafting of this paper were done with the
+help of an AI assistant (Claude). Every number is produced by the scripts in the repository.
+\end{enumerate}
+
+%-------------------------------------------------------------------------------------
+\section{Reproduction}\label{app:repro}
+
+All results are produced, without any API call, from the stored score files:
+\begin{verbatim}
+sh paper/run_all.sh
+\end{verbatim}
+runs the full analysis (\texttt{analysis.py}) under the default settings and the five variants, the
+exploratory checks (\texttt{paper/extra\_checks.py}) and the table builder
+(\texttt{paper/make\_tables.py}), then compiles this document. It takes about two minutes.
+\texttt{make\_tables.py} writes every table and figure and a file of named numbers that the text uses, so
+that no number in the paper is typed by hand.

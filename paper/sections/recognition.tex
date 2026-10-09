@@ -1,0 +1,153 @@
+%=====================================================================================
+\section{Recognition audit}\label{sec:recognition}
+
+A model that recognises a statement could, in principle, score it with knowledge of what happened next:
+the market reaction, the commentary, the following decisions. The standard response is to hide the
+statement's identity before scoring. This section tests whether that works for FOMC statements. It asks
+two questions: can Fable identify a blinded or paraphrased statement when asked, and does it identify
+statements without being asked while it scores them?
+
+\subsection{Dating on request}
+
+Fable is shown each blinded pre-2024 statement and told that months, years, names and events have been
+replaced by placeholders. It is asked to identify the meeting, to give its best guess even if unsure, and
+to end with the year, the month and a confidence level (Appendix~\ref{app:prompts}). The probe covers all
+\R{probe.blind.n} pre-2024 files, including \R{corpus.prenotices} notices. The exact month identifies the
+meeting except in the \R{corpus.multimonth} months that have two statements. The same probe is
+run on a sample of \R{probe.para.n} paraphrased statements spread evenly over the period, with a note that
+the text may have been reworded.
+
+A model with no memory can still date statements roughly. Policy-rate levels, purchase amounts and the
+boilerplate of each era change slowly, so neighbouring statements look alike. To measure how far the
+text alone goes, the text-similarity baseline represents each blinded statement by the frequencies of its
+words and word pairs (TF-IDF weights), finds the most similar \emph{other} blinded statement by cosine
+similarity, and takes that statement's date. The baseline is generous: it sees the true date of every
+other statement. It can never name the exact meeting, because its answer is always another meeting, so I
+count the statements whose two nearest neighbours are the meetings just before and just after. For
+those, a reader who knew the sequence of statements could in principle infer the exact meeting. This
+count is an upper bound for this method, not for every reader without memory: someone who knows the
+history of the policy rate, the purchase programmes and the guidance dates could date many statements
+more precisely without having read them before. The baseline shows how far textual similarity alone
+goes.
+
+\begin{table}[t]
+\centering
+\caption{Dating blinded and paraphrased statements}\label{tab:dating}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\input{tables/tab_dating}
+\tabnote{\emph{Notes:} Fable is asked for the year and month of the meeting. Paraphrased = an evenly
+spaced sample of \R{probe.para.n} paraphrased statements. 2024--2026 = all blinded statements from 2024 on.
+ZLB (zero-lower-bound) statements: January 2009 to October 2015, when the target range was the same at every
+meeting (\R{corpus.zlbnotices} of them a notice). The 2000--2023 columns include \R{corpus.prenotices}
+notices. Text-similarity baseline: each blinded statement takes the date of its most similar other
+blinded statement (TF-IDF over words and word pairs, cosine). $^a$Statements whose two nearest neighbours
+are the meetings just before and after, an upper bound on exact recovery for this method.}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\input{figures/fig_dating}
+\caption{Dating accuracy. Fable on blinded and paraphrased statements against a text-similarity baseline
+that has no memory. For the baseline, ``exact meeting'' is the upper bound described in the text.}\label{fig:dating}
+\end{figure}
+
+Table~\ref{tab:dating} and Figure~\ref{fig:dating} show the results. Fable names the exact month of
+\R{probe.blind.exact} of the \R{probe.blind.n} blinded statements (\R{probe.blind.exactpct}) and places
+every one within three months. The four misses (\R{probe.blind.misses}) are each an adjacent meeting. On
+the zero-lower-bound statements, where the rate level gives no clue, it is exact on \R{probe.blind.zlb} of
+\R{probe.blind.zlbn}. It reports high confidence on \R{probe.blind.high} statements. Its replies also
+restore details that blinding removed: for the blinded statement of 18 December 2013 it names Eric
+Rosengren as the dissenter, and for 25 June 2003 it says that Robert Parry dissented in favour of a larger
+cut. Both are correct. Paraphrasing barely helps: Fable names the exact month of \R{probe.para.exact} of
+the \R{probe.para.n} paraphrased statements.
+
+The baseline shows what the text alone can do. It places \R{base.w3pct} of the statements within three
+months and \R{base.w1pct} within one month, so dating to within a few months is not evidence of memory.
+Exact identification is more telling. The baseline's upper bound on exact recovery is \R{base.brpct}
+(\R{base.br} of \R{base.n}), and \R{base.zlb.br} of \R{probe.blind.zlbn} at the zero lower bound, against
+Fable's \R{probe.blind.exactpct} and \R{probe.blind.zlb} of \R{probe.blind.zlbn}. The probe therefore shows
+that Fable has knowledge sufficient to identify the individual meeting. Whether that knowledge is of the
+statements themselves or of a detailed policy history cannot be separated here, but the
+zero-lower-bound statements, which share a rate level and differ mainly in purchase amounts and wording,
+are the hardest case for general knowledge, and the restored dissenters' names point to the statements
+themselves.
+
+\subsection{Recognition while scoring}
+
+Dating on request shows that Fable \emph{can} identify the statements. A more direct question is whether
+it does so when it is only asked for a score. I search every stored scoring reply for a date in the form
+``$\langle$month$\rangle$ [day,] $\langle$year$\rangle$'' or ``$\langle$year$\rangle$
+statement/meeting/decision'' and check whether it is the statement's own month and year. On blinded and
+paraphrased text no date is in the input, so a correct date came from the model. On the original text of
+the five-prompt runs, \R{nav.n} early statements contained their year in a navigation line
+(Section~\ref{sec:data}), but not the month. The counts are lower bounds: most prompts ask for the number
+only, and replies were stored cut at 300 characters.
+
+\begin{table}[t]
+\centering
+\caption{Scoring replies that name the statement's date, unprompted}\label{tab:spontaneous}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\input{tables/tab_spontaneous}
+\tabnote{\emph{Notes:} A reply ``names a date'' if it contains ``$\langle$month$\rangle$ [day,]
+$\langle$year$\rangle$'' or ``$\langle$year$\rangle$ statement/meeting/decision''. ``Own month and year'':
+the named date is the statement's own. Replies stored before 3 October 2026 were cut at 300 characters,
+so the shares are lower bounds. The five-prompt Fable file includes repeat runs of some cells.}
+\end{table}
+
+Table~\ref{tab:spontaneous} reports the counts. Across its five-prompt runs on the original text, Fable
+names the statement's own month and year in \R{spont.scoresfable.all.pct} of its replies. The share
+depends on whether the prompt lets it talk: \R{spont.scoresfable.p5.pct} for the reason-first prompt P5,
+\R{spont.scoresfable.p3.pct} for the analyst prompt P3. On blinded text, with P1, it does so in
+\R{spont.blindfable.all.pct} of replies, slightly more than the \R{spont.cleanfable.all.pct} of the same
+prompt on the cleaned original. On paraphrased text the share falls to \R{spont.parafable.all.pct}.
+Gemini never names a date in \R{spont.fullgemini.all.n} replies, nor does GPT-4 in
+\R{spont.gpt4p1.all.n}.
+
+\begin{table}[t]
+\centering
+\caption{Excerpts from Fable's scoring replies}\label{tab:quotes}
+\footnotesize
+\input{tables/tab_quotes}
+\tabnote{\emph{Notes:} Verbatim excerpts from stored scoring replies (the blinded ones from P1 on blinded
+text). Each was asked only for a stance score. Several cite information that was not in the statement:
+later decisions, the market's reaction or commentary, or the projections released with it.}
+\end{table}
+
+Table~\ref{tab:quotes} gives examples. Some replies go beyond naming the meeting and bring in information
+that was not in the statement: later decisions (cuts ``came in January 2001''; a statement was ``setting
+up the June 2004 hike''), the market's reaction and later commentary (``markets had hoped for more'';
+``widely read as teeing up December''), and the projections released alongside the statement (the
+``dot plot cut from 4 to 2 hikes''). This is direct evidence that the model retrieves knowledge from
+outside the text, including knowledge of later events, while it scores. It does not show that this knowledge moves
+the score, but it shows that the scores cannot be assumed to come from the text alone.
+
+\subsection{What recognition implies}
+
+The same excerpts show a second habit: Fable often judges a statement relative to the previous one or
+to what markets expected (``mildly dovish relative to prior expectations''). A score formed against
+expectations is closer to a policy surprise than a reading of the text in isolation would be, and knowing
+the expectations at each meeting is itself a form of recognition.
+
+Recognition is necessary for a model to recall a statement's market reaction, but it is not evidence that
+the model does so. The finding is therefore not that Fable's scores are contaminated. It is that the
+tools meant to rule contamination out do not work on this corpus. Blinding and paraphrasing were meant to
+create an unrecognised version of each statement, so that scores on recognised and unrecognised text
+could be compared. With \R{probe.hold.recog} of the \R{probe.hold.n} probed hold meetings dated exactly,
+there is no unrecognised group to compare with.
+
+This finding complements \citet{glasserman2023}, who remove company names from news headlines to limit
+look-ahead bias. Headlines about individual firms are many, short and mostly obscure. FOMC statements are
+few, long, and widely read and discussed; their content identifies them. For documents like these,
+anonymisation and paraphrase do not rule out look-ahead bias. Only models whose training data stop before the documents
+\citep{he2025,drinkall2024}, or documents the model cannot have seen, can do that.
+
+\subsection{Where Fable's knowledge ends}\label{sec:cutoff}
+
+Running the same probe on the \R{probe.post.n} blinded statements from 2024 to 2026 locates the end of
+Fable's knowledge (Appendix Table~\ref{tab:lateprobe}). It dates \R{probe.post.exact} of them exactly,
+including every statement from the second half of 2024 and from 2025, all with high confidence. Its
+confidence falls in 2026: of the four statements from the first half of 2026 it dates only one with high
+confidence, and it misses July 2026. Its knowledge therefore extends to about early 2026. The 2024--2025
+statements, often treated as a ``post-cutoff'' test sample, are not unseen for this model.

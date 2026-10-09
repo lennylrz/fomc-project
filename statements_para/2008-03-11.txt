@@ -1,0 +1,11 @@
+The Federal Reserve, in conjunction with other central banks, is implementing specific actions to alleviate funding market liquidity strains.
+
+These actions follow ongoing collaboration among G-10 central banks since [month] [year-1] regarding liquidity pressures, which have recently intensified in certain markets. All involved parties remain committed to addressing these pressures as needed.
+
+Today, the Bank of Canada, the Bank of England, the European Central Bank, the Federal Reserve, and the Swiss National Bank are jointly announcing these measures.
+
+The Federal Reserve is expanding its securities lending operations. A new Term Securities Lending Facility (TSLF) will offer up to $200 billion in Treasury securities to primary dealers for 28-day terms, a change from the previous overnight duration. This facility will accept a broader range of collateral, including federal agency debt, federal agency residential-mortgage-backed securities, and top-rated private-label residential mortgage-backed securities. The TSLF aims to enhance liquidity in financing markets for Treasury and other collateral, thereby supporting overall financial market function. Securities will be allocated via weekly auctions, commencing on [month] 27, [this year]. The Federal Reserve will engage with primary dealers on the technical aspects of the TSLF.
+
+Furthermore, the Federal Open Market Committee has approved an increase in its temporary reciprocal currency arrangements with the European Central Bank and the Swiss National Bank. The facility with the ECB will now provide up to $30 billion, an increase of $10 billion, while the arrangement with the SNB will offer up to $6 billion, an increase of $2 billion. The duration of these swap lines has been extended through [month] 30, [this year].
+
+These announced steps complement earlier measures from Friday, which included increasing the Term Auction Facility to $100 billion and initiating a series of term repurchase transactions totaling $100 billion.

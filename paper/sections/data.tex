@@ -1,0 +1,160 @@
+%=====================================================================================
+\section{Data}\label{sec:data}
+
+\subsection{FOMC statements}
+
+The corpus holds \R{corpus.files} statements released by the FOMC between \R{corpus.first} and
+\R{corpus.last}, taken from the press-release pages of the Federal Reserve Board. I classified each by
+hand after reading it (Appendix Table~\ref{tab:corpus}): \R{corpus.scheduled} are post-meeting statements
+of scheduled meetings, \R{corpus.unscheduledrate} announce unscheduled changes in the federal funds rate,
+\R{corpus.unscheduledpolicy} announce unscheduled policy decisions without a rate change (the risk
+assessment of 17 August 2007 and the open-ended asset purchases of 23 March 2020), and
+\R{corpus.notice} are notices about liquidity facilities, swap lines, technical operations or the
+policy framework. The \emph{policy corpus} drops the notices and keeps \R{corpus.policy}
+statements. It is used for all reliability statistics and market regressions; the recognition counts in
+Section~\ref{sec:recognition} cover every file, notices included. Section~\ref{sec:robust} shows results for a \emph{strict} corpus that
+also drops the two unscheduled policy decisions (\R{var.strict.nstmt} statements) and for all
+\R{var.all.nstmt} files.
+
+Two corrections were made to the raw corpus. First, the Board's page for the statement of 27--28 June
+2007 carries the date 18 June in its address, so the statement was first filed under the wrong day; it
+is dated 28 June here, which also gives it its market data. Second, the text of \R{nav.n} statements from
+\R{nav.first}--\R{nav.last} originally ended with a line of page navigation that included a year (in
+\R{nav.own} cases the statement's own year). That line was removed, but only after the five-prompt scoring
+runs had been made, so those runs saw it. The single-prompt re-scores, the GPT-4 run and the dictionary
+use the cleaned text (Table~\ref{tab:runs}).
+
+The texts of the statements of 17 June and 29 July 2026 are much shorter than earlier ones and could not
+be checked against the Board's website from the computing environment used here. They read as complete
+statements in a new, shorter format. They enter the post-2024 checks (Section~\ref{sec:cannot}), the
+dating probe on recent statements (Section~\ref{sec:cutoff}) and the comparison of prompt spread on
+recent statements (Section~\ref{sec:reliability}); the last is reported with and without them.
+
+\subsection{Market data}
+
+The main outcome is the monetary policy surprise (MPS) of \citet{bauer2023reassessment}. MPS summarises
+the change in short-term interest-rate futures in a 30-minute window around each FOMC announcement, in
+percentage points; a positive value means markets read the announcement as tighter than expected.
+\citet{bauer2023reassessment} show that MPS is partly predictable from data available before the
+announcement and also provide MPS\_ORTH, the part of MPS orthogonal to those data. The same dataset
+gives the 30-minute changes in the 2- and 10-year Treasury yields ($t_2$, $t_{10}$, in basis points);
+their sign and scale match the daily yield changes, with which they correlate at \R{desc.corr.t2.d2}
+($t_2$, $d_2$) and \R{desc.corr.t10.d10} ($t_{10}$, $d_{10}$) on statement days. These series end in
+December 2023.
+
+Daily yields are the constant-maturity 2- and 10-year Treasury yields from the Federal Reserve's H.15
+release (FRED series DGS2 and DGS10). The daily outcomes $d_2$ and $d_{10}$ are close-to-close changes in
+basis points on the statement day, from the previous trading day. The yield file matches the FRED series
+to the hundredth on all \R{fred.days} days on which they overlap (\R{fred.first} to \R{fred.last}). A
+statement released on a non-trading day (15 March 2020, a Sunday) takes the next trading day's change.
+The daily series used here starts in 2003, so the daily regressions have fewer meetings than those using
+MPS.
+
+A \emph{hold meeting} is a statement at which the federal funds rate target did not change. Hold meetings
+matter for this paper because at them the stance score cannot simply echo a rate move. They are not free
+of policy news: a hold can itself surprise markets, and the hold sample includes announcements of asset
+purchases (for example 18 March 2009) and the unscheduled statements of 17 August 2007 and 23 March
+2020. Before 2024 the policy
+corpus contains \R{desc.pre} statements, which give \R{desc.prepairs} meeting-to-meeting changes;
+\R{desc.hold} of these are hold meetings with an MPS. Table~\ref{tab:desc} describes the outcomes.
+
+\begin{table}[t]
+\centering
+\caption{Market outcomes, policy corpus, statements to December 2023}\label{tab:desc}
+\small
+\input{tables/tab_desc}
+\tabnote{\emph{Notes:} ``all'' is every statement with a predecessor in the corpus; ``hold'' is the
+subset at which the federal funds rate target did not change. MPS and MPS\_ORTH are from
+\citet{bauer2023reassessment}, in percentage points. $t_2$ and $t_{10}$ are 30-minute changes in the 2-
+and 10-year Treasury yields around the announcement, from the same dataset; $d_2$ and $d_{10}$ are daily
+close-to-close changes of the H.15 constant-maturity yields (FRED DGS2, DGS10).}
+\end{table}
+
+%=====================================================================================
+\section{Scoring design}\label{sec:design}
+
+\subsection{Models and prompts}
+
+Every statement is scored by asking a model for a single number between $-1$ (dovish) and $+1$
+(hawkish). I use five prompts that ask the same question in different words (Appendix~\ref{app:prompts}
+gives them verbatim). P1 asks for the score with no further instruction. P2 first defines hawkish and
+dovish. P3 asks the model to answer as a fixed-income analyst. P4 reverses the scale, so that $+1$ means
+dovish; its answer is flipped back in code. P5 asks the model to list the hawkish and dovish elements
+before giving the score. All calls use temperature 0 through the OpenRouter interface.
+
+Table~\ref{tab:runs} lists the scoring runs. The reliability block crosses \R{icc.fable.n} policy
+statements from 2015--2019 with all five prompts and four models: Gemini 2.5 Flash, Claude 3 Haiku,
+GPT-4o mini and Claude Fable 5.1. Gemini and Fable also score the full corpus. Gemini has all five
+prompts for every policy statement. Fable has all five for \R{cover.fable.five} statements and between
+one and four for the other \R{cover.fable.fewer}, all of them from \R{cover.fable.fewfirst} onwards. GPT-4, listed by OpenRouter
+with a training cutoff of 30 September 2021, scores every statement with P1. Fable then re-scores the
+pre-2024 statements with P1 three times: on the cleaned original text, on a blinded version and on a
+paraphrased version (Section~\ref{sec:versions}).
+
+Replies are parsed strictly: the reply must end in a number in $[-1,1]$, or contain a line
+``SCORE:~$x$''. A reply that is cut off, ends in a bare ``0.'' or gives a value outside the range is
+treated as missing. Until 3 October 2026 the scoring scripts stored only the first 300 characters of each
+reply, so longer replies could not be re-parsed afterwards. Re-parsing every shorter stored reply and
+reading one longer reply by hand removed \R{parse.dropped} cells (Appendix Table~\ref{tab:parse}).
+
+\begin{table}[t]
+\centering
+\caption{Scoring runs}\label{tab:runs}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\input{tables/tab_runs}
+\tabnote{\emph{Notes:} Model IDs as listed by OpenRouter. Statements = distinct statement files with a score (all 228 files, including the
+notices that the policy corpus drops). The full-corpus Fable file has all five prompts for
+\R{cover.fable.five} policy statements and one to four for \R{cover.fable.fewer}. ``Original'' text is the text as first downloaded; for \R{nav.n}
+statements from \R{nav.first}--\R{nav.last} it ended with a navigation line that included a year.
+``Cleaned'' text has that line removed. Blinded and paraphrased versions are described in
+Section~\ref{sec:versions}. The dictionary is a word-count score (Section~\ref{sec:baselines}).}
+\end{table}
+
+\subsection{From scores to dScore}
+
+For each statement and prompt I average repeated runs of the same cell; Fable's test--retest agreement on
+the \R{retest.n} cells scored twice is high (correlation \R{retest.r}, mean absolute difference
+\R{retest.mad}). The statement's score is the mean over its prompts after removing each prompt's average
+offset, estimated on the statements that have all five prompts (prompt fixed effects). Without this
+step, a statement scored with a different set of prompts than its predecessor would show a spurious
+change. The score change, \emph{dScore}, is the score of a statement minus the score of the previous
+statement in the policy corpus. Notices are removed before the differences are taken, so each statement
+is compared with the previous policy statement. A positive dScore means the statement reads as more
+hawkish than its predecessor. Section~\ref{sec:robust} shows that the main results do not depend on
+the prompt fixed effects.
+
+\subsection{Text versions}\label{sec:versions}
+
+The \emph{blinded} version of each statement removes the cues that most directly date it. Month names
+become ``[month]''; years become offsets from the statement's own year (``[year+1]''), so that date-based
+guidance keeps its meaning; the names of all FOMC members become ``[member]''; the roster of members
+voting in favour is dropped, while dissents are kept without names; and named one-off events become
+``[event]''. Rate levels, purchase amounts and the phrasing are left as they are.
+
+The \emph{paraphrased} version rewrites each blinded statement with Gemini 2.5 Flash. The instructions
+(Appendix~\ref{app:prompts}) ask for the same economic content in a new order and new words, with no
+reused phrase of four or more words, and with rate levels and asset holdings stated only as changes from
+the previous meeting. To keep the decision right, the prompt states the true change in the federal funds
+target. Automatic checks flag rewrites that are too long, add dissents or a 2 percent objective that the
+original lacks, or keep rate levels; a flagged rewrite is tried once more. Of the \R{para.n}
+paraphrases, \R{para.passed} pass the checks and \R{para.flagged} (\R{para.flagged.dates}) still keep a
+number after the retry: a guidance threshold in the first case, an operational rate in the second, which
+is a notice outside the policy corpus. A retry was needed for \R{para.retries} rewrites. Their four-word overlap with the blinded text is
+\R{para.overlap.mean} on average (maximum \R{para.overlap.max}), and they are \R{para.length} times as
+long. In all, \R{para.sixhalf} paraphrases keep the 6.5 percent unemployment-rate threshold from the
+forward guidance of 2012--2014; the checks did not treat a threshold as a level. I read a sample of
+paraphrases against their originals, including those on which an earlier attempt had gone wrong, and
+found the content faithful.
+
+\subsection{Baselines}\label{sec:baselines}
+
+Two baselines involve no LLM. The \emph{dictionary} score counts hawkish and dovish word combinations
+(for example, ``inflation'' near ``rise'' counts as hawkish) in the spirit of
+\citet{apel2012}, using a short word list written for this project, and scales the net count to
+$[-1,1]$. It cannot have memorised anything. The \emph{text-similarity} dating baseline, used in
+Section~\ref{sec:recognition}, gives each blinded statement the date of the most similar other blinded
+statement. Finally, \citet{shah2023} hand-label sentences from FOMC minutes, speeches and press
+conferences as hawkish, dovish or neutral. Because the minutes repeat the statement, \R{tdw.matches} of
+their labelled sentences appear word for word in \R{tdw.stmts} of the statements here. This gives a human
+benchmark for score levels that neither markets nor model memory can affect.

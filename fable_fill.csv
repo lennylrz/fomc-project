@@ -1,0 +1,13 @@
+date,prompt,score,model,temperature,raw_reply,error
+2022-11-02,P1_minimal,0.7,anthropic/claude-fable-5.1,0.0,0.7,
+2023-02-01,P1_minimal,0.6,anthropic/claude-fable-5.1,0.0,0.6,
+2024-01-31,P1_minimal,,anthropic/claude-fable-5.1,0.0,,
+2024-05-01,P1_minimal,0.3,anthropic/claude-fable-5.1,0.0,0.3,
+2024-09-18,P1_minimal,-0.6,anthropic/claude-fable-5.1,0.0,-0.6,
+2025-01-29,P1_minimal,0.2,anthropic/claude-fable-5.1,0.0,0.2,
+2025-06-18,P1_minimal,0.1,anthropic/claude-fable-5.1,0.0,0.1,
+2026-06-17,P1_minimal,,anthropic/claude-fable-5.1,0.0,,
+2026-07-29,P1_minimal,,anthropic/claude-fable-5.1,0.0,,
+2024-01-31,P1_minimal,0.2,anthropic/claude-fable-5.1,0.0,0.2,
+2026-06-17,P1_minimal,0.5,anthropic/claude-fable-5.1,0.0,0.5,
+2026-07-29,P1_minimal,0.5,anthropic/claude-fable-5.1,0.0,0.5,

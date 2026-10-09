@@ -1,0 +1,206 @@
+date,prompt,score,model,temperature,raw_reply
+2015-01-28,P1_minimal,0.0,openai/gpt-4o-mini,0.0,0.0
+2015-01-28,P2_defined,0.2,openai/gpt-4o-mini,0.0,0.2
+2015-01-28,P3_analyst,0.2,openai/gpt-4o-mini,0.0,0.2
+2015-01-28,P4_reversed,-0.5,openai/gpt-4o-mini,0.0,0.5
+2015-01-28,P5_reason_first,0.2,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The statement acknowledges that economic activity is expanding at a solid pace and labor market conditions are improving, suggesting a strong economy. 2. The Committee indicates that inflation is expected to rise gradually toward the 2 percent target over the medium term, wh"
+2015-03-18,P1_minimal,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2015-03-18,P2_defined,-0.3,openai/gpt-4o-mini,0.0,-0.3
+2015-03-18,P3_analyst,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2015-03-18,P4_reversed,-0.5,openai/gpt-4o-mini,0.0,+0.5
+2015-03-18,P5_reason_first,0.0,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The statement acknowledges that labor market conditions have improved, with strong job gains and a lower unemployment rate, suggesting a tightening labor market. 2. The Committee expects inflation to rise gradually toward the 2 percent target over the medium term as the labo"
+2015-04-29,P1_minimal,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2015-04-29,P2_defined,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2015-04-29,P3_analyst,-0.2,openai/gpt-4o-mini,0.0,-0.2
+2015-04-29,P4_reversed,-0.5,openai/gpt-4o-mini,0.0,0.5
+2015-04-29,P5_reason_first,0.0,openai/gpt-4o-mini,0.0,**Hawkish Elements:** 1. The Committee expects inflation to rise gradually toward 2 percent over the medium term as the labor market improves. 2. The statement indicates that the Committee anticipates it will be appropriate to raise the target range for the federal funds rate when there is further i
+2015-06-17,P1_minimal,0.0,openai/gpt-4o-mini,0.0,0.0
+2015-06-17,P2_defined,0.2,openai/gpt-4o-mini,0.0,0.2
+2015-06-17,P3_analyst,-0.2,openai/gpt-4o-mini,0.0,-0.2
+2015-06-17,P4_reversed,-0.2,openai/gpt-4o-mini,0.0,0.2
+2015-06-17,P5_reason_first,0.0,openai/gpt-4o-mini,0.0,**Hawkish Elements:** 1. The Committee expects inflation to rise gradually toward 2 percent over the medium term as the labor market improves. 2. The statement indicates that the Committee anticipates it will be appropriate to raise the target range for the federal funds rate when there is further i
+2015-07-29,P1_minimal,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2015-07-29,P2_defined,-0.3,openai/gpt-4o-mini,0.0,-0.3
+2015-07-29,P3_analyst,-0.2,openai/gpt-4o-mini,0.0,-0.2
+2015-07-29,P4_reversed,-0.2,openai/gpt-4o-mini,0.0,0.2
+2015-07-29,P5_reason_first,0.2,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The statement indicates that the Committee expects inflation to rise gradually toward the 2 percent target over the medium term, suggesting a focus on achieving this inflation goal. 2. The Committee anticipates that it will be appropriate to raise the federal funds rate when"
+2015-09-17,P1_minimal,0.0,openai/gpt-4o-mini,0.0,0
+2015-09-17,P2_defined,0.2,openai/gpt-4o-mini,0.0,0.2
+2015-09-17,P3_analyst,0.2,openai/gpt-4o-mini,0.0,0.2
+2015-09-17,P4_reversed,-0.2,openai/gpt-4o-mini,0.0,0.2
+2015-09-17,P5_reason_first,0.0,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The statement indicates that the labor market is improving with solid job gains and declining unemployment, suggesting a strong economy. 2. The Committee expects inflation to rise gradually toward the 2 percent target over the medium term, indicating a willingness to act if "
+2015-10-28,P1_minimal,0.0,openai/gpt-4o-mini,0.0,0
+2015-10-28,P2_defined,0.2,openai/gpt-4o-mini,0.0,0.2
+2015-10-28,P3_analyst,0.2,openai/gpt-4o-mini,0.0,0.2
+2015-10-28,P4_reversed,-0.2,openai/gpt-4o-mini,0.0,0.2
+2015-10-28,P5_reason_first,0.0,openai/gpt-4o-mini,0.0,**Hawkish Elements:** 1. The Committee expects inflation to rise gradually toward 2 percent over the medium term as the labor market improves. 2. There is an indication that the Committee anticipates it will be appropriate to raise the target range for the federal funds rate when there is further im
+2015-12-16,P1_minimal,0.2,openai/gpt-4o-mini,0.0,0.2
+2015-12-16,P2_defined,0.2,openai/gpt-4o-mini,0.0,0.2
+2015-12-16,P3_analyst,0.2,openai/gpt-4o-mini,0.0,0.2
+2015-12-16,P4_reversed,-0.2,openai/gpt-4o-mini,0.0,0.2
+2015-12-16,P5_reason_first,0.2,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The decision to raise the target range for the federal funds rate to 1/4 to 1/2 percent indicates a tightening of monetary policy. 2. The Committee expresses confidence that inflation will rise to the 2 percent objective over the medium term, suggesting a proactive stance on"
+2016-01-27,P1_minimal,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2016-01-27,P2_defined,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2016-01-27,P3_analyst,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2016-01-27,P4_reversed,-0.5,openai/gpt-4o-mini,0.0,+0.5
+2016-01-27,P5_reason_first,0.2,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The statement acknowledges that labor market conditions have improved, indicating a stronger economy. 2. The Committee expects inflation to rise to 2 percent over the medium term as the labor market strengthens. 3. There is a mention of ""gradual adjustments"" in the stance of"
+2016-03-16,P1_minimal,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2016-03-16,P2_defined,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2016-03-16,P3_analyst,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2016-03-16,P4_reversed,-0.5,openai/gpt-4o-mini,0.0,0.5
+2016-03-16,P5_reason_first,0.0,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The statement acknowledges strong job gains and additional strengthening of the labor market, indicating a robust economic backdrop. 2. There is an expectation that inflation will rise to the 2 percent target over the medium term as transitory effects dissipate, suggesting a"
+2016-04-27,P1_minimal,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2016-04-27,P2_defined,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2016-04-27,P3_analyst,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2016-04-27,P4_reversed,-0.5,openai/gpt-4o-mini,0.0,0.5
+2016-04-27,P5_reason_first,-0.2,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The statement acknowledges that labor market conditions have improved, indicating a stronger economy which could warrant tightening. 2. The Committee expects inflation to rise to 2 percent over the medium term as the labor market strengthens, suggesting a potential for futur"
+2016-06-15,P1_minimal,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2016-06-15,P2_defined,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2016-06-15,P3_analyst,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2016-06-15,P4_reversed,-0.5,openai/gpt-4o-mini,0.0,+0.5
+2016-06-15,P5_reason_first,0.0,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The statement acknowledges that economic activity has picked up, indicating a potential for stronger growth. 2. The Committee expects inflation to rise to 2 percent over the medium term as the labor market strengthens. 3. There is an emphasis on monitoring inflation indicato"
+2016-07-27,P1_minimal,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2016-07-27,P2_defined,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2016-07-27,P3_analyst,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2016-07-27,P4_reversed,-0.5,openai/gpt-4o-mini,0.0,0.5
+2016-07-27,P5_reason_first,0.0,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The labor market has strengthened, indicating robust job gains and increased labor utilization. 2. The Committee expects inflation to rise to 2 percent over the medium term as economic conditions improve. 3. Near-term risks to the economic outlook have diminished, suggesting"
+2016-09-21,P1_minimal,0.2,openai/gpt-4o-mini,0.0,0.2
+2016-09-21,P2_defined,0.2,openai/gpt-4o-mini,0.0,0.2
+2016-09-21,P3_analyst,0.2,openai/gpt-4o-mini,0.0,0.2
+2016-09-21,P4_reversed,-0.2,openai/gpt-4o-mini,0.0,0.2
+2016-09-21,P5_reason_first,0.0,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The statement indicates that the case for an increase in the federal funds rate has strengthened, suggesting a readiness to tighten monetary policy. 2. The Committee expects inflation to rise to 2 percent over the medium term as economic conditions improve, indicating a focu"
+2016-11-02,P1_minimal,0.2,openai/gpt-4o-mini,0.0,0.2
+2016-11-02,P2_defined,0.2,openai/gpt-4o-mini,0.0,0.2
+2016-11-02,P3_analyst,0.3,openai/gpt-4o-mini,0.0,0.3
+2016-11-02,P4_reversed,-0.2,openai/gpt-4o-mini,0.0,0.2
+2016-11-02,P5_reason_first,0.0,openai/gpt-4o-mini,0.0,**Hawkish Elements:** 1. The statement notes that the case for an increase in the federal funds rate has continued to strengthen. 2. The Committee expects that economic conditions will evolve in a manner that will warrant only gradual increases in the federal funds rate. 3. The labor market has cont
+2016-12-14,P1_minimal,0.2,openai/gpt-4o-mini,0.0,0.2
+2016-12-14,P2_defined,0.2,openai/gpt-4o-mini,0.0,0.2
+2016-12-14,P3_analyst,0.2,openai/gpt-4o-mini,0.0,+0.2
+2016-12-14,P4_reversed,-0.2,openai/gpt-4o-mini,0.0,0.2
+2016-12-14,P5_reason_first,0.2,openai/gpt-4o-mini,0.0,**Hawkish Elements:** 1. The decision to raise the target range for the federal funds rate to 1/2 to 3/4 percent indicates a tightening of monetary policy. 2. The expectation of gradual adjustments in the stance of monetary policy suggests a proactive approach to managing inflation. 3. The Committee
+2017-02-01,P1_minimal,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2017-02-01,P2_defined,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2017-02-01,P3_analyst,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2017-02-01,P4_reversed,-0.5,openai/gpt-4o-mini,0.0,0.5
+2017-02-01,P5_reason_first,0.2,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The labor market has continued to strengthen, indicating a robust economy. 2. Job gains remain solid, and the unemployment rate is low, suggesting a strong employment situation. 3. The Committee expects economic activity to expand at a moderate pace and labor market conditio"
+2017-03-15,P1_minimal,0.2,openai/gpt-4o-mini,0.0,0.2
+2017-03-15,P2_defined,0.2,openai/gpt-4o-mini,0.0,0.2
+2017-03-15,P3_analyst,0.3,openai/gpt-4o-mini,0.0,0.3
+2017-03-15,P4_reversed,0.2,openai/gpt-4o-mini,0.0,-0.2
+2017-03-15,P5_reason_first,0.5,openai/gpt-4o-mini,0.0,**Hawkish Elements:** 1. The decision to raise the target range for the federal funds rate to 3/4 to 1 percent indicates a tightening of monetary policy. 2. The expectation of gradual increases in the federal funds rate suggests a proactive approach to managing inflation. 3. The statement emphasizes
+2017-05-03,P1_minimal,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2017-05-03,P2_defined,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2017-05-03,P3_analyst,0.2,openai/gpt-4o-mini,0.0,0.2
+2017-05-03,P4_reversed,-0.5,openai/gpt-4o-mini,0.0,0.5
+2017-05-03,P5_reason_first,0.2,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The labor market has continued to strengthen, indicating a robust economy. 2. Job gains were solid, and the unemployment rate has declined, suggesting a tight labor market. 3. The Committee expects economic activity to expand at a moderate pace and labor market conditions to"
+2017-06-14,P1_minimal,0.5,openai/gpt-4o-mini,0.0,0.5
+2017-06-14,P2_defined,0.5,openai/gpt-4o-mini,0.0,0.5
+2017-06-14,P3_analyst,0.5,openai/gpt-4o-mini,0.0,+0.5
+2017-06-14,P4_reversed,0.5,openai/gpt-4o-mini,0.0,-0.5
+2017-06-14,P5_reason_first,0.5,openai/gpt-4o-mini,0.0,**Hawkish Elements:** 1. The decision to raise the target range for the federal funds rate to 1 to 1-1/4 percent indicates a tightening of monetary policy. 2. The expectation of gradual increases in the federal funds rate suggests a proactive approach to managing inflation and economic growth. 3. Th
+2017-07-26,P1_minimal,0.2,openai/gpt-4o-mini,0.0,0.2
+2017-07-26,P2_defined,0.2,openai/gpt-4o-mini,0.0,0.2
+2017-07-26,P3_analyst,0.2,openai/gpt-4o-mini,0.0,0.2
+2017-07-26,P4_reversed,-0.2,openai/gpt-4o-mini,0.0,0.2
+2017-07-26,P5_reason_first,0.2,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The statement indicates that the labor market has continued to strengthen, suggesting a robust economic environment that could warrant tightening monetary policy. 2. The Committee expects that economic conditions will evolve in a manner that will warrant gradual increases in"
+2017-09-20,P1_minimal,0.2,openai/gpt-4o-mini,0.0,0.2
+2017-09-20,P2_defined,0.2,openai/gpt-4o-mini,0.0,0.2
+2017-09-20,P3_analyst,0.2,openai/gpt-4o-mini,0.0,0.2
+2017-09-20,P4_reversed,-0.2,openai/gpt-4o-mini,0.0,0.2
+2017-09-20,P5_reason_first,0.2,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The labor market is described as strengthening, with solid job gains and a low unemployment rate, indicating a robust economy. 2. The Committee expects gradual increases in the federal funds rate, suggesting a tightening of monetary policy in response to economic conditions."
+2017-11-01,P1_minimal,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2017-11-01,P2_defined,0.2,openai/gpt-4o-mini,0.0,0.2
+2017-11-01,P3_analyst,0.2,openai/gpt-4o-mini,0.0,0.2
+2017-11-01,P4_reversed,-0.2,openai/gpt-4o-mini,0.0,0.2
+2017-11-01,P5_reason_first,0.5,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The labor market is described as continuing to strengthen, indicating a robust economic environment. 2. Economic activity is rising at a solid rate, suggesting confidence in growth. 3. The Committee expects gradual increases in the federal funds rate, indicating a tightening"
+2017-12-13,P1_minimal,0.5,openai/gpt-4o-mini,0.0,0.5
+2017-12-13,P2_defined,0.3,openai/gpt-4o-mini,0.0,0.3
+2017-12-13,P3_analyst,0.5,openai/gpt-4o-mini,0.0,+0.5
+2017-12-13,P4_reversed,0.5,openai/gpt-4o-mini,0.0,-0.5
+2017-12-13,P5_reason_first,0.5,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The decision to raise the target range for the federal funds rate to 1-1/4 to 1-1/2 percent indicates a tightening of monetary policy. 2. The statement emphasizes that the stance of monetary policy remains accommodative but is shifting towards gradual adjustments, suggesting"
+2018-01-31,P1_minimal,0.2,openai/gpt-4o-mini,0.0,0.2
+2018-01-31,P2_defined,0.2,openai/gpt-4o-mini,0.0,0.2
+2018-01-31,P3_analyst,0.2,openai/gpt-4o-mini,0.0,0.2
+2018-01-31,P4_reversed,-0.2,openai/gpt-4o-mini,0.0,0.2
+2018-01-31,P5_reason_first,0.5,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The labor market is described as continuing to strengthen, indicating a robust economic environment. 2. Economic activity is rising at a solid rate, suggesting confidence in growth. 3. The Committee expects further gradual increases in the federal funds rate, indicating a ti"
+2018-03-21,P1_minimal,0.5,openai/gpt-4o-mini,0.0,0.5
+2018-03-21,P2_defined,0.3,openai/gpt-4o-mini,0.0,0.3
+2018-03-21,P3_analyst,0.5,openai/gpt-4o-mini,0.0,+0.5
+2018-03-21,P4_reversed,0.5,openai/gpt-4o-mini,0.0,-0.5
+2018-03-21,P5_reason_first,0.5,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The decision to raise the target range for the federal funds rate indicates a tightening of monetary policy. 2. The statement mentions that the economic outlook has strengthened, suggesting confidence in the economy's resilience. 3. The expectation of further gradual increas"
+2018-05-02,P1_minimal,0.0,openai/gpt-4o-mini,0.0,0
+2018-05-02,P2_defined,0.2,openai/gpt-4o-mini,0.0,0.2
+2018-05-02,P3_analyst,0.2,openai/gpt-4o-mini,0.0,0.2
+2018-05-02,P4_reversed,-0.2,openai/gpt-4o-mini,0.0,0.2
+2018-05-02,P5_reason_first,0.5,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The labor market is described as continuing to strengthen, indicating a robust economic environment. 2. The statement mentions that job gains have been strong and the unemployment rate remains low, suggesting confidence in economic growth. 3. The Committee expects further gr"
+2018-06-13,P1_minimal,0.5,openai/gpt-4o-mini,0.0,0.5
+2018-06-13,P2_defined,0.5,openai/gpt-4o-mini,0.0,0.5
+2018-06-13,P3_analyst,0.5,openai/gpt-4o-mini,0.0,+0.5
+2018-06-13,P4_reversed,0.5,openai/gpt-4o-mini,0.0,-0.5
+2018-06-13,P5_reason_first,0.5,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The labor market is described as ""strengthening"" with ""strong job gains"" and a declining unemployment rate, indicating a robust economy. 2. The statement mentions ""further gradual increases in the target range for the federal funds rate,"" suggesting a tightening of monetary "
+2018-08-01,P1_minimal,0.5,openai/gpt-4o-mini,0.0,0.5
+2018-08-01,P2_defined,0.2,openai/gpt-4o-mini,0.0,0.2
+2018-08-01,P3_analyst,0.2,openai/gpt-4o-mini,0.0,+0.2
+2018-08-01,P4_reversed,-0.5,openai/gpt-4o-mini,0.0,0.5
+2018-08-01,P5_reason_first,0.5,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The labor market is described as ""continuing to strengthen,"" indicating a robust economic environment. 2. Economic activity is noted to be rising at a ""strong rate,"" suggesting confidence in growth. 3. The statement mentions ""further gradual increases in the target range for"
+2018-09-26,P1_minimal,1.0,openai/gpt-4o-mini,0.0,+1
+2018-09-26,P2_defined,0.5,openai/gpt-4o-mini,0.0,0.5
+2018-09-26,P3_analyst,0.5,openai/gpt-4o-mini,0.0,+0.5
+2018-09-26,P4_reversed,0.5,openai/gpt-4o-mini,0.0,-0.5
+2018-09-26,P5_reason_first,0.5,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The statement indicates that the labor market has continued to strengthen, suggesting confidence in economic growth. 2. The decision to raise the target range for the federal funds rate to 2 to 2-1/4 percent reflects a tightening monetary policy stance. 3. The expectation of"
+2018-11-08,P1_minimal,0.5,openai/gpt-4o-mini,0.0,0.5
+2018-11-08,P2_defined,0.5,openai/gpt-4o-mini,0.0,0.5
+2018-11-08,P3_analyst,0.5,openai/gpt-4o-mini,0.0,0.5
+2018-11-08,P4_reversed,-0.5,openai/gpt-4o-mini,0.0,0.5
+2018-11-08,P5_reason_first,0.5,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The labor market is described as having ""continued to strengthen,"" indicating a robust economic environment. 2. The statement mentions ""strong job gains"" and a declining unemployment rate, suggesting confidence in economic growth. 3. The expectation of ""further gradual incre"
+2018-12-19,P1_minimal,1.0,openai/gpt-4o-mini,0.0,+1
+2018-12-19,P2_defined,0.5,openai/gpt-4o-mini,0.0,0.5
+2018-12-19,P3_analyst,0.5,openai/gpt-4o-mini,0.0,+0.5
+2018-12-19,P4_reversed,0.5,openai/gpt-4o-mini,0.0,-0.5
+2018-12-19,P5_reason_first,0.5,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The statement indicates that the labor market has continued to strengthen, suggesting a robust economy that may warrant tighter monetary policy. 2. The Committee judges that ""some further gradual increases"" in the federal funds rate are necessary to maintain economic expansi"
+2019-01-30,P1_minimal,0.0,openai/gpt-4o-mini,0.0,0
+2019-01-30,P2_defined,0.2,openai/gpt-4o-mini,0.0,0.2
+2019-01-30,P3_analyst,0.0,openai/gpt-4o-mini,0.0,0.0
+2019-01-30,P4_reversed,-0.2,openai/gpt-4o-mini,0.0,0.2
+2019-01-30,P5_reason_first,0.2,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The labor market is described as having ""continued to strengthen,"" indicating a robust economic environment. 2. Job gains are noted as ""strong,"" suggesting confidence in employment growth. 3. The statement emphasizes ""sustained expansion of economic activity"" and ""strong lab"
+2019-03-20,P1_minimal,0.0,openai/gpt-4o-mini,0.0,0
+2019-03-20,P2_defined,0.2,openai/gpt-4o-mini,0.0,0.2
+2019-03-20,P3_analyst,0.0,openai/gpt-4o-mini,0.0,0
+2019-03-20,P4_reversed,-0.2,openai/gpt-4o-mini,0.0,0.2
+2019-03-20,P5_reason_first,0.2,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The labor market remains strong, indicating resilience in the economy. 2. The Committee maintains a target range for the federal funds rate, suggesting a cautious approach to rate changes. 3. The statement emphasizes the importance of sustained economic expansion and strong "
+2019-05-01,P1_minimal,0.0,openai/gpt-4o-mini,0.0,0
+2019-05-01,P2_defined,0.2,openai/gpt-4o-mini,0.0,0.2
+2019-05-01,P3_analyst,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2019-05-01,P4_reversed,-0.2,openai/gpt-4o-mini,0.0,0.2
+2019-05-01,P5_reason_first,0.0,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The labor market remains strong, indicating a robust economy. 2. Job gains have been solid, and the unemployment rate is low, suggesting confidence in economic stability. 3. The Committee views sustained economic expansion and strong labor market conditions as likely outcome"
+2019-06-19,P1_minimal,0.0,openai/gpt-4o-mini,0.0,0
+2019-06-19,P2_defined,0.2,openai/gpt-4o-mini,0.0,0.2
+2019-06-19,P3_analyst,-0.2,openai/gpt-4o-mini,0.0,-0.2
+2019-06-19,P4_reversed,-0.2,openai/gpt-4o-mini,0.0,0.2
+2019-06-19,P5_reason_first,0.2,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The labor market remains strong, with solid job gains and a low unemployment rate, indicating a robust economy. 2. The Committee maintains the federal funds rate target range, suggesting a cautious approach to rate cuts despite some economic uncertainties. 3. The statement e"
+2019-07-31,P1_minimal,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2019-07-31,P2_defined,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2019-07-31,P3_analyst,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2019-07-31,P4_reversed,-0.5,openai/gpt-4o-mini,0.0,+0.5
+2019-07-31,P5_reason_first,0.0,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The labor market remains strong, with solid job gains and a low unemployment rate, indicating a robust economy. 2. The Committee's view that sustained economic expansion and strong labor market conditions are likely outcomes suggests confidence in growth. 3. The mention of m"
+2019-09-18,P1_minimal,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2019-09-18,P2_defined,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2019-09-18,P3_analyst,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2019-09-18,P4_reversed,-0.5,openai/gpt-4o-mini,0.0,+0.5
+2019-09-18,P5_reason_first,-0.5,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The labor market remains strong, with solid job gains and a low unemployment rate, indicating a robust economy. 2. The statement emphasizes the Committee's commitment to fostering maximum employment and price stability, suggesting a focus on maintaining economic strength. 3."
+2019-10-11,P1_minimal,0.0,openai/gpt-4o-mini,0.0,0
+2019-10-11,P2_defined,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2019-10-11,P3_analyst,-1.0,openai/gpt-4o-mini,0.0,-1
+2019-10-11,P4_reversed,-0.0,openai/gpt-4o-mini,0.0,0.0
+2019-10-11,P5_reason_first,0.2,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The Federal Reserve is maintaining a target range for the federal funds rate of 1.75% to 2%, indicating a commitment to a relatively higher interest rate environment. 2. The statement emphasizes the need to ensure an ample supply of reserves, which suggests a proactive appro"
+2019-10-30,P1_minimal,-1.0,openai/gpt-4o-mini,0.0,-1
+2019-10-30,P2_defined,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2019-10-30,P3_analyst,-0.5,openai/gpt-4o-mini,0.0,-0.5
+2019-10-30,P4_reversed,-0.5,openai/gpt-4o-mini,0.0,0.5
+2019-10-30,P5_reason_first,-0.5,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The labor market remains strong, indicating robust economic conditions. 2. Job gains have been solid, suggesting confidence in employment growth. 3. The Committee's view that sustained economic expansion and strong labor market conditions are likely outcomes reflects a posit"
+2019-12-11,P1_minimal,0.0,openai/gpt-4o-mini,0.0,0
+2019-12-11,P2_defined,0.0,openai/gpt-4o-mini,0.0,0.0
+2019-12-11,P3_analyst,0.0,openai/gpt-4o-mini,0.0,0
+2019-12-11,P4_reversed,-0.0,openai/gpt-4o-mini,0.0,0.0
+2019-12-11,P5_reason_first,0.0,openai/gpt-4o-mini,0.0,"**Hawkish Elements:** 1. The labor market is described as ""strong,"" indicating confidence in economic conditions. 2. The statement emphasizes that job gains have been ""solid"" and the unemployment rate is ""low,"" suggesting a robust economy. 3. The Committee maintains the federal funds rate, indicatin"

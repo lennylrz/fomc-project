@@ -1,0 +1,206 @@
+date,prompt,score,model,temperature,raw_reply
+2015-01-28,P1_minimal,-0.5,anthropic/claude-3-haiku,0.0,-0.5
+2015-01-28,P2_defined,0.0,anthropic/claude-3-haiku,0.0,0
+2015-01-28,P3_analyst,0.5,anthropic/claude-3-haiku,0.0,0.5
+2015-01-28,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,+0.5
+2015-01-28,P5_reason_first,0.0,anthropic/claude-3-haiku,0.0,"Hawkish elements: - Economic activity has been expanding at a solid pace - Labor market conditions have improved further, with strong job gains and a lower unemployment rate - The Committee expects that, with appropriate policy accommodation, economic activity will expand at a moderate pace - If inc"
+2015-03-18,P1_minimal,-0.5,anthropic/claude-3-haiku,0.0,-0.5
+2015-03-18,P2_defined,0.0,anthropic/claude-3-haiku,0.0,0
+2015-03-18,P3_analyst,0.2,anthropic/claude-3-haiku,0.0,0.2
+2015-03-18,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,+0.5
+2015-03-18,P5_reason_first,0.0,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The statement indicates that the Committee expects inflation to rise gradually toward 2% over the medium term as the labor market improves further. - The Committee judges that an increase in the target range for the federal funds rate remains unlikely at the April FOMC meeting, s"
+2015-04-29,P1_minimal,-0.5,anthropic/claude-3-haiku,0.0,-0.5
+2015-04-29,P2_defined,-0.2,anthropic/claude-3-haiku,0.0,-0.2
+2015-04-29,P3_analyst,0.2,anthropic/claude-3-haiku,0.0,0.2
+2015-04-29,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,+0.5
+2015-04-29,P5_reason_first,0.0,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The Committee continues to expect that economic activity will expand at a moderate pace, with labor market indicators continuing to move toward levels the Committee judges consistent with its dual mandate. - The Committee anticipates that it will be appropriate to raise the targe"
+2015-06-17,P1_minimal,-0.5,anthropic/claude-3-haiku,0.0,-0.5
+2015-06-17,P2_defined,0.0,anthropic/claude-3-haiku,0.0,0
+2015-06-17,P3_analyst,0.2,anthropic/claude-3-haiku,0.0,0.2
+2015-06-17,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,+0.5
+2015-06-17,P5_reason_first,0.0,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The Committee expects that economic activity will expand at a moderate pace, with labor market indicators continuing to move toward levels the Committee judges consistent with its dual mandate. - The Committee anticipates that it will be appropriate to raise the target range for "
+2015-07-29,P1_minimal,0.0,anthropic/claude-3-haiku,0.0,0
+2015-07-29,P2_defined,0.0,anthropic/claude-3-haiku,0.0,0
+2015-07-29,P3_analyst,0.2,anthropic/claude-3-haiku,0.0,0.2
+2015-07-29,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,+0.5
+2015-07-29,P5_reason_first,0.0,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The labor market continued to improve, with solid job gains and declining unemployment. - The Committee expects that, with appropriate policy accommodation, economic activity will expand at a moderate pace. - The Committee anticipates that it will be appropriate to raise the targ"
+2015-09-17,P1_minimal,0.0,anthropic/claude-3-haiku,0.0,0
+2015-09-17,P2_defined,0.0,anthropic/claude-3-haiku,0.0,0
+2015-09-17,P3_analyst,0.2,anthropic/claude-3-haiku,0.0,0.2
+2015-09-17,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,+0.5
+2015-09-17,P5_reason_first,0.0,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The labor market continued to improve, with solid job gains and declining unemployment. - The Committee expects that, with appropriate policy accommodation, economic activity will expand at a moderate pace. - The Committee anticipates that it will be appropriate to raise the targ"
+2015-10-28,P1_minimal,0.0,anthropic/claude-3-haiku,0.0,0
+2015-10-28,P2_defined,0.25,anthropic/claude-3-haiku,0.0,0.25
+2015-10-28,P3_analyst,0.2,anthropic/claude-3-haiku,0.0,0.2
+2015-10-28,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,+0.5
+2015-10-28,P5_reason_first,0.5,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The Committee expects that economic activity will expand at a moderate pace, with labor market indicators continuing to move toward levels the Committee judges consistent with its dual mandate. - The Committee anticipates that it will be appropriate to raise the target range for "
+2015-12-16,P1_minimal,0.5,anthropic/claude-3-haiku,0.0,+0.5
+2015-12-16,P2_defined,0.5,anthropic/claude-3-haiku,0.0,0.5
+2015-12-16,P3_analyst,0.5,anthropic/claude-3-haiku,0.0,0.5
+2015-12-16,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,+0.5
+2015-12-16,P5_reason_first,0.25,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The FOMC raised the target range for the federal funds rate to 0.25-0.50%, indicating a tightening of monetary policy. - The statement expresses confidence that inflation will rise to the 2% objective over the medium term. - The FOMC expects that economic conditions will warrant "
+2016-01-27,P1_minimal,-0.5,anthropic/claude-3-haiku,0.0,-0.5
+2016-01-27,P2_defined,-0.2,anthropic/claude-3-haiku,0.0,-0.2
+2016-01-27,P3_analyst,0.2,anthropic/claude-3-haiku,0.0,0.2
+2016-01-27,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,+0.5
+2016-01-27,P5_reason_first,-0.25,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The labor market has improved further, with additional decline in underutilization of labor resources. - The Committee expects that economic activity will expand at a moderate pace and labor market indicators will continue to strengthen. - The Committee will assess realized and e"
+2016-03-16,P1_minimal,-0.5,anthropic/claude-3-haiku,0.0,-0.5
+2016-03-16,P2_defined,0.0,anthropic/claude-3-haiku,0.0,0
+2016-03-16,P3_analyst,0.2,anthropic/claude-3-haiku,0.0,0.2
+2016-03-16,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,+0.5
+2016-03-16,P5_reason_first,0.0,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The statement notes that economic activity has been expanding at a moderate pace, suggesting the economy is performing well. - It mentions that a range of recent indicators, including strong job gains, points to additional strengthening of the labor market. - The Committee expect"
+2016-04-27,P1_minimal,-0.5,anthropic/claude-3-haiku,0.0,-0.5
+2016-04-27,P2_defined,-0.5,anthropic/claude-3-haiku,0.0,-0.5
+2016-04-27,P3_analyst,0.2,anthropic/claude-3-haiku,0.0,0.2
+2016-04-27,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,+0.5
+2016-04-27,P5_reason_first,0.0,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The statement indicates that labor market conditions have improved further, pointing to additional strengthening of the labor market. - It expects economic activity to expand at a moderate pace and labor market indicators to continue strengthening. - The Committee expects that ec"
+2016-06-15,P1_minimal,-0.5,anthropic/claude-3-haiku,0.0,-0.5
+2016-06-15,P2_defined,-0.5,anthropic/claude-3-haiku,0.0,-0.5
+2016-06-15,P3_analyst,0.2,anthropic/claude-3-haiku,0.0,0.2
+2016-06-15,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,0.5
+2016-06-15,P5_reason_first,0.0,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The statement indicates that the pace of improvement in the labor market has slowed, suggesting a need for tighter monetary policy. - It notes that inflation is expected to rise to 2% over the medium term, implying a need to raise interest rates to control inflation. - The statem"
+2016-07-27,P1_minimal,-0.5,anthropic/claude-3-haiku,0.0,-0.5
+2016-07-27,P2_defined,0.0,anthropic/claude-3-haiku,0.0,0
+2016-07-27,P3_analyst,0.2,anthropic/claude-3-haiku,0.0,0.2
+2016-07-27,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,+0.5
+2016-07-27,P5_reason_first,0.25,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The labor market has strengthened, and economic activity has been expanding at a moderate rate. - The Committee expects that economic conditions will evolve in a manner that will warrant only gradual increases in the federal funds rate. - The Committee expects inflation to rise t"
+2016-09-21,P1_minimal,0.0,anthropic/claude-3-haiku,0.0,0
+2016-09-21,P2_defined,0.0,anthropic/claude-3-haiku,0.0,0
+2016-09-21,P3_analyst,0.2,anthropic/claude-3-haiku,0.0,0.2
+2016-09-21,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,+0.5
+2016-09-21,P5_reason_first,0.0,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The statement notes that the case for an increase in the federal funds rate has strengthened. - Three members (George, Mester, and Rosengren) preferred to raise the target range for the federal funds rate to 1/2 to 3/4 percent.  Dovish elements: - The Committee decided to maintai"
+2016-11-02,P1_minimal,0.0,anthropic/claude-3-haiku,0.0,0
+2016-11-02,P2_defined,0.0,anthropic/claude-3-haiku,0.0,0
+2016-11-02,P3_analyst,0.3,anthropic/claude-3-haiku,0.0,0.3
+2016-11-02,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,+0.5
+2016-11-02,P5_reason_first,0.0,anthropic/claude-3-haiku,0.0,Hawkish elements: - The statement indicates that the labor market has continued to strengthen and economic activity has picked up. - It notes that the case for an increase in the federal funds rate has continued to strengthen. - The statement suggests that the Committee expects only gradual increase
+2016-12-14,P1_minimal,0.5,anthropic/claude-3-haiku,0.0,+0.5
+2016-12-14,P2_defined,0.5,anthropic/claude-3-haiku,0.0,0.5
+2016-12-14,P3_analyst,0.5,anthropic/claude-3-haiku,0.0,0.5
+2016-12-14,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,0.5
+2016-12-14,P5_reason_first,0.0,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The labor market has continued to strengthen, with solid job gains and a declining unemployment rate. - Inflation has increased since earlier this year, though it is still below the Committee's 2% objective. - The Committee decided to raise the target range for the federal funds "
+2017-02-01,P1_minimal,0.0,anthropic/claude-3-haiku,0.0,0
+2017-02-01,P2_defined,0.0,anthropic/claude-3-haiku,0.0,0
+2017-02-01,P3_analyst,0.2,anthropic/claude-3-haiku,0.0,0.2
+2017-02-01,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,+0.5
+2017-02-01,P5_reason_first,0.0,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The labor market has continued to strengthen, and economic activity has continued to expand at a moderate pace. - The Committee expects that, with gradual adjustments in the stance of monetary policy, economic activity will expand at a moderate pace, labor market conditions will "
+2017-03-15,P1_minimal,0.5,anthropic/claude-3-haiku,0.0,+0.5
+2017-03-15,P2_defined,0.5,anthropic/claude-3-haiku,0.0,0.5
+2017-03-15,P3_analyst,0.5,anthropic/claude-3-haiku,0.0,+0.5
+2017-03-15,P4_reversed,-0.0,anthropic/claude-3-haiku,0.0,0
+2017-03-15,P5_reason_first,0.5,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The labor market has continued to strengthen, and economic activity has continued to expand at a moderate pace. - Inflation has increased in recent quarters, moving close to the Committee's 2 percent longer-run objective. - The Committee decided to raise the target range for the "
+2017-05-03,P1_minimal,0.0,anthropic/claude-3-haiku,0.0,0
+2017-05-03,P2_defined,0.0,anthropic/claude-3-haiku,0.0,0
+2017-05-03,P3_analyst,0.2,anthropic/claude-3-haiku,0.0,0.2
+2017-05-03,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,+0.5
+2017-05-03,P5_reason_first,0.0,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The labor market has continued to strengthen, with solid job gains and a decline in the unemployment rate. - Inflation measured on a 12-month basis recently has been running close to the Committee's 2 percent longer-run objective. - The Committee views the slowing in growth durin"
+2017-06-14,P1_minimal,0.5,anthropic/claude-3-haiku,0.0,+0.5
+2017-06-14,P2_defined,0.5,anthropic/claude-3-haiku,0.0,0.5
+2017-06-14,P3_analyst,0.5,anthropic/claude-3-haiku,0.0,+0.5
+2017-06-14,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,0.5
+2017-06-14,P5_reason_first,0.0,anthropic/claude-3-haiku,0.0,Hawkish elements: - The FOMC decided to raise the target range for the federal funds rate to 1 to 1-1/4 percent. - The Committee expects that economic conditions will evolve in a manner that will warrant gradual increases in the federal funds rate. - The Committee currently expects to begin implemen
+2017-07-26,P1_minimal,0.0,anthropic/claude-3-haiku,0.0,0
+2017-07-26,P2_defined,0.0,anthropic/claude-3-haiku,0.0,0
+2017-07-26,P3_analyst,0.2,anthropic/claude-3-haiku,0.0,0.2
+2017-07-26,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,+0.5
+2017-07-26,P5_reason_first,0.5,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The labor market has continued to strengthen, with solid job gains and a declining unemployment rate. - The Committee expects that economic activity will expand at a moderate pace and labor market conditions will strengthen somewhat further. - The Committee expects that economic "
+2017-09-20,P1_minimal,0.0,anthropic/claude-3-haiku,0.0,0
+2017-09-20,P2_defined,0.0,anthropic/claude-3-haiku,0.0,0
+2017-09-20,P3_analyst,0.2,anthropic/claude-3-haiku,0.0,0.2
+2017-09-20,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,+0.5
+2017-09-20,P5_reason_first,0.0,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The labor market has continued to strengthen, and economic activity has been rising moderately. - The Committee continues to expect that economic activity will expand at a moderate pace, and labor market conditions will strengthen somewhat further. - The Committee expects that ec"
+2017-11-01,P1_minimal,0.0,anthropic/claude-3-haiku,0.0,0
+2017-11-01,P2_defined,0.5,anthropic/claude-3-haiku,0.0,0.5
+2017-11-01,P3_analyst,0.2,anthropic/claude-3-haiku,0.0,0.2
+2017-11-01,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,+0.5
+2017-11-01,P5_reason_first,0.5,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The labor market has continued to strengthen, and economic activity has been rising at a solid rate. - The Committee continues to expect that economic activity will expand at a moderate pace, and labor market conditions will strengthen somewhat further. - The Committee decided to"
+2017-12-13,P1_minimal,0.5,anthropic/claude-3-haiku,0.0,+0.5
+2017-12-13,P2_defined,0.5,anthropic/claude-3-haiku,0.0,+0.5
+2017-12-13,P3_analyst,0.5,anthropic/claude-3-haiku,0.0,0.5
+2017-12-13,P4_reversed,-0.0,anthropic/claude-3-haiku,0.0,0
+2017-12-13,P5_reason_first,0.5,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The labor market has continued to strengthen, and economic activity has been rising at a solid rate. - The Committee decided to raise the target range for the federal funds rate to 1-1/4 to 1-1/2 percent. - The Committee expects that economic conditions will evolve in a manner th"
+2018-01-31,P1_minimal,0.0,anthropic/claude-3-haiku,0.0,0
+2018-01-31,P2_defined,0.0,anthropic/claude-3-haiku,0.0,0
+2018-01-31,P3_analyst,0.5,anthropic/claude-3-haiku,0.0,0.5
+2018-01-31,P4_reversed,-0.0,anthropic/claude-3-haiku,0.0,0
+2018-01-31,P5_reason_first,0.0,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The labor market has continued to strengthen, and economic activity has been rising at a solid rate. - The Committee expects that, with further gradual adjustments in the stance of monetary policy, economic activity will expand at a moderate pace and labor market conditions will "
+2018-03-21,P1_minimal,0.5,anthropic/claude-3-haiku,0.0,+0.5
+2018-03-21,P2_defined,0.5,anthropic/claude-3-haiku,0.0,0.5
+2018-03-21,P3_analyst,0.5,anthropic/claude-3-haiku,0.0,0.5
+2018-03-21,P4_reversed,-0.0,anthropic/claude-3-haiku,0.0,0
+2018-03-21,P5_reason_first,0.5,anthropic/claude-3-haiku,0.0,Hawkish elements: - The Committee expects further gradual adjustments in the stance of monetary policy - The Committee decided to raise the target range for the federal funds rate to 1-1/2 to 1-3/4 percent - The Committee expects that economic conditions will evolve in a manner that will warrant fur
+2018-05-02,P1_minimal,0.0,anthropic/claude-3-haiku,0.0,0
+2018-05-02,P2_defined,0.0,anthropic/claude-3-haiku,0.0,0
+2018-05-02,P3_analyst,0.3,anthropic/claude-3-haiku,0.0,0.3
+2018-05-02,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,0.5
+2018-05-02,P5_reason_first,0.0,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The labor market has continued to strengthen, with strong job gains and low unemployment. - Business fixed investment continued to grow strongly. - Inflation on a 12-month basis is expected to run near the Committee's 2% objective over the medium term. - The Committee expects tha"
+2018-06-13,P1_minimal,1.0,anthropic/claude-3-haiku,0.0,+1
+2018-06-13,P2_defined,0.5,anthropic/claude-3-haiku,0.0,0.5
+2018-06-13,P3_analyst,0.5,anthropic/claude-3-haiku,0.0,+0.5
+2018-06-13,P4_reversed,-0.0,anthropic/claude-3-haiku,0.0,0
+2018-06-13,P5_reason_first,0.5,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The labor market has continued to strengthen, with strong job gains and a declining unemployment rate. - Economic activity has been rising at a solid rate, with growth of household spending picking up and business fixed investment continuing to grow strongly. - Inflation has move"
+2018-08-01,P1_minimal,0.5,anthropic/claude-3-haiku,0.0,+0.5
+2018-08-01,P2_defined,0.5,anthropic/claude-3-haiku,0.0,0.5
+2018-08-01,P3_analyst,0.5,anthropic/claude-3-haiku,0.0,0.5
+2018-08-01,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,0.5
+2018-08-01,P5_reason_first,0.5,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The labor market has continued to strengthen, with strong job gains and low unemployment. - Household spending and business fixed investment have grown strongly. - The Committee expects further gradual increases in the target range for the federal funds rate. - The stance of mone"
+2018-09-26,P1_minimal,1.0,anthropic/claude-3-haiku,0.0,+1
+2018-09-26,P2_defined,0.5,anthropic/claude-3-haiku,0.0,+0.5
+2018-09-26,P3_analyst,0.5,anthropic/claude-3-haiku,0.0,+0.5
+2018-09-26,P4_reversed,0.5,anthropic/claude-3-haiku,0.0,-0.5
+2018-09-26,P5_reason_first,0.5,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The labor market has continued to strengthen, with strong job gains and low unemployment. - Household spending and business fixed investment have grown strongly. - The Committee expects further gradual increases in the target range for the federal funds rate. - The Committee deci"
+2018-11-08,P1_minimal,0.5,anthropic/claude-3-haiku,0.0,+0.5
+2018-11-08,P2_defined,0.5,anthropic/claude-3-haiku,0.0,0.5
+2018-11-08,P3_analyst,0.5,anthropic/claude-3-haiku,0.0,0.5
+2018-11-08,P4_reversed,-0.0,anthropic/claude-3-haiku,0.0,0
+2018-11-08,P5_reason_first,0.5,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The labor market has continued to strengthen, with strong job gains and a declining unemployment rate. - Economic activity has been rising at a strong rate. - The Committee expects that further gradual increases in the target range for the federal funds rate will be consistent wi"
+2018-12-19,P1_minimal,1.0,anthropic/claude-3-haiku,0.0,+1
+2018-12-19,P2_defined,0.5,anthropic/claude-3-haiku,0.0,0.5
+2018-12-19,P3_analyst,0.5,anthropic/claude-3-haiku,0.0,0.5
+2018-12-19,P4_reversed,0.5,anthropic/claude-3-haiku,0.0,-0.5
+2018-12-19,P5_reason_first,0.0,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The labor market has continued to strengthen, with strong job gains and low unemployment. - Economic activity has been rising at a strong rate. - The Committee judges that some further gradual increases in the target range for the federal funds rate will be consistent with sustai"
+2019-01-30,P1_minimal,-0.5,anthropic/claude-3-haiku,0.0,-0.5
+2019-01-30,P2_defined,0.0,anthropic/claude-3-haiku,0.0,0
+2019-01-30,P3_analyst,0.2,anthropic/claude-3-haiku,0.0,0.2
+2019-01-30,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,+0.5
+2019-01-30,P5_reason_first,0.0,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The labor market has continued to strengthen, with strong job gains and low unemployment. - Household spending has continued to grow strongly. - The Committee continues to view sustained expansion of economic activity, strong labor market conditions, and inflation near the Commit"
+2019-03-20,P1_minimal,0.0,anthropic/claude-3-haiku,0.0,0
+2019-03-20,P2_defined,-0.5,anthropic/claude-3-haiku,0.0,-0.5
+2019-03-20,P3_analyst,-0.5,anthropic/claude-3-haiku,0.0,-0.5
+2019-03-20,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,+0.5
+2019-03-20,P5_reason_first,0.0,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The labor market remains strong, with low unemployment rate. - The Committee continues to view sustained expansion of economic activity and strong labor market conditions as the most likely outcomes.  Dovish elements: - Growth of economic activity has slowed from its solid rate i"
+2019-05-01,P1_minimal,-0.5,anthropic/claude-3-haiku,0.0,-0.5
+2019-05-01,P2_defined,-0.5,anthropic/claude-3-haiku,0.0,-0.5
+2019-05-01,P3_analyst,0.2,anthropic/claude-3-haiku,0.0,0.2
+2019-05-01,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,+0.5
+2019-05-01,P5_reason_first,0.0,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The labor market remains strong, with solid job gains and a low unemployment rate. - Economic activity rose at a solid rate, though growth of household spending and business fixed investment slowed in the first quarter.  Dovish elements: - Overall inflation and inflation for item"
+2019-06-19,P1_minimal,-0.5,anthropic/claude-3-haiku,0.0,-0.5
+2019-06-19,P2_defined,-0.5,anthropic/claude-3-haiku,0.0,-0.5
+2019-06-19,P3_analyst,0.1,anthropic/claude-3-haiku,0.0,0.1
+2019-06-19,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,+0.5
+2019-06-19,P5_reason_first,0.0,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The labor market remains strong and economic activity is rising at a moderate rate. - Job gains have been solid, and the unemployment rate has remained low. - The Committee continues to view sustained expansion of economic activity, strong labor market conditions, and inflation n"
+2019-07-31,P1_minimal,-1.0,anthropic/claude-3-haiku,0.0,-1
+2019-07-31,P2_defined,-0.5,anthropic/claude-3-haiku,0.0,-0.5
+2019-07-31,P3_analyst,-0.5,anthropic/claude-3-haiku,0.0,-0.5
+2019-07-31,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,+0.5
+2019-07-31,P5_reason_first,-0.5,anthropic/claude-3-haiku,0.0,Hawkish elements: - The statement notes that the labor market remains strong and economic activity has been rising at a moderate rate. - It mentions that the Committee will continue to monitor the implications of incoming information for the economic outlook and will act as appropriate to sustain th
+2019-09-18,P1_minimal,-1.0,anthropic/claude-3-haiku,0.0,-1
+2019-09-18,P2_defined,-0.5,anthropic/claude-3-haiku,0.0,-0.5
+2019-09-18,P3_analyst,-0.3,anthropic/claude-3-haiku,0.0,-0.3
+2019-09-18,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,+0.5
+2019-09-18,P5_reason_first,-0.25,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The labor market remains strong, with solid job gains and low unemployment. - Business fixed investment and exports have weakened, indicating some economic slowdown. - The Committee will continue to monitor the implications of incoming information for the economic outlook and wil"
+2019-10-11,P1_minimal,0.0,anthropic/claude-3-haiku,0.0,0
+2019-10-11,P2_defined,0.0,anthropic/claude-3-haiku,0.0,0
+2019-10-11,P3_analyst,0.2,anthropic/claude-3-haiku,0.0,0.2
+2019-10-11,P4_reversed,-0.0,anthropic/claude-3-haiku,0.0,0
+2019-10-11,P5_reason_first,0.0,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The FOMC reaffirms its intention to implement monetary policy in a regime with an ample supply of reserves, suggesting a commitment to maintaining a relatively tight monetary policy stance. - The FOMC directs the Desk to purchase Treasury bills at least into the second quarter of"
+2019-10-30,P1_minimal,-1.0,anthropic/claude-3-haiku,0.0,-1
+2019-10-30,P2_defined,-0.5,anthropic/claude-3-haiku,0.0,-0.5
+2019-10-30,P3_analyst,-0.5,anthropic/claude-3-haiku,0.0,-0.5
+2019-10-30,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,+0.5
+2019-10-30,P5_reason_first,-0.5,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The labor market remains strong, with solid job gains and low unemployment rate. - The Committee seeks to foster maximum employment and price stability.  Dovish elements: - Household spending has been rising at a strong pace, but business fixed investment and exports remain weak."
+2019-12-11,P1_minimal,-0.5,anthropic/claude-3-haiku,0.0,-0.5
+2019-12-11,P2_defined,-0.5,anthropic/claude-3-haiku,0.0,-0.5
+2019-12-11,P3_analyst,0.1,anthropic/claude-3-haiku,0.0,0.1
+2019-12-11,P4_reversed,-0.5,anthropic/claude-3-haiku,0.0,+0.5
+2019-12-11,P5_reason_first,0.0,anthropic/claude-3-haiku,0.0,"Hawkish elements: - The labor market remains strong, with solid job gains and low unemployment. - The Committee judges that the current stance of monetary policy is appropriate to support sustained expansion of economic activity and strong labor market conditions.  Dovish elements: - Household spend"

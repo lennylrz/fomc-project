@@ -1,0 +1,194 @@
+\documentclass[11pt]{article}
+% Build: cd paper && latexmk -pdf paper.tex   (tables and numbers: python3 make_tables.py)
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{microtype}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{threeparttable}
+\usepackage{caption}
+\usepackage{setspace}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{patterns}
+\usepackage[authoryear,round]{natbib}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xurl}
+\usepackage{fvextra}
+\usepackage{float}
+\usepackage{placeins}
+
+\captionsetup{font=small,labelfont=bf,skip=4pt}
+\setstretch{1.08}
+\setlength{\parskip}{0.35em}
+\newcommand{\tabnote}[1]{\par\vspace{3pt}\begin{minipage}{\linewidth}\footnotesize\setstretch{1.0}#1\end{minipage}}
+
+\input{tables/numbers}
+
+\title{Reliable, Recognised, and Hard to Validate:\\ An Audit of LLM Stance Scores for FOMC Statements}
+\author{Lenny Lorenz\thanks{Email: \texttt{lennylorenz88@gmail.com}. Code, data and every number in
+this paper are reproducible from the project repository,
+\url{https://github.com/lennylrz/fomc-project} (see \texttt{paper/README.md}).}}
+\date{October 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent Large language models (LLMs) are now used to score central bank communication. I audit such
+scores for FOMC statements (2000--2026). Reliability: on a block of \R{icc.fable.n} statements scored with
+five prompts, three inexpensive models lose \R{icc.mini.drop} to \R{icc.haiku.drop} of their agreement
+once the rate decision is removed; a frontier model loses \R{icc.fable.drop}. For meeting-to-meeting
+changes, the choice of model matters about twice as much as the choice of prompt. Recognition: shown
+statements with dates, names and events removed, the frontier model names the exact month for
+\R{probe.blind.exactpct} of them (\R{probe.para.exactpct} of a paraphrased sample), while a
+text-similarity baseline recovers at most \R{base.brpct}; it also names the month unprompted in
+\R{spont.blindfable.all.pct} of its blinded scoring replies. Blinding and paraphrasing therefore do not
+rule out look-ahead bias for such documents. Validity: the frontier model's score changes relate to policy
+surprises at no-change meetings, but the link fails a multiple-testing adjustment and is concentrated in
+2016--2023.
+
+\medskip\noindent\textbf{Keywords:} large language models, central bank communication, look-ahead bias,
+measurement reliability, monetary policy surprises.\\
+\textbf{JEL:} E52, E58, C81, G14.
+\end{abstract}
+
+\newpage
+%=====================================================================================
+\section{Introduction}\label{sec:intro}
+
+Researchers in finance and macroeconomics now use large language models (LLMs) to turn text into numbers:
+the tone of news headlines, of earnings calls and of central bank statements
+\citep{lopezlira2023,hansen2024kazinnik,shah2023}. For central bank communication this continues a long
+line of work that measured statements with word lists, topic models and hand labels
+\citep{lucca2009,apel2012,hansen2016,gardner2022}. An LLM promises a stance measure that needs no
+dictionary and no training data. One asks the model how hawkish a statement is and records the number.
+
+An applied researcher who wants to use that number faces two questions. The first is about measurement:
+would another, equally reasonable prompt or model give the same answer? The second is about what the
+model actually does: did it read the text, or did it recognise the document and remember what happened
+next? The second question is the look-ahead problem that \citet{glasserman2023}, \citet{sarkar2024} and
+\citet{ludwig2024} raise for any LLM measure applied to documents written before the model's training
+data end. The usual remedies either change the input after the fact, by removing names and dates or by
+paraphrasing, or use models whose training data stop before the documents
+\citep{he2025,drinkall2024}.
+
+This paper audits LLM stance scores for the post-meeting statements of the Federal Open Market Committee
+(FOMC) with these two questions in mind. I score \R{corpus.policy} policy statements from 2000 to 2026
+with five prompts, using a frontier model (Claude Fable 5.1, ``Fable'' below), that is, a current
+top-tier general-purpose model, and an inexpensive one (Gemini 2.5 Flash). On a block of
+\R{icc.fable.n} statements from 2015--2019, two more inexpensive models (Claude 3 Haiku and GPT-4o mini)
+score every statement with every prompt as well. GPT-4, which has a documented training cutoff of
+September 2021, scores the full corpus with one prompt, and a word-count dictionary serves as a baseline
+that cannot remember anything. I then ask three things: how reliable the scores are, whether the
+frontier model recognises the statements it scores, and whether its scores relate to market reactions.
+The paper has three findings.
+
+\paragraph{Reliability depends on the model.} I measure agreement across prompts with the intraclass
+correlation (ICC), which is 1 when every prompt gives the same scores up to a constant and falls towards 0
+as prompt-specific noise grows. On a block of \R{icc.fable.n} statements from 2015--2019, the three
+inexpensive models agree moderately on score levels (ICC between \R{icc.haiku.raw} and \R{icc.gem.raw}),
+but much of that agreement comes from the rate decision itself. Once the decision is regressed out, their ICC falls by \R{icc.mini.drop} to \R{icc.haiku.drop}.
+Fable's falls by \R{icc.fable.drop}. For meeting-to-meeting changes in the score, a three-way variance
+decomposition attributes \R{var.changes.raw.sxm} of the variance to models disagreeing about which
+statements became more hawkish and \R{var.changes.raw.sxp} to prompts disagreeing. Model choice matters
+about twice as much as prompt choice. How much agreement survives depends on the sample: on the full
+corpus Gemini's drop is only \R{icc.gemfull.drop}.
+
+\paragraph{Recognition survives the standard de-contamination tools.} This is the main new result. I
+remove month names, years, member names and named events from each statement (``blinding'') and ask
+Fable when the meeting took place. It names the exact month for \R{probe.blind.exact} of
+\R{probe.blind.n} pre-2024 statements, including \R{probe.blind.zlb} of the \R{probe.blind.zlbn}
+statements from the zero-lower-bound years, when the policy rate was the same at every meeting. After an
+LLM paraphrase that changes the wording and states the rate only as a change, it still names
+\R{probe.para.exact} of \R{probe.para.n}. A text-similarity baseline with no memory places most
+statements within three months but can recover the exact meeting for at most \R{base.brpct} of them.
+Fable also recognises statements without being asked: in \R{spont.blindfable.all.pct} of its scoring
+replies on blinded text it volunteers the statement's month and year (``This is the January 2014 FOMC
+statement''), and its replies on the original text sometimes cite information from outside the
+statement, such as the decisions that followed. Its knowledge extends to roughly early 2026, so even the
+2024--2025 statements are not ``after its cutoff''. The lesson reaches beyond this corpus, although it is
+shown here for one model: for well-known documents, changing the text after the fact does not rule out
+look-ahead bias.
+
+\paragraph{Validity is weak and cannot be separated from contamination.} Fable's meeting-to-meeting score
+change (dScore) is positively related to the monetary policy surprise (MPS) of
+\citet{bauer2023reassessment}, which measures how far interest-rate futures move in the 30 minutes
+around an FOMC announcement, at meetings where the rate did not change. In the regression designated as
+primary, the $t$-statistic with autocorrelation-robust (Newey--West) standard errors is \R{prim.t}
+($p=\R{prim.p}$, $n=\R{prim.n}$). This is suggestive, not established. Adjusted with Holm's method for
+the twelve regressions in its family, the $p$-value is \R{fam.MPS.hold.none.holm}; the specification was
+frozen only after earlier specifications had been seen; and the relation is concentrated in 2016--2023
+($t$ of \R{extra.sub1623.t}, against \R{extra.sub0007.t} for 2000--2007 and \R{extra.sub0815.t} for
+2008--2015). Daily changes in 2- and 10-year Treasury yields are not significantly related to dScore under
+the primary corpus definition ($t$ of \R{hold.fable.d2.t} and \R{hold.fable.d10.t}); they become
+significant if two borderline unscheduled statements are dropped, or if non-policy notices are kept.
+Fable's scores track market surprises better than Gemini's (in an exploratory comparison the difference in
+standardised slopes has $z$ between \R{j.zmin} and \R{j.zmax}), but Fable agrees no better than Gemini or
+GPT-4 with published human labels of the same statements \citep{shah2023}. That pattern fits a model that
+knows more about what happened at least as well as a model that reads better.
+
+\paragraph{What the design cannot do.} The paper does not show that Fable's market link comes from
+memory, and it does not show that it does not. Recognition is necessary for recalling a market reaction,
+but it is not evidence of such recall. The fall in the market link on paraphrased text mixes two effects:
+the removal of exact wording, which markets do respond to, and the removal of cues to the statement's
+identity. GPT-4, the one model with a documented cutoff, answers on so coarse a scale that it cannot
+serve as a control, and the 2024--2026 statements are both too few (power of about \R{power.min} to
+\R{power.max}) and, for Fable, not unseen. Only models trained on data that stop before the documents, or
+truly unseen documents, can settle the question.
+
+\subsection{Related literature}
+
+\emph{LLMs as measurement instruments.} \citet{lopezlira2023} show that ChatGPT's reading of news
+headlines predicts next-day stock returns, and \citet{hansen2024kazinnik} find that GPT models classify
+the stance of FOMC communication better than standard text methods. \citet{shah2023} hand-label sentences
+from FOMC documents as hawkish, dovish or neutral and build a stance measure from a fine-tuned model.
+\citet{ludwig2024} set out when LLM outputs can be used in econometric work: prediction tasks need the
+absence of training leakage, while measurement tasks need a validation sample. This paper takes the
+measurement view and asks how much the measure depends on arbitrary choices. The intraclass correlation
+and Krippendorff's alpha, two standard statistics of agreement between raters, are the tools for that
+question \citep{shrout1979,hayes2007,krippendorff2018}.
+
+\emph{Look-ahead bias.} \citet{glasserman2023} separate look-ahead bias from a ``distraction'' effect in
+GPT sentiment scores of news headlines and use anonymised company names as a remedy. \citet{sarkar2024}
+propose tests for look-ahead bias in pretrained models. \citet{he2025} and \citet{drinkall2024} train
+models only on text available at each date, so that look-ahead bias is ruled out by construction. Work on
+data contamination in machine learning shows that models can reproduce training text and recognise
+benchmark items \citep{carlini2021,golchin2024}. My contribution here is a direct test of the
+anonymisation remedy on a corpus of well-known documents: for such documents, removing identifiers does
+not stop identification, and identification also shows up, unprompted, in the scoring replies
+themselves.
+
+\emph{Central bank communication and market surprises.} Statements move asset prices beyond the rate
+decision \citep{gurkaynak2005}, and FOMC surprises can be split into rate, forward-guidance and
+asset-purchase components \citep{swanson2021}. High-frequency surprises may also carry information about
+the economy rather than about policy \citep{nakamura2018,jarocinski2020}; \citet{bauer2023alternative}
+argue instead that the Fed and markets respond to the same public news. I use the surprise series of
+\citet{bauer2023reassessment}, including their version purged of predictable components, as the main
+outcome. Text measures of Fed communication have been related to markets and the macroeconomy before
+\citep{lucca2009,hansen2016,gardner2022}. Relative to that work, the question here is not whether
+statements contain information, but whether an LLM score of them can be validated against markets when
+the model may have seen the market reaction.
+
+The rest of the paper is organised as follows. Section~\ref{sec:data} describes the statements and the
+market data, and Section~\ref{sec:design} the scoring design. Section~\ref{sec:reliability} reports
+reliability, Section~\ref{sec:recognition} the recognition audit, and Section~\ref{sec:validity} the
+market validation. Section~\ref{sec:cannot} discusses what this design can and cannot test, and
+Section~\ref{sec:conclusion} concludes. The appendix gives the prompts verbatim, the corpus
+classification, the parse audit, additional results and a full list of disclosures.
+
+\input{sections/data}
+\input{sections/reliability}
+\input{sections/recognition}
+\input{sections/validity}
+\input{sections/cannot}
+\input{sections/conclusion}
+%%SECTIONS%%
+
+\bibliographystyle{plainnat}
+\bibliography{refs}
+
+\input{sections/appendix}
+
+\end{document}

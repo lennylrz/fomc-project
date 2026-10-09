@@ -1,0 +1,1654 @@
+date,prompt,score,model,temperature,raw_reply
+2000-02-02,P4_reversed,0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2000-02-02,P3_analyst,0.8,anthropic/claude-fable-5.1,0.0,0.8
+2000-03-21,P2_defined,0.8,anthropic/claude-fable-5.1,0.0,0.8
+2000-03-21,P1_minimal,0.8,anthropic/claude-fable-5.1,0.0,0.8
+2000-02-02,P2_defined,0.7,anthropic/claude-fable-5.1,0.0,0.7
+2000-02-02,P1_minimal,0.8,anthropic/claude-fable-5.1,0.0,0.8
+2000-03-21,P3_analyst,0.8,anthropic/claude-fable-5.1,0.0,0.8
+2000-03-21,P4_reversed,0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2000-05-16,P3_analyst,0.9,anthropic/claude-fable-5.1,0.0,0.9
+2000-05-16,P4_reversed,0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2000-05-16,P1_minimal,0.9,anthropic/claude-fable-5.1,0.0,0.9
+2000-02-02,P5_reason_first,0.75,anthropic/claude-fable-5.1,0.0,"This is the February 2, 2000 FOMC statement.  **Hawkish elements:** - A 25 bp rate hike to 5.75%, plus a matching discount rate increase — a tightening action. - Explicit concern that demand growth ""will continue to exceed the growth in potential supply,"" signaling that the Committee sees the econom"
+2000-05-16,P2_defined,0.9,anthropic/claude-fable-5.1,0.0,0.9
+2000-06-28,P2_defined,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2000-06-28,P3_analyst,0.35,anthropic/claude-fable-5.1,0.0,0.35
+2000-06-28,P4_reversed,0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2000-06-28,P1_minimal,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2000-03-21,P5_reason_first,0.7,anthropic/claude-fable-5.1,0.0,"**Hawkish elements:** - Actual 25 bp rate hike to 6% (plus discount rate increase to 5.5%), continuing a tightening cycle. - Explicit concern that demand growth will continue to exceed potential supply, fostering ""inflationary imbalances."" - Risk assessment tilted ""mainly toward conditions that may "
+2000-05-16,P5_reason_first,0.9,anthropic/claude-fable-5.1,0.0,"**Hawkish elements:** - A 50 bp hike (larger than the usual 25 bp) to 6½%, plus a matching 50 bp discount rate increase. - Explicit statement that demand growth is exceeding even rapid productivity-driven gains in potential supply, with ""continued pressure on resources."" - Concern that this imbalanc"
+2000-08-22,P1_minimal,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2000-08-22,P4_reversed,0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2000-08-22,P3_analyst,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2000-08-22,P2_defined,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2000-10-03,P1_minimal,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2000-06-28,P5_reason_first,0.4,anthropic/claude-fable-5.1,0.0,"**Hawkish elements:** - Rate held at a restrictive 6-1/2 percent (after a string of hikes). - Core inflation acknowledged as ""rising slightly faster than a year ago."" - Evidence of demand moderation described as ""still tentative and preliminary."" - Labor utilization ""remains at an unusually high lev"
+2000-10-03,P2_defined,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2000-10-03,P3_analyst,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2000-11-15,P1_minimal,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2000-10-03,P4_reversed,0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2000-11-15,P2_defined,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2000-11-15,P3_analyst,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2000-08-22,P5_reason_first,0.3,anthropic/claude-fable-5.1,0.0,"This is the June 2000 FOMC statement (rate held at 6.5% after the May 50bp hike).  **Hawkish elements:** - Explicit statement that risks are ""weighted mainly toward conditions that may generate heightened inflation pressures"" — the formal tightening bias. - Continued concern about a ""continuing gap "
+2000-11-15,P4_reversed,0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2000-12-19,P1_minimal,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2000-10-03,P5_reason_first,0.35,anthropic/claude-fable-5.1,0.0,"This is the FOMC statement from mid-2000 (August or October), holding the funds rate at 6.5% after the May 2000 hike.  **Hawkish elements** - Labor market described as unusually tight (""utilization of the pool of available workers remains at an unusually high level""). - Energy price increases flagge"
+2000-12-19,P3_analyst,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2000-12-19,P2_defined,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2000-12-19,P4_reversed,-0.6,anthropic/claude-fable-5.1,0.0,"This is the December 2000 FOMC statement, where the Fed held rates at 6.5% but shifted its balance of risks from inflation to economic weakness — a clear dovish pivot signaling upcoming cuts (which came in January 2001).  0.6"
+2001-01-03,P1_minimal,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2001-01-03,P2_defined,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2001-01-03,P3_analyst,-0.85,anthropic/claude-fable-5.1,0.0,-0.85
+2001-01-03,P4_reversed,-0.85,anthropic/claude-fable-5.1,0.0,0.85
+2001-01-31,P1_minimal,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2000-11-15,P5_reason_first,0.3,anthropic/claude-fable-5.1,0.0,"This is the November 2000 FOMC statement, holding at 6.5% with a tilt toward inflation risks but acknowledging slowing growth.  **Hawkish elements** - Rate held at a restrictive 6-1/2 percent with no hint of near-term easing. - Labor market described as unusually tight (""utilization of the pool of a"
+2001-01-31,P2_defined,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2001-01-31,P4_reversed,-0.9,anthropic/claude-fable-5.1,0.0,0.9
+2001-01-31,P3_analyst,-0.85,anthropic/claude-fable-5.1,0.0,-0.85
+2000-12-19,P5_reason_first,-0.6,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - The Committee held the funds rate at a restrictive 6-1/2 percent rather than easing. - Acknowledges that ""some inflation risks persist."" - Reiterates the long-run goal of price stability.  **Dovish elements** - Extensive catalogue of downside forces: rising energy costs draggi"
+2001-03-20,P1_minimal,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2001-03-20,P2_defined,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2001-01-03,P5_reason_first,-0.9,anthropic/claude-fable-5.1,0.0,"This is the January 3, 2001 intermeeting FOMC statement.  **Hawkish elements** - Essentially none of substance. The only mildly non-dovish note is the observation that productivity gains from technology show ""little evidence"" of abating, which signals confidence in the economy's long-run supply side"
+2001-03-20,P3_analyst,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2001-03-20,P4_reversed,-0.8,anthropic/claude-fable-5.1,0.0,0.8
+2001-04-18,P1_minimal,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2001-04-18,P3_analyst,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2001-04-18,P2_defined,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2001-01-31,P5_reason_first,-0.8,anthropic/claude-fable-5.1,0.0,"**Hawkish elements:** - Mention of rising energy costs pressing on profit margins and draining purchasing power (a nod to cost pressures, though framed as a growth negative rather than an inflation worry). - Acknowledgment that productivity gains and lower rates ""should support growth of the economy"
+2001-04-18,P4_reversed,-0.9,anthropic/claude-fable-5.1,0.0,0.9
+2001-05-15,P1_minimal,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2001-05-15,P2_defined,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2001-05-15,P3_analyst,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2001-05-15,P4_reversed,-0.85,anthropic/claude-fable-5.1,0.0,0.85
+2001-03-20,P5_reason_first,-0.8,anthropic/claude-fable-5.1,0.0,"This is the March 20, 2001 FOMC statement.  **Hawkish elements (few):** - Acknowledges spending has ""firmed a bit since last year"" and inventory adjustment ""appears to be well underway,"" hinting the correction may be progressing. - States that long-term productivity growth prospects have not been ""m"
+2001-06-27,P1_minimal,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2001-06-27,P3_analyst,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2001-06-27,P2_defined,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2001-04-18,P5_reason_first,-0.85,anthropic/claude-fable-5.1,0.0,"This is the April 18, 2001 intermeeting FOMC statement — a surprise 50bp cut.  **Hawkish elements (mild):** - Acknowledgment that inventory correction is ""well advanced,"" suggesting the drag from that source is fading. - Consumption and housing ""have held up reasonably well."" - Underlying productivi"
+2001-06-27,P4_reversed,-0.7,anthropic/claude-fable-5.1,0.0,0.7
+2001-08-21,P1_minimal,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2001-08-21,P2_defined,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2001-05-15,P5_reason_first,-0.8,anthropic/claude-fable-5.1,0.0,"This is the May 15, 2001 FOMC statement, cutting the funds rate 50 bp to 4%.  **Hawkish elements (few):** - Acknowledgment that the inventory correction ""seems well advanced"" and that consumption and housing ""have held up reasonably well."" - Underlying productivity trend ""appears to be largely intac"
+2001-08-21,P4_reversed,-0.7,anthropic/claude-fable-5.1,0.0,0.7
+2001-08-21,P3_analyst,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2001-09-17,P2_defined,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2001-09-17,P3_analyst,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2001-09-17,P1_minimal,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2001-06-27,P5_reason_first,-0.7,anthropic/claude-fable-5.1,0.0,"**Hawkish elements:** - The cut was only 25 bp, a slowdown from the 50 bp moves earlier in 2001 — a signal the pace of easing is moderating. - Reference to ""continuing favorable trends"" bolstering long-term productivity and economic prospects. - Mention of the 275 bp cumulative easing since January "
+2001-09-17,P4_reversed,-0.9,anthropic/claude-fable-5.1,0.0,0.9
+2001-10-02,P1_minimal,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2001-08-21,P5_reason_first,-0.7,anthropic/claude-fable-5.1,0.0,"**Hawkish elements:** - Household demand described as ""sustained."" - Long-term prospects for productivity growth and the economy ""remain favorable."" - The cut was 25bp rather than 50bp, a modest step-down in the pace of easing after aggressive earlier moves.  **Dovish elements:** - Rate cut of 25bp "
+2001-10-02,P2_defined,-0.85,anthropic/claude-fable-5.1,0.0,-0.85
+2001-10-02,P3_analyst,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2001-10-02,P4_reversed,-0.9,anthropic/claude-fable-5.1,0.0,0.9
+2001-11-06,P1_minimal,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2001-11-06,P2_defined,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2001-09-17,P5_reason_first,-0.9,anthropic/claude-fable-5.1,0.0,"**Hawkish elements:** Very few. The only mildly optimistic note is that ""long-term prospects for productivity growth and the economy remain favorable,"" and the reference to price stability as a long-run goal—but neither implies any tightening bias.  **Dovish elements:**  - Intermeeting 50 bp cut in "
+2001-11-06,P3_analyst,-0.85,anthropic/claude-fable-5.1,0.0,-0.85
+2001-12-11,P1_minimal,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2001-11-06,P4_reversed,-0.9,anthropic/claude-fable-5.1,0.0,0.9
+2001-12-11,P2_defined,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2001-12-11,P3_analyst,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2001-12-11,P4_reversed,-0.8,anthropic/claude-fable-5.1,0.0,0.8
+2001-10-02,P5_reason_first,-0.9,anthropic/claude-fable-5.1,0.0,"**Hawkish elements:** - Essentially none. The only mildly non-dovish note is the reassurance that ""long-term prospects for productivity growth and the economy remain favorable,"" which signals the Committee isn't panicking about structural damage — but this is framed as a recovery expectation, not a "
+2002-01-30,P1_minimal,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2002-01-30,P2_defined,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2002-01-30,P4_reversed,-0.4,anthropic/claude-fable-5.1,0.0,0.4
+2002-03-19,P1_minimal,0.1,anthropic/claude-fable-5.1,0.0,0.1
+2002-01-30,P3_analyst,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2001-11-06,P5_reason_first,-0.9,anthropic/claude-fable-5.1,0.0,"This is the November 6, 2001 FOMC statement, issued in the aftermath of the September 11 attacks.  **Hawkish elements:** - Essentially none. The only mildly non-dovish note is the statement that ""long-term prospects for productivity growth and the economy remain favorable,"" which signals the Committ"
+2001-12-11,P5_reason_first,-0.7,anthropic/claude-fable-5.1,0.0,"**Hawkish elements (limited):** - Acknowledges that ""weakness in demand shows signs of abating"" – a first hint that the easing cycle may be nearing its end. - Cut is only 25 bp, a step down from the prior 50 bp moves, suggesting a slower pace. - Long-term prospects for productivity and the economy d"
+2002-03-19,P3_analyst,0.1,anthropic/claude-fable-5.1,0.0,0.1
+2002-01-30,P5_reason_first,-0.3,anthropic/claude-fable-5.1,0.0,"**Hawkish elements:** - Rate held steady rather than cut further, ending the easing cycle for now. - Notably more upbeat language on the economy: weakness ""abating,"" activity ""beginning to firm,"" restraining forces ""starting to diminish,"" and recovery outlook ""more promising."" - Reference to favorab"
+2002-03-19,P4_reversed,0.2,anthropic/claude-fable-5.1,0.0,"This is the March 2002 statement: rates unchanged at 1.75%, shift from easing bias (weakness risk) to balanced risks, acknowledging accommodative stance and significant expansion. That's a hawkish shift relative to prior, though still neutral in absolute terms.  -0.2"
+2002-05-07,P1_minimal,0.0,anthropic/claude-fable-5.1,0.0,0
+2002-05-07,P3_analyst,0.15,anthropic/claude-fable-5.1,0.0,0.15
+2002-06-26,P1_minimal,-0.2,anthropic/claude-fable-5.1,0.0,-0.2
+2002-03-19,P5_reason_first,0.15,anthropic/claude-fable-5.1,0.0,"This is the March 2002 FOMC statement, notable for shifting the risk assessment from weighted toward weakness to balanced.  **Hawkish elements:** - Economy described as ""expanding at a significant pace,"" a clear upgrade from prior assessments of weakness. - Shift to a balanced risk assessment (from "
+2002-03-19,P2_defined,0.15,anthropic/claude-fable-5.1,0.0,0.15
+2002-05-07,P4_reversed,0.1,anthropic/claude-fable-5.1,0.0,-0.1
+2002-05-07,P2_defined,-0.1,anthropic/claude-fable-5.1,0.0,-0.1
+2002-06-26,P2_defined,-0.2,anthropic/claude-fable-5.1,0.0,-0.2
+2002-06-26,P4_reversed,-0.2,anthropic/claude-fable-5.1,0.0,0.2
+2002-05-07,P5_reason_first,0.1,anthropic/claude-fable-5.1,0.0,"This is the March 2002 FOMC statement, holding rates at 1¾% and shifting the risk assessment from ""weighted toward economic weakness"" to ""balanced.""  **Hawkish elements** - Explicit acknowledgment that ""economic activity has been receiving considerable upward impetus"" from the inventory swing — reco"
+2002-08-13,P1_minimal,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2002-08-13,P2_defined,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2002-08-13,P3_analyst,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2002-08-13,P4_reversed,-0.5,anthropic/claude-fable-5.1,0.0,0.5
+2002-06-26,P3_analyst,-0.2,anthropic/claude-fable-5.1,0.0,-0.2
+2002-09-24,P2_defined,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2002-06-26,P5_reason_first,0.05,anthropic/claude-fable-5.1,0.0,"**Hawkish elements:** - Acknowledges economic activity ""is continuing to increase"" and expects final demand growth to ""pick up over coming quarters,"" citing ""robust underlying growth in productivity."" - Explicitly labels the current policy stance as ""accommodative,"" implicitly flagging that rates ar"
+2002-09-24,P4_reversed,-0.6,anthropic/claude-fable-5.1,0.0,0.6
+2002-09-24,P3_analyst,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2002-09-24,P1_minimal,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2002-11-06,P2_defined,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2002-11-06,P1_minimal,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2002-11-06,P3_analyst,-0.75,anthropic/claude-fable-5.1,0.0,-0.75
+2002-08-13,P5_reason_first,-0.5,anthropic/claude-fable-5.1,0.0,"This is the August 2002 FOMC statement, where the Committee held rates at 1¾% but shifted its balance-of-risks assessment toward economic weakness.  **Hawkish elements** - Rates held steady rather than cut; the Committee judges the ""current accommodative stance"" as already ""sufficient."" - Reference "
+2002-11-06,P4_reversed,-0.8,anthropic/claude-fable-5.1,0.0,0.8
+2002-12-10,P1_minimal,-0.2,anthropic/claude-fable-5.1,0.0,-0.2
+2002-09-24,P5_reason_first,-0.5,anthropic/claude-fable-5.1,0.0,"**Hawkish elements:** - Rate held steady rather than cut, despite two dissents favoring easing. - Aggregate demand described as ""growing at a moderate pace."" - Reference to ""still robust underlying growth in productivity"" and an expectation that current policy ""should be sufficient to foster an impr"
+2002-12-10,P3_analyst,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2002-12-10,P2_defined,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2002-12-10,P4_reversed,-0.3,anthropic/claude-fable-5.1,0.0,0.3
+2003-01-29,P1_minimal,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2003-01-29,P2_defined,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2003-01-29,P3_analyst,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2003-03-18,P1_minimal,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2003-03-18,P2_defined,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2002-11-06,P5_reason_first,-0.6,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Risk assessment shifted to ""balanced"" (from the prior tilt toward economic weakness), signaling the Committee viewed this as a one-off insurance move rather than the start of a new easing cycle. - Weakness characterized as a temporary ""soft spot,"" with ""still-robust underlying"
+2003-01-29,P4_reversed,-0.2,anthropic/claude-fable-5.1,0.0,0.2
+2003-03-18,P3_analyst,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2003-03-18,P4_reversed,-0.4,anthropic/claude-fable-5.1,0.0,0.4
+2002-12-10,P5_reason_first,-0.1,anthropic/claude-fable-5.1,0.0,"**Hawkish elements:** - No further easing; rates held at 1-1/4% after the large November cut. - Risk assessment shifted to ""balanced"" (vs. the prior tilt toward economic weakness), signaling no bias toward additional cuts. - Reference to ""still robust underlying growth in productivity"" and the econo"
+2003-05-06,P1_minimal,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2003-05-06,P2_defined,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2003-05-06,P4_reversed,-0.6,anthropic/claude-fable-5.1,0.0,0.6
+2003-05-06,P3_analyst,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2003-06-25,P1_minimal,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2003-01-29,P5_reason_first,-0.2,anthropic/claude-fable-5.1,0.0,"This is the January 2003 FOMC statement, holding the funds rate at 1.25%.  **Hawkish elements:** - No easing despite acknowledged weakness; the Committee held rates rather than cutting. - Balanced risk assessment (rather than tilting toward economic weakness), which signals no bias toward further cu"
+2003-06-25,P2_defined,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2003-06-25,P3_analyst,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2003-08-12,P1_minimal,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2003-08-12,P2_defined,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2003-06-25,P4_reversed,-0.7,anthropic/claude-fable-5.1,0.0,0.7
+2003-08-12,P4_reversed,-0.8,anthropic/claude-fable-5.1,0.0,0.8
+2003-03-18,P5_reason_first,-0.3,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Rates held steady; no easing delivered despite weak labor data. - The weakness is framed as temporary and externally driven (oil premiums, geopolitical uncertainty), implying no fundamental need for further stimulus. - Expectation that once uncertainties lift, existing accommo"
+2003-05-06,P5_reason_first,-0.55,anthropic/claude-fable-5.1,0.0,"This is the May 6, 2003 FOMC statement.  **Hawkish elements:** - Rate held steady at 1.25% rather than cut further. - Acknowledgment that geopolitical tensions have ebbed, oil prices have fallen, consumer confidence has improved, and financial markets have strengthened. - Growth risks described as """
+2003-08-12,P3_analyst,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2003-09-16,P1_minimal,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2003-09-16,P2_defined,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2003-09-16,P4_reversed,-0.7,anthropic/claude-fable-5.1,0.0,0.7
+2003-06-25,P5_reason_first,-0.7,anthropic/claude-fable-5.1,0.0,"This is the June 2003 FOMC statement, cutting the funds rate to 1 percent.  **Hawkish elements (few and mild):** - Acknowledgment of improving conditions: ""firming in spending, markedly improved financial conditions,"" and stabilizing labor/product markets. - Growth risks described as ""roughly equal"""
+2003-10-28,P2_defined,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2003-10-28,P1_minimal,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2003-09-16,P3_analyst,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2003-08-12,P5_reason_first,-0.7,anthropic/claude-fable-5.1,0.0,"**Hawkish elements:** - Acknowledgment that ""spending is firming"" and that underlying productivity growth remains robust. - Growth risks characterized as ""roughly equal"" (balanced) rather than tilted to the downside.  **Dovish elements:** - Rate held at a very low 1 percent, explicitly described as "
+2003-10-28,P3_analyst,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2003-10-28,P4_reversed,-0.7,anthropic/claude-fable-5.1,0.0,0.7
+2003-09-16,P5_reason_first,-0.7,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Spending is described as ""firming,"" and the Committee sees ""robust underlying growth in productivity."" - Growth risks are judged ""roughly equal"" (balanced), not tilted to the downside.  **Dovish elements** - Rate held at 1 percent (a historically low level), with policy explic"
+2003-12-09,P2_defined,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2003-12-09,P1_minimal,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2003-12-09,P3_analyst,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2003-12-09,P4_reversed,-0.6,anthropic/claude-fable-5.1,0.0,0.6
+2004-01-28,P1_minimal,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2004-01-28,P2_defined,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2003-10-28,P5_reason_first,-0.7,anthropic/claude-fable-5.1,0.0,"**Hawkish elements:** - Spending is ""firming"" and the labor market ""appears to be stabilizing"" — a modestly improved growth assessment. - Growth risks described as ""roughly equal"" (balanced), not tilted to the downside.  **Dovish elements:** - Rate held at 1 percent, a historically low level. - Expl"
+2004-03-16,P1_minimal,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2003-12-09,P5_reason_first,-0.4,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Output described as ""expanding briskly""; labor market ""improving modestly"" — an upgrade in the growth assessment. - Risk of an ""unwelcome fall in inflation"" has diminished and is now ""almost equal"" to the risk of a rise — removing the prior tilt toward deflation concern. - Gro"
+2004-01-28,P3_analyst,-0.1,anthropic/claude-fable-5.1,0.0,-0.1
+2004-01-28,P4_reversed,-0.4,anthropic/claude-fable-5.1,0.0,0.4
+2004-03-16,P3_analyst,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2004-03-16,P4_reversed,-0.5,anthropic/claude-fable-5.1,0.0,0.5
+2004-03-16,P2_defined,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2004-05-04,P2_defined,0.3,anthropic/claude-fable-5.1,0.0,"This is the May 2004 FOMC statement, which shifted from ""patient"" to signaling that accommodation ""can be removed at a pace that is likely to be measured"" — a clear hawkish shift setting up the June 2004 hike, while still noting inflation low and slack.  0.3"
+2004-01-28,P5_reason_first,0.15,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Output described as ""expanding briskly,"" with evidence over the intermeeting period confirming strength. - Labor market indicators show improvement (aside from hiring). - The probability of an ""unwelcome fall in inflation"" has diminished and is now roughly equal to the risk of"
+2004-05-04,P1_minimal,0.35,anthropic/claude-fable-5.1,0.0,0.35
+2004-06-30,P1_minimal,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2004-05-04,P3_analyst,0.45,anthropic/claude-fable-5.1,0.0,0.45
+2004-05-04,P4_reversed,0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2004-06-30,P2_defined,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2004-06-30,P3_analyst,0.45,anthropic/claude-fable-5.1,0.0,0.45
+2004-06-30,P4_reversed,0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2004-08-10,P1_minimal,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2004-08-10,P2_defined,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2004-03-16,P5_reason_first,-0.1,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - The forward guidance shifted: the prior ""considerable period"" language is gone, replaced with the Committee ""can be patient in removing its policy accommodation"" — explicitly framing the next move as a rate hike and shortening the implied horizon. - Output is ""continuing to ex"
+2004-08-10,P3_analyst,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2004-08-10,P4_reversed,0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2004-05-04,P5_reason_first,0.45,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Explicit forward guidance that ""policy accommodation can be removed"" — a clear shift toward tightening, replacing earlier ""patient"" language. - Inflation risks described as having ""moved into balance"" (previously tilted toward unwelcome disinflation), and incoming inflation da"
+2004-09-21,P1_minimal,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2004-09-21,P3_analyst,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2004-09-21,P2_defined,0.35,anthropic/claude-fable-5.1,0.0,0.35
+2004-09-21,P4_reversed,0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2004-11-10,P1_minimal,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2004-11-10,P2_defined,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2004-08-10,P5_reason_first,0.35,anthropic/claude-fable-5.1,0.0,"This is the August 10, 2004 FOMC statement.  **Hawkish elements** - Second consecutive 25 bp hike, bringing the funds rate to 1-1/2%, with a matching discount rate increase; unanimous vote. - Policy is explicitly described as still ""accommodative,"" implying further removal of accommodation lies ahea"
+2004-11-10,P3_analyst,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2004-11-10,P4_reversed,0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2004-06-30,P5_reason_first,0.4,anthropic/claude-fable-5.1,0.0,"This is the June 30, 2004 FOMC statement — the first rate hike of the 2004–2006 tightening cycle.  **Hawkish elements** - Actual policy tightening: 25 bp hike in the fed funds rate (to 1.25%) and discount rate (to 2.25%), unanimously approved. - Economic assessment upbeat: output expanding ""at a sol"
+2004-12-14,P1_minimal,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2004-09-21,P5_reason_first,0.35,anthropic/claude-fable-5.1,0.0,"This is the September 2004 FOMC statement (third hike of the cycle).  **Hawkish elements:** - 25 bp rate hike to 1.75%, with a matching discount rate increase; unanimous vote. - Explicit statement that policy ""remains accommodative,"" implying further removal of accommodation ahead. - Growth ""appears"
+2004-12-14,P2_defined,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2004-12-14,P4_reversed,0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2004-12-14,P3_analyst,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2005-02-02,P1_minimal,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2005-02-02,P2_defined,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2005-02-02,P3_analyst,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2004-11-10,P5_reason_first,0.3,anthropic/claude-fable-5.1,0.0,"This is the November 2004 FOMC statement (fourth hike of the cycle, to 2%).  **Hawkish elements** - Raised the fed funds rate 25 bp to 2% and the discount rate to 3%, continuing the tightening cycle; unanimous vote. - Policy still described as ""accommodative,"" signaling further removal of accommodat"
+2005-02-02,P4_reversed,0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2005-03-22,P1_minimal,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2005-03-22,P2_defined,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2005-03-22,P3_analyst,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2004-12-14,P5_reason_first,0.4,anthropic/claude-fable-5.1,0.0,"**Hawkish elements:** - Rate hike of 25 bp to 2¼%, with a matching discount rate increase — continuing the tightening cycle. - Explicit statement that policy ""remains accommodative"" and that ""policy accommodation can be removed,"" signaling further hikes ahead. - Output growing at a moderate pace des"
+2005-05-03,P1_minimal,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2005-05-03,P2_defined,0.55,anthropic/claude-fable-5.1,0.0,0.55
+2005-03-22,P4_reversed,0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2005-05-03,P3_analyst,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2005-02-02,P5_reason_first,0.3,anthropic/claude-fable-5.1,0.0,"This is the February 2, 2005 FOMC statement.  **Hawkish elements** - 25 bp rate hike to 2.50%, continuing the tightening cycle, with a unanimous vote and a matching discount rate increase. - Explicit statement that policy ""remains accommodative,"" implying further removal of accommodation is expected"
+2005-05-03,P4_reversed,0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2005-06-30,P1_minimal,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2005-06-30,P2_defined,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2005-06-30,P3_analyst,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2005-08-09,P1_minimal,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2005-06-30,P4_reversed,0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2005-08-09,P2_defined,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2005-08-09,P3_analyst,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2005-03-22,P5_reason_first,0.55,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Raised the fed funds target 25 bp to 2¾% (and discount rate to 3¾%), with a unanimous vote. - Policy is described as still ""accommodative,"" signaling more removal of accommodation ahead. - Growth ""continues to grow at a solid pace despite the rise in energy prices."" - New, sha"
+2005-08-09,P4_reversed,0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2005-05-03,P5_reason_first,0.4,anthropic/claude-fable-5.1,0.0,"This is the May 3, 2005 FOMC statement.  **Hawkish elements:** - Rate hike of 25 bp to 3%, plus a discount rate increase, continuing the tightening cycle. - Policy explicitly described as still ""accommodative,"" signaling more hikes ahead. - ""Pressures on inflation have picked up in recent months and"
+2005-09-20,P1_minimal,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2005-06-30,P5_reason_first,0.5,anthropic/claude-fable-5.1,0.0,"**Hawkish elements:** - 25 bp rate hike to 3-1/4%, continuing the tightening cycle, with a matching discount rate increase. - Policy still described as ""accommodative,"" implying further removal of accommodation ahead. - ""Pressures on inflation have stayed elevated""; energy prices ""have risen further"
+2005-09-20,P3_analyst,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2005-09-20,P2_defined,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2005-09-20,P4_reversed,0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2005-11-01,P1_minimal,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2005-11-01,P2_defined,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2005-11-01,P3_analyst,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2005-08-09,P5_reason_first,0.4,anthropic/claude-fable-5.1,0.0,"**Hawkish elements:** - 25 bp rate hike to 3.5% (continuing the tightening cycle), plus a matching discount rate increase. - Explicit statement that policy ""remains accommodative"" even after the hike, implying further removal of accommodation is warranted. - Spending ""appears to have strengthened"" d"
+2005-11-01,P4_reversed,0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2005-12-13,P1_minimal,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2005-12-13,P2_defined,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2005-12-13,P4_reversed,0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2005-09-20,P5_reason_first,0.5,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Raised the fed funds target 25 bp to 3.75% despite Katrina, signaling the Committee looked through the shock. - Katrina judged ""not a more persistent threat""; underlying growth described as robust, supported by productivity. - Explicit warning that higher energy and other cost"
+2006-01-31,P1_minimal,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2006-01-31,P2_defined,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2006-01-31,P3_analyst,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2005-12-13,P3_analyst,0.55,anthropic/claude-fable-5.1,0.0,0.55
+2005-11-01,P5_reason_first,0.4,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - 25 bp rate hike to 4% (continuing the tightening cycle), plus a matching discount rate increase. - Explicit warning that the cumulative rise in energy and other costs ""has the potential to add to inflation pressures."" - Reaffirmation that ""policy accommodation can be removed"" "
+2006-01-31,P4_reversed,0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2006-03-28,P1_minimal,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2006-03-28,P2_defined,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2006-03-28,P3_analyst,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2006-05-10,P1_minimal,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2006-03-28,P4_reversed,0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2006-05-10,P2_defined,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2006-05-10,P3_analyst,0.45,anthropic/claude-fable-5.1,0.0,0.45
+2006-05-10,P4_reversed,0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2006-01-31,P5_reason_first,0.4,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - 25 bp hike to 4-1/2%, plus a matching discount rate increase, unanimously. - Expansion characterized as ""solid"" despite uneven data. - Explicit flag that rising resource utilization and elevated energy prices ""have the potential to add to inflation pressures."" - Forward guidan"
+2005-12-13,P5_reason_first,0.4,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Another 25 bp hike (to 4.25%) with a unanimous vote, plus a matching discount-rate increase. - Growth described as ""solid"" despite energy prices and hurricane disruptions — no sign the Committee sees the economy as needing support. - Explicit warning that rising resource utili"
+2006-06-29,P1_minimal,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2006-06-29,P3_analyst,0.35,anthropic/claude-fable-5.1,0.0,0.35
+2006-06-29,P2_defined,0.45,anthropic/claude-fable-5.1,0.0,"This is the June 2006 FOMC statement: a rate hike with elevated core inflation noted, but signaling a possible pause (""extent and timing of any additional firming that may be needed""). Hawkish action, but softer forward guidance than prior meetings.  0.45"
+2006-03-28,P5_reason_first,0.5,anthropic/claude-fable-5.1,0.0,"This is the March 28, 2006 statement (Bernanke's first meeting as Chair).  **Hawkish elements** - Raised the funds rate 25bp to 4.75% and the discount rate to 5.75%, continuing the tightening cycle; unanimous vote. - Q4 2005 GDP slowdown dismissed as ""temporary or special factors""; growth ""rebounded"
+2006-08-08,P1_minimal,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2006-06-29,P4_reversed,0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2006-08-08,P2_defined,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2006-08-08,P4_reversed,0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2006-08-08,P3_analyst,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2006-05-10,P5_reason_first,0.3,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Raised the fed funds target 25 bp to 5% (16th consecutive hike) and the discount rate to 6%, unanimously. - ""Economic growth has been quite strong so far this year."" - Warns that ""possible increases in resource utilization, in combination with the elevated prices of energy and"
+2006-09-20,P2_defined,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2006-09-20,P3_analyst,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2006-09-20,P1_minimal,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2006-09-20,P4_reversed,0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2006-10-25,P1_minimal,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2006-06-29,P5_reason_first,0.35,anthropic/claude-fable-5.1,0.0,"This is the June 29, 2006 FOMC statement — the 17th and final consecutive 25 bp hike of that cycle.  **Hawkish elements** - Actual policy action: 25 bp hike in the funds rate to 5-1/4% and matching discount rate hike, unanimous vote. - ""Readings on core inflation have been elevated in recent months."
+2006-10-25,P3_analyst,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2006-10-25,P2_defined,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2006-08-08,P5_reason_first,0.25,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Core inflation readings described as ""elevated in recent months."" - High resource utilization and elevated energy/commodity prices ""have the potential to sustain inflation pressures."" - Committee explicitly states ""some inflation risks remain"" and retains a tightening bias: ""a"
+2006-10-25,P4_reversed,0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2006-12-12,P2_defined,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2006-12-12,P1_minimal,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2006-12-12,P3_analyst,0.35,anthropic/claude-fable-5.1,0.0,0.35
+2007-01-31,P1_minimal,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2006-12-12,P4_reversed,0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2006-09-20,P5_reason_first,0.2,anthropic/claude-fable-5.1,0.0,"This is the September 2006 FOMC statement (second pause after the June 2006 hike to 5.25%).  **Hawkish elements** - Core inflation readings described as ""elevated."" - High resource utilization and energy/commodity prices ""have the potential to sustain inflation pressures."" - ""Some inflation risks re"
+2006-10-25,P5_reason_first,0.3,anthropic/claude-fable-5.1,0.0,"**Hawkish elements:** - Core inflation readings described as ""elevated""; high resource utilization seen as potentially sustaining inflation pressures. - Explicit statement that ""some inflation risks remain."" - Retained tightening bias: reference to ""any additional firming that may be needed"" — no me"
+2007-01-31,P2_defined,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2007-01-31,P3_analyst,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2007-03-21,P1_minimal,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2007-03-21,P2_defined,0.35,anthropic/claude-fable-5.1,0.0,0.35
+2007-03-21,P4_reversed,0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2006-12-12,P5_reason_first,0.3,anthropic/claude-fable-5.1,0.0,"This is the December 2006 FOMC statement (rate held at 5.25%, Lacker dissenting for a hike).  **Hawkish elements** - Core inflation readings described as ""elevated."" - High resource utilization flagged as having ""the potential to sustain inflation pressures."" - Committee explicitly judges that ""some"
+2007-05-09,P2_defined,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2007-05-09,P1_minimal,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2007-05-09,P3_analyst,0.35,anthropic/claude-fable-5.1,0.0,0.35
+2007-01-31,P5_reason_first,0.3,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Rate held at a restrictive 5-1/4 percent with no hint of easing. - Growth described as ""somewhat firmer,"" with ""tentative signs of stabilization"" in housing—less downside worry. - ""High level of resource utilization has the potential to sustain inflation pressures."" - ""Some in"
+2007-01-31,P4_reversed,0.35,anthropic/claude-fable-5.1,0.0,-0.35
+2007-03-21,P3_analyst,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2007-06-28,P1_minimal,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2007-03-21,P5_reason_first,0.4,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Core inflation readings described as ""somewhat elevated."" - High resource utilization flagged as a potential source of sustained inflation pressures. - The Committee's ""predominant policy concern remains the risk that inflation will fail to moderate as expected"" — an explicit "
+2007-05-09,P4_reversed,0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2007-06-28,P3_analyst,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2007-06-28,P2_defined,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2007-06-28,P4_reversed,0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2007-08-07,P1_minimal,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2007-05-09,P5_reason_first,0.35,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - ""Core inflation remains somewhat elevated."" - ""High level of resource utilization has the potential to sustain those pressures."" - ""The Committee's predominant policy concern remains the risk that inflation will fail to moderate as expected"" — explicit inflation-risk bias, sig"
+2007-08-07,P2_defined,0.3,anthropic/claude-fable-5.1,0.0,"This is the August 7, 2007 FOMC statement. Rate held at 5.25%, inflation remains the predominant policy concern, but acknowledges increased downside risks to growth and financial market volatility.  0.3"
+2007-08-07,P3_analyst,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2007-08-07,P4_reversed,0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2007-08-10,P2_defined,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2007-06-28,P5_reason_first,0.4,anthropic/claude-fable-5.1,0.0,"**Hawkish elements:** - Rate held at a relatively high 5-1/4 percent, with no signal of easing. - Explicit statement that the Committee's ""predominant policy concern remains the risk that inflation will fail to moderate as expected"" — a clear tightening bias. - ""A sustained moderation in inflation p"
+2007-08-10,P1_minimal,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2007-08-17,P1_minimal,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2007-08-10,P4_reversed,-0.4,anthropic/claude-fable-5.1,0.0,0.4
+2007-08-17,P2_defined,-0.6,anthropic/claude-fable-5.1,0.0,"This is the August 17, 2007 intermeeting statement signaling readiness to ease amid financial turmoil.  -0.6"
+2007-08-07,P5_reason_first,0.3,anthropic/claude-fable-5.1,0.0,"This is the August 7, 2007 FOMC statement, issued just before the subprime-driven market turmoil forced the Fed's hand.  **Hawkish elements** - Rate held at 5.25%, no easing signaled. - ""Predominant policy concern remains the risk that inflation will fail to moderate as expected"" — explicit inflatio"
+2007-08-17,P3_analyst,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2007-08-10,P3_analyst,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2007-09-18,P1_minimal,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2007-09-18,P3_analyst,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2007-09-18,P4_reversed,-0.7,anthropic/claude-fable-5.1,0.0,0.7
+2007-09-18,P2_defined,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2007-08-17,P4_reversed,-0.65,anthropic/claude-fable-5.1,0.0,0.65
+2007-08-10,P5_reason_first,-0.4,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - The FOMC target rate is reaffirmed at 5¼%; there is no rate cut or signal of an imminent easing. - The framing is about keeping the funds rate *at* target (not below it), i.e., the operations are presented as technical, not as a change in policy stance.  **Dovish elements** - "
+2007-10-31,P1_minimal,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2007-10-31,P2_defined,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2007-08-17,P5_reason_first,-0.7,anthropic/claude-fable-5.1,0.0,"This is the August 17, 2007 intermeeting FOMC statement, issued alongside the discount rate cut at the onset of the subprime credit turmoil.  **Hawkish elements:** - Acknowledgment that ""recent data suggest that the economy has continued to expand at a moderate pace"" — no sign of actual weakness yet"
+2007-12-11,P1_minimal,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2007-10-31,P4_reversed,-0.4,anthropic/claude-fable-5.1,0.0,"This is the October 2007 FOMC statement: a 25bp cut (dovish action), but with balanced risk language, inflation concerns emphasized, and a hawkish dissent (Hoenig preferring no change). The cut is dovish, but the statement signals a pause with balanced risks.  0.4"
+2007-12-11,P2_defined,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2007-09-18,P5_reason_first,-0.7,anthropic/claude-fable-5.1,0.0,"This is the September 18, 2007 FOMC statement — the first rate cut of the cycle that preceded the financial crisis.  **Hawkish elements** - ""Some inflation risks remain"" and the Committee ""will continue to monitor inflation developments carefully"" — inflation vigilance is retained, not dropped. - Gr"
+2007-12-11,P3_analyst,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2007-12-11,P4_reversed,-0.6,anthropic/claude-fable-5.1,0.0,0.6
+2007-10-31,P3_analyst,-0.25,anthropic/claude-fable-5.1,0.0,-0.25
+2008-01-22,P1_minimal,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2008-01-22,P2_defined,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2008-01-22,P3_analyst,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2008-01-22,P4_reversed,-0.9,anthropic/claude-fable-5.1,0.0,0.9
+2007-10-31,P5_reason_first,-0.2,anthropic/claude-fable-5.1,0.0,"This is the October 31, 2007 FOMC statement.  **Hawkish elements** - Explicit note that ""some inflation risks remain,"" citing energy and commodity price increases as potential sources of renewed upward pressure. - Statement that after this cut, upside inflation risks ""roughly balance"" downside growt"
+2008-01-30,P1_minimal,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2008-01-30,P3_analyst,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2008-01-30,P4_reversed,-0.8,anthropic/claude-fable-5.1,0.0,0.8
+2007-12-11,P5_reason_first,-0.4,anthropic/claude-fable-5.1,0.0,"**Hawkish elements:** - Only a 25 bp cut, despite acknowledged intensifying housing correction and rising financial strains (markets had hoped for more). - Explicit statement that ""some inflation risks remain,"" citing elevated energy and commodity prices as possible upward pressure. - Commitment to "
+2008-03-11,P1_minimal,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2008-01-30,P2_defined,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2008-03-11,P2_defined,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2008-03-11,P3_analyst,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2008-01-22,P5_reason_first,-0.9,anthropic/claude-fable-5.1,0.0,"This is the January 22, 2008 intermeeting emergency cut.  **Hawkish elements (minimal):** - Inflation caveat: ""it will be necessary to continue to monitor inflation developments carefully"" — a token nod to price stability. - Dissent from Poole, though his objection was about timing (acting intermeet"
+2008-03-18,P2_defined,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2008-03-18,P1_minimal,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2008-03-11,P4_reversed,-0.6,anthropic/claude-fable-5.1,0.0,0.6
+2008-03-18,P3_analyst,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2008-03-18,P4_reversed,-0.8,anthropic/claude-fable-5.1,0.0,0.8
+2008-01-30,P5_reason_first,-0.8,anthropic/claude-fable-5.1,0.0,"This is the January 30, 2008 FOMC statement, following the 75bp intermeeting cut eight days earlier.  **Hawkish elements** - Inflation is not dismissed: the Committee says ""it will be necessary to continue to monitor inflation developments carefully,"" signaling it hasn't fully abandoned the price-st"
+2008-04-30,P1_minimal,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2008-04-30,P2_defined,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2008-04-30,P4_reversed,-0.5,anthropic/claude-fable-5.1,0.0,0.5
+2008-06-25,P1_minimal,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2008-03-11,P5_reason_first,-0.6,anthropic/claude-fable-5.1,0.0,"This is the March 11, 2008 statement announcing the Term Securities Lending Facility (TSLF) and expanded swap lines—a liquidity-provision action rather than a monetary policy (rate) decision.  **Hawkish elements:** - Essentially none. There is no discussion of inflation, growth, or the policy rate. "
+2008-06-25,P3_analyst,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2008-06-25,P2_defined,0.3,anthropic/claude-fable-5.1,0.0,"This is the June 2008 FOMC statement. Rates held at 2% after substantial easing, with a hawkish tilt: downside growth risks ""diminished somewhat,"" upside inflation risks ""increased,"" and a dissent favoring a hike. Balanced but leaning hawkish relative to prior easing.  0.3"
+2008-06-25,P4_reversed,0.3,anthropic/claude-fable-5.1,0.0,"This is the June 2008 FOMC statement. Held rates at 2%, paused easing, noted downside risks to growth diminished and upside inflation risks increased, with a hawkish dissent (Fisher wanting a hike). This is a mildly hawkish shift relative to prior easing.  -0.3"
+2008-08-05,P1_minimal,0.1,anthropic/claude-fable-5.1,0.0,"This is the August 2008 FOMC statement. Rates held at 2%, balanced risk language with both downside growth risks and upside inflation risks noted as ""significant concern,"" one hawkish dissent (Fisher). Overall neutral-to-slightly-hawkish given the emphasis on inflation.  0.1"
+2008-08-05,P2_defined,0.1,anthropic/claude-fable-5.1,0.0,0.1
+2008-04-30,P3_analyst,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2008-08-05,P3_analyst,0.15,anthropic/claude-fable-5.1,0.0,0.15
+2008-04-30,P5_reason_first,-0.2,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Two dissents (Fisher, Plosser) preferring no cut — signals internal resistance to further easing. - Elevated inflation concern: energy/commodity prices rising, ""some indicators of inflation expectations have risen,"" ""uncertainty about the inflation outlook remains high,"" and a"
+2008-09-16,P1_minimal,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2008-08-05,P4_reversed,-0.1,anthropic/claude-fable-5.1,0.0,"This is the August 2008 FOMC statement. Rate held at 2% after substantial easing. Balanced risk language: downside risks to growth remain, upside inflation risks ""also of significant concern."" Fisher dissented for a hike. Compared to June 2008, slightly more dovish (softened labor markets, ""consider"
+2008-03-18,P5_reason_first,-0.7,anthropic/claude-fable-5.1,0.0,"This is the March 18, 2008 FOMC statement.  **Hawkish elements** - Inflation described as ""elevated,"" with ""some indicators of inflation expectations have risen"" — notably stronger language than prior statements. - ""Uncertainty about the inflation outlook has increased"" and a pledge to ""continue to "
+2008-06-25,P5_reason_first,0.35,anthropic/claude-fable-5.1,0.0,"This is the June 2008 FOMC statement, marking the end of the easing cycle after cutting to 2%.  **Hawkish elements** - Explicit shift in the risk balance: downside growth risks ""have diminished somewhat"" while ""upside risks to inflation and inflation expectations have increased."" - Emphasis on conti"
+2008-09-16,P2_defined,-0.25,anthropic/claude-fable-5.1,0.0,"This is the September 16, 2008 FOMC statement (day after Lehman). Rate held at 2%, balanced risk language (""downside risks to growth and upside risks to inflation are both of significant concern""), but heavy emphasis on financial strains and weakening labor markets, while still noting high inflation"
+2008-10-08,P2_defined,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2008-10-08,P1_minimal,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2008-10-08,P3_analyst,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2008-09-16,P4_reversed,-0.25,anthropic/claude-fable-5.1,0.0,0.25
+2008-10-08,P4_reversed,-0.9,anthropic/claude-fable-5.1,0.0,0.9
+2008-08-05,P5_reason_first,0.1,anthropic/claude-fable-5.1,0.0,"This is the August 2008 FOMC statement (rate held at 2%).  **Hawkish elements** - ""Inflation has been high,"" with elevated inflation expectations explicitly flagged. - Upside risks to inflation described as ""of significant concern"" — placed alongside growth risks, keeping a two-sided/balanced bias r"
+2008-10-29,P1_minimal,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2008-09-16,P3_analyst,-0.2,anthropic/claude-fable-5.1,0.0,-0.2
+2008-10-29,P2_defined,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2008-10-29,P3_analyst,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2008-10-29,P4_reversed,-0.9,anthropic/claude-fable-5.1,0.0,0.9
+2008-12-16,P1_minimal,-1.0,anthropic/claude-fable-5.1,0.0,-1
+2008-12-16,P2_defined,-1.0,anthropic/claude-fable-5.1,0.0,-1
+2008-12-16,P3_analyst,-0.95,anthropic/claude-fable-5.1,0.0,-0.95
+2008-12-16,P4_reversed,-1.0,anthropic/claude-fable-5.1,0.0,1.0
+2008-10-08,P5_reason_first,-0.9,anthropic/claude-fable-5.1,0.0,"**Hawkish elements:** - Acknowledgment that ""inflation has been high"" — the Committee does not fully dismiss inflation concerns. - Inflation expectations described as ""anchored to price stability,"" and the commitment to price stability is retained in the forward guidance. - Unanimous vote, but notab"
+2009-01-28,P1_minimal,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2008-09-16,P5_reason_first,-0.25,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Rate held at 2% rather than cut, despite acute financial stress (Lehman weekend). - Inflation described as ""high,"" with ""upside risks to inflation"" explicitly flagged as of ""significant concern."" - Inflation outlook called ""highly uncertain,"" tempering the expectation of moder"
+2009-01-28,P2_defined,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2009-01-28,P4_reversed,-0.9,anthropic/claude-fable-5.1,0.0,0.9
+2009-01-28,P3_analyst,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2008-10-29,P5_reason_first,-0.9,anthropic/claude-fable-5.1,0.0,"This is the October 29, 2008 FOMC statement, issued during the acute phase of the financial crisis.  **Hawkish elements** - Very few. The statement retains a nod to ""price stability"" as a policy goal and notes that the array of policy actions ""should help over time... promote a return to moderate ec"
+2009-03-18,P1_minimal,-1.0,anthropic/claude-fable-5.1,0.0,-1
+2009-03-18,P2_defined,-0.95,anthropic/claude-fable-5.1,0.0,-0.95
+2009-03-18,P3_analyst,-0.95,anthropic/claude-fable-5.1,0.0,-0.95
+2009-03-18,P4_reversed,-1.0,anthropic/claude-fable-5.1,0.0,1.0
+2008-12-16,P5_reason_first,-1.0,anthropic/claude-fable-5.1,0.0,"This is the December 16, 2008 FOMC statement — the meeting that took the federal funds rate to the zero lower bound and launched the explicit shift toward balance-sheet policy.  **Hawkish elements** - Essentially none. The only nods in that direction are boilerplate: the stated commitment ""to preser"
+2009-04-29,P1_minimal,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2009-04-29,P2_defined,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2009-04-29,P3_analyst,-0.85,anthropic/claude-fable-5.1,0.0,-0.85
+2009-04-29,P4_reversed,-0.85,anthropic/claude-fable-5.1,0.0,0.85
+2009-01-28,P5_reason_first,-0.9,anthropic/claude-fable-5.1,0.0,"**Hawkish elements (few):** - Acknowledges that ""conditions in some financial markets have improved."" - Anticipates a ""gradual recovery in economic activity will begin later this year."" - Retains a nod to preserving price stability and mentions monitoring the balance sheet's size and composition. - "
+2009-06-24,P2_defined,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2009-06-24,P1_minimal,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2009-06-24,P3_analyst,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2009-03-18,P5_reason_first,-1.0,anthropic/claude-fable-5.1,0.0,"This is the March 18, 2009 FOMC statement — one of the most aggressively dovish statements in Fed history.  **Hawkish elements (minimal):** - A pro forma reference to preserving ""price stability"" and noting that stimulus should lead to a ""gradual resumption of sustainable economic growth"" — but this"
+2009-06-24,P4_reversed,-0.8,anthropic/claude-fable-5.1,0.0,0.8
+2009-08-12,P1_minimal,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2009-08-12,P2_defined,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2009-08-12,P3_analyst,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2009-08-12,P4_reversed,-0.7,anthropic/claude-fable-5.1,0.0,0.7
+2009-09-23,P1_minimal,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2009-04-29,P5_reason_first,-0.8,anthropic/claude-fable-5.1,0.0,"This is the April 2009 FOMC statement, issued in the depths of the financial crisis.  **Hawkish elements (few and mild):** - Acknowledgment that ""the pace of contraction appears to be somewhat slower"" and that ""household spending has shown signs of stabilizing."" - ""The economic outlook has improved "
+2009-09-23,P2_defined,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2009-09-23,P3_analyst,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2009-06-24,P5_reason_first,-0.7,anthropic/claude-fable-5.1,0.0,"This is the June 2009 FOMC statement.  **Hawkish elements (mild):** - Acknowledgment that ""the pace of economic contraction is slowing"" and financial conditions ""have generally improved."" - Household spending ""showing further signs of stabilizing""; inventory adjustment progressing. - Notes that ener"
+2009-11-04,P1_minimal,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2009-11-04,P2_defined,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2009-09-23,P4_reversed,-0.7,anthropic/claude-fable-5.1,0.0,"This is the September 2009 FOMC statement. It maintains the zero lower bound, ""extended period"" forward guidance, continued large-scale asset purchases (QE1), and emphasizes subdued inflation and substantial slack—clearly accommodative. However, it notes improving conditions and announces a gradual "
+2009-11-04,P3_analyst,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2009-11-04,P4_reversed,-0.7,anthropic/claude-fable-5.1,0.0,0.7
+2009-08-12,P5_reason_first,-0.6,anthropic/claude-fable-5.1,0.0,"This is the August 2009 FOMC statement.  **Hawkish elements** - Improved assessment: ""economic activity is leveling out"" (upgraded from contracting), financial conditions ""improved further,"" household spending ""stabilizing,"" inventory alignment progressing. - Acknowledgement that energy and commodit"
+2009-12-16,P1_minimal,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2009-12-16,P3_analyst,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2009-12-16,P2_defined,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2009-12-16,P4_reversed,-0.6,anthropic/claude-fable-5.1,0.0,0.6
+2010-01-27,P1_minimal,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2010-01-27,P2_defined,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2010-03-16,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2009-09-23,P5_reason_first,-0.5,anthropic/claude-fable-5.1,0.0,"This is the September 2009 FOMC statement.  **Hawkish elements (relative to prior statements):** - Upgraded growth assessment: ""economic activity has picked up following its severe downturn"" (vs. ""leveling out"" in August). - Financial conditions ""improved further""; housing activity ""has increased""; "
+2010-01-27,P4_reversed,-0.5,anthropic/claude-fable-5.1,0.0,0.5
+2010-01-27,P3_analyst,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2010-04-28,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2009-11-04,P5_reason_first,-0.6,anthropic/claude-fable-5.1,0.0,"This is the November 2009 FOMC statement.  **Hawkish elements** - Acknowledges economic activity ""has continued to pick up,"" housing activity has increased, and household spending ""appears to be expanding."" - Businesses cutting back ""at a slower pace"" and making inventory progress. - Agency debt pur"
+2010-04-28,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2010-03-16,P3_analyst,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2010-03-16,P2_defined,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2010-04-28,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2009-12-16,P5_reason_first,-0.4,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Upgraded economic assessment: activity ""continued to pick up,"" labor market deterioration ""abating,"" housing showing ""some signs of improvement,"" financial conditions ""more supportive."" - Explicit wind-down of crisis tools: MBS/agency purchases slowing and ending by Q1 2010; m"
+2010-03-16,P4_reversed,-0.6,anthropic/claude-fable-5.1,0.0,0.6
+2010-05-09,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2010-05-09,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2010-04-28,P3_analyst,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2010-04-28,P4_reversed,-0.6,anthropic/claude-fable-5.1,0.0,0.6
+2010-06-23,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2010-05-09,P1_minimal,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2010-06-23,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2010-05-09,P3_analyst,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2010-06-23,P1_minimal,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2010-06-23,P2_defined,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2010-01-27,P5_reason_first,-0.4,anthropic/claude-fable-5.1,0.0,"This is the January 2010 FOMC statement.  **Hawkish elements** - Economic assessment upgraded: activity ""has continued to strengthen,"" labor market deterioration ""abating,"" business equipment/software spending ""picking up,"" inventories aligned with sales. - Asset purchases (MBS and agency debt) bein"
+2010-03-16,P5_reason_first,-0.3,anthropic/claude-fable-5.1,0.0,"This is the March 2010 FOMC statement.  **Hawkish elements** - Economic activity ""has continued to strengthen"" and the labor market ""is stabilizing"" (upgraded from prior language). - Business spending on equipment and software ""has risen significantly."" - Asset purchases ($1.25T MBS, ~$175B agency d"
+2010-08-10,P1_minimal,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2010-09-21,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2010-08-10,P2_defined,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2010-09-21,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2010-08-10,P4_reversed,-0.75,anthropic/claude-fable-5.1,0.0,0.75
+2010-11-03,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2010-09-21,P2_defined,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2010-05-09,P5_reason_first,-0.4,anthropic/claude-fable-5.1,0.0,"**Context:** This is the May 2010 statement reestablishing USD swap lines amid European sovereign debt strains. It is not a standard policy statement on rates or asset purchases, but a liquidity/financial-stability action.  **Hawkish elements:** - Essentially none. The facilities are explicitly ""tem"
+2010-09-21,P3_analyst,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2010-06-23,P5_reason_first,-0.6,anthropic/claude-fable-5.1,0.0,"This is the June 2010 FOMC statement.  **Hawkish elements** - Recovery ""is proceeding"" and labor market ""improving gradually""; business spending on equipment and software ""has risen significantly."" - Committee still anticipates a gradual return to higher resource utilization with price stability. - "
+2010-12-14,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2010-12-14,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2010-11-03,P2_defined,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2010-12-14,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2010-12-14,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2010-11-03,P4_reversed,-0.9,anthropic/claude-fable-5.1,0.0,"This is the November 2010 QE2 announcement — $600 billion in additional Treasury purchases, extended period language, concern about low inflation and slow recovery. Strongly dovish, with one hawkish dissent.  0.9"
+2011-01-26,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2010-08-10,P5_reason_first,-0.7,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Hoenig's dissent: argues the economy is recovering as projected, the ""extended period"" language is no longer warranted, and holding the balance sheet constant is unnecessary. - Some acknowledgment of growth: business spending on equipment/software rising; household spending ""i"
+2011-01-26,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2010-09-21,P5_reason_first,-0.7,anthropic/claude-fable-5.1,0.0,"This is the September 2010 FOMC statement, which laid the groundwork for QE2.  **Hawkish elements (few):** - Some acknowledgment of growth: household spending increasing gradually, business equipment/software spending rising, bank lending contracting at a reduced rate. - Hoenig's dissent, arguing re"
+2010-12-14,P4_reversed,-0.8,anthropic/claude-fable-5.1,0.0,0.8
+2010-08-10,P3_analyst,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2011-01-26,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2011-03-15,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2011-01-26,P1_minimal,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2011-01-26,P3_analyst,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2011-03-15,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2010-11-03,P3_analyst,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2010-11-03,P5_reason_first,-0.85,anthropic/claude-fable-5.1,0.0,"This is the November 2010 FOMC statement announcing QE2.  **Hawkish elements (few):** - Hoenig's dissent, arguing the risks of additional purchases outweigh benefits and warning of financial imbalances and rising long-term inflation expectations. - Acknowledgment that business spending on equipment/"
+2011-04-27,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2011-04-27,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2011-03-15,P2_defined,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2011-03-15,P3_analyst,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2011-03-15,P1_minimal,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2011-04-27,P1_minimal,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2011-06-22,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2011-08-09,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2011-04-27,P2_defined,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2011-04-27,P3_analyst,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2011-08-09,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2011-06-22,P2_defined,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2011-06-22,P4_reversed,-0.6,anthropic/claude-fable-5.1,0.0,0.6
+2011-06-22,P3_analyst,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2011-09-21,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2011-08-09,P2_defined,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2011-09-21,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2011-08-09,P4_reversed,-0.8,anthropic/claude-fable-5.1,0.0,0.8
+2011-11-02,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2011-09-21,P2_defined,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2011-11-02,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2011-09-21,P3_analyst,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2011-11-02,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2011-12-13,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2011-12-13,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2011-12-13,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2011-11-02,P1_minimal,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2011-11-02,P3_analyst,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2011-12-13,P2_defined,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2012-01-25,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2011-06-22,P5_reason_first,-0.4,anthropic/claude-fable-5.1,0.0,"This is the June 2011 FOMC statement, issued as QE2 was concluding.  **Hawkish elements** - Acknowledges inflation ""has picked up"" and ""has moved up recently,"" and commits to ""pay close attention to the evolution of inflation and inflation expectations."" - Confirms QE2 asset purchases will end this "
+2012-01-25,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2012-03-13,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2012-03-13,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2012-01-25,P1_minimal,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2012-03-13,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2012-01-25,P2_defined,-0.85,anthropic/claude-fable-5.1,0.0,-0.85
+2012-03-13,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2011-08-09,P5_reason_first,-0.8,anthropic/claude-fable-5.1,0.0,"This is the August 2011 FOMC statement, notable for introducing calendar-based forward guidance.  **Hawkish elements (few and minor):** - Acknowledges inflation ""picked up earlier in the year"" and pledges to ""continue to pay close attention to the evolution of inflation and inflation expectations."" "
+2012-04-25,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2012-04-25,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2011-09-21,P5_reason_first,-0.7,anthropic/claude-fable-5.1,0.0,"This is the September 2011 FOMC statement announcing the Maturity Extension Program (""Operation Twist"").  **Hawkish elements (few and minor):** - Three dissents (Fisher, Kocherlakota, Plosser) opposing additional accommodation — signals internal resistance to further easing. - Note that business inv"
+2012-06-20,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2012-06-20,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2012-06-20,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2012-04-25,P2_defined,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2012-06-20,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2012-04-25,P1_minimal,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2012-06-20,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2012-08-01,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2012-04-25,P4_reversed,-0.7,anthropic/claude-fable-5.1,0.0,0.7
+2012-08-01,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2012-09-13,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2012-09-13,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2012-09-13,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2012-09-13,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2012-08-01,P1_minimal,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2012-09-13,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2012-08-01,P2_defined,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2012-10-24,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2012-01-25,P5_reason_first,-0.8,anthropic/claude-fable-5.1,0.0,"This is the January 2012 FOMC statement, notable for extending the forward guidance on rates from ""mid-2013"" to ""late 2014.""  **Hawkish elements (few and minor):** - Economy described as ""expanding moderately,"" with household spending continuing to advance and ""some further improvement"" in labor mar"
+2012-10-24,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2012-12-12,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2012-12-12,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2012-12-12,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2012-12-12,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2012-10-24,P1_minimal,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2011-12-13,P5_reason_first,-0.6,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Economy described as ""expanding moderately,"" with ""some improvement"" in labor market conditions and continued advance in household spending. - No new easing measures announced — the Committee merely continues the existing maturity extension program and reinvestment policies. -"
+2013-01-30,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2012-10-24,P3_analyst,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2012-10-24,P4_reversed,-0.85,anthropic/claude-fable-5.1,0.0,0.85
+2013-01-30,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-01-30,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-03-20,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-03-20,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2012-08-01,P5_reason_first,-0.8,anthropic/claude-fable-5.1,0.0,"This is the August 2012 FOMC statement, issued a month before QE3 was launched.  **Hawkish elements (few and minor):** - Business fixed investment ""has continued to advance."" - Housing shows ""some further signs of improvement."" - Longer-term inflation expectations ""remained stable"" (no deflation ala"
+2013-03-20,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2012-03-13,P5_reason_first,-0.6,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Growth described as “expanding moderately,” with labor market conditions having “improved further” and unemployment declining “notably.” - Household spending and business fixed investment “continued to advance.” - Global financial strains “have eased.” - Acknowledgment that oi"
+2013-05-01,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-05-01,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-05-01,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-05-01,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-06-19,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-01-30,P2_defined,-0.85,anthropic/claude-fable-5.1,0.0,-0.85
+2013-01-30,P4_reversed,-0.8,anthropic/claude-fable-5.1,0.0,0.8
+2013-06-19,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-06-19,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-03-20,P3_analyst,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2013-06-19,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-03-20,P4_reversed,-0.8,anthropic/claude-fable-5.1,0.0,0.8
+2013-07-31,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-07-31,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-07-31,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-09-18,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-09-18,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-07-31,P1_minimal,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2013-09-18,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-09-18,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-10-30,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-10-30,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-09-18,P1_minimal,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2013-07-31,P3_analyst,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2013-10-30,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-12-18,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-12-18,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-12-18,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-12-18,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-01-29,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-01-29,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2012-12-12,P5_reason_first,-0.8,anthropic/claude-fable-5.1,0.0,"This is the December 2012 FOMC statement, notable for introducing the Evans-rule numerical thresholds and outright Treasury purchases (QE3 expansion).  **Hawkish elements** - Acknowledgment that economic activity and employment ""continued to expand at a moderate pace,"" household spending advancing, "
+2014-01-29,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-01-29,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-01-29,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-03-19,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-10-30,P4_reversed,-0.6,anthropic/claude-fable-5.1,0.0,0.6
+2014-03-19,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-03-19,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-03-19,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-04-30,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-04-30,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-05-01,P5_reason_first,-0.6,anthropic/claude-fable-5.1,0.0,"This is the May 1, 2013 FOMC statement.  **Hawkish elements** - Acknowledges ""some improvement"" in labor markets and continued strengthening in housing; household spending and business investment advanced. - Explicit mention that the Committee weighs ""efficacy and costs"" of asset purchases—a nod to "
+2014-04-30,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-04-30,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-06-18,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-06-18,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-06-18,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-06-18,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-06-18,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-07-30,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-07-30,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-04-30,P1_minimal,-0.3,anthropic/claude-fable-5.1,0.0,"This is the April 2014 FOMC statement: continued tapering ($10B reduction), but with highly accommodative language, considerable time forward guidance, and rates to stay below normal even after mandate achieved. Mixed: tapering is mildly hawkish, but overall stance remains very dovish.  -0.3"
+2014-07-30,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-07-30,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-09-17,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-09-17,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-06-19,P4_reversed,-0.5,anthropic/claude-fable-5.1,0.0,0.5
+2014-09-17,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-03-19,P4_reversed,-0.3,anthropic/claude-fable-5.1,0.0,0.3
+2014-09-17,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-07-30,P1_minimal,-0.2,anthropic/claude-fable-5.1,0.0,"This is the July 2014 FOMC statement. It continues tapering (hawkish direction), notes inflation moving closer to target and diminished likelihood of persistently low inflation (slightly hawkish shift), adds ""significant underutilization of labor resources"" (dovish), maintains ""considerable time"" gu"
+2014-10-29,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-10-29,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-10-29,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-12-17,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-12-18,P5_reason_first,0.2,anthropic/claude-fable-5.1,0.0,"This is the December 2013 FOMC statement announcing the first taper of QE3.  **Hawkish elements** - The headline action: a reduction in asset purchases ($85bn → $75bn/month), the first step in unwinding QE3. - Explicit forward guidance that purchases will ""likely"" be reduced ""in further measured ste"
+2014-09-17,P1_minimal,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2014-12-17,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-12-17,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-01-28,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-01-28,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-01-28,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2013-10-30,P5_reason_first,-0.4,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Downside risks to the outlook ""have diminished, on net, since last fall."" - Improvement in activity and labor markets is described as ""consistent with growing underlying strength in the broader economy"" (new, upbeat language). - Explicit signal that the Committee will assess """
+2015-01-28,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-01-28,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-03-18,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-03-18,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-03-18,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-04-29,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-03-18,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-04-29,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-04-29,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-04-29,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-04-29,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-10-29,P4_reversed,0.3,anthropic/claude-fable-5.1,0.0,"This is the October 2014 FOMC statement. It concludes QE3, upgrades labor market language (""underutilization... gradually diminishing"" vs. ""significant underutilization""), and notes the likelihood of persistently low inflation has ""diminished somewhat"" — all hawkish shifts relative to prior statemen"
+2015-06-17,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-06-17,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-06-17,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-06-17,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-07-29,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-07-29,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-07-29,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-12-17,P1_minimal,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2014-10-29,P2_defined,-0.2,anthropic/claude-fable-5.1,0.0,-0.2
+2015-09-17,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-07-29,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-03-18,P1_minimal,0.1,anthropic/claude-fable-5.1,0.0,0.1
+2015-09-17,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-09-17,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-09-17,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-10-28,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-10-28,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-10-28,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-10-28,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-12-16,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-12-16,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-12-16,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-12-16,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-12-16,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-01-27,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-01-27,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-06-17,P3_analyst,-0.1,anthropic/claude-fable-5.1,0.0,-0.1
+2016-01-27,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-01-27,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-01-27,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-03-16,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-10-28,P1_minimal,0.4,anthropic/claude-fable-5.1,0.0,"This is the October 2015 FOMC statement, which notably introduced ""at its next meeting"" language signaling a likely December hike, removed the warning about global developments restraining activity, and had a hawkish dissent (Lacker). Rates held at zero but with clear tightening signal.  0.4"
+2016-03-16,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-03-16,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-04-27,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-04-27,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-04-27,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-09-17,P4_reversed,-0.4,anthropic/claude-fable-5.1,0.0,"This is the September 2015 FOMC statement. The Fed held rates at zero despite market expectations of a possible hike, citing global developments (China) and downward inflation pressure. Dovish elements: hold at zero, new language about global developments restraining activity and pushing inflation l"
+2016-04-27,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-04-27,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-06-15,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-12-17,P5_reason_first,0.15,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Labor market described as improving ""further"" with ""solid job gains"" and a lower unemployment rate; labor underutilization ""continues to diminish."" - Risks to activity and labor market ""nearly balanced."" - Forward guidance shifts from ""considerable time"" to the Committee ""can "
+2016-06-15,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-06-15,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-07-27,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-07-27,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-07-27,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-03-16,P1_minimal,-0.3,anthropic/claude-fable-5.1,0.0,"This is the March 2016 FOMC statement. Rates held steady, emphasis on global risks, gradual increases, inflation shortfall, accommodative stance; one hawkish dissent (George). Overall mildly dovish relative to prior expectations (dot plot cut from 4 to 2 hikes).  -0.3"
+2016-07-27,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-09-21,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-07-27,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-09-21,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-09-21,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-11-02,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-11-02,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-09-21,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-11-02,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-06-15,P1_minimal,-0.4,anthropic/claude-fable-5.1,0.0,"This is the June 2016 FOMC statement, following weak May jobs report. Rates held, labor market improvement ""slowed,"" market-based inflation compensation declined, George dropped her dissent for a hike. Dovish tilt relative to April, though still in a gradual-hiking framework.  -0.4"
+2016-11-02,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-11-02,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-12-14,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-12-14,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-12-14,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-12-14,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-02-01,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-07-29,P4_reversed,-0.2,anthropic/claude-fable-5.1,0.0,0.2
+2016-09-21,P4_reversed,0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2017-02-01,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-02-01,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-03-15,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-03-15,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-03-15,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-03-15,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-03-15,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-05-03,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-12-14,P1_minimal,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2016-03-16,P5_reason_first,-0.3,anthropic/claude-fable-5.1,0.0,"This is the March 2016 FOMC statement, which held rates steady after the December 2015 liftoff.  **Hawkish elements** - Economy ""expanding at a moderate pace despite"" global turmoil; strong job gains and ""additional strengthening of the labor market."" - Inflation ""picked up in recent months"" and is "
+2017-05-03,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-05-03,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-05-03,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-02-01,P3_analyst,0.15,anthropic/claude-fable-5.1,0.0,0.15
+2017-06-14,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-06-14,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-06-14,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-06-15,P5_reason_first,-0.4,anthropic/claude-fable-5.1,0.0,"This is the June 2016 FOMC statement (following the weak May jobs report).  **Hawkish elements** - Economic growth ""appears to have picked up""; household spending ""strengthened""; housing continuing to improve; drag from net exports lessened. - Inflation still expected to rise to 2 percent over the m"
+2017-07-26,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-07-26,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-07-26,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-07-26,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-06-14,P1_minimal,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2017-09-20,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-09-20,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-05-03,P3_analyst,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2017-09-20,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-11-01,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-11-01,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-06-14,P4_reversed,0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2017-11-01,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-11-01,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-11-01,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-12-13,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-12-13,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-12-13,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-07-26,P3_analyst,0.15,anthropic/claude-fable-5.1,0.0,0.15
+2017-12-13,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-01-31,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-01-31,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-01-31,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-01-31,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-09-20,P4_reversed,0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2018-03-21,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-03-21,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-03-21,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-02-01,P5_reason_first,0.15,anthropic/claude-fable-5.1,0.0,"This is the February 1, 2017 FOMC statement (rates held at 0.50–0.75% after the December 2016 hike).  **Hawkish elements** - Labor market ""continued to strengthen""; job gains ""solid,"" unemployment near recent low. - ""Inflation increased in recent quarters"" — an upgrade from prior language. - Consume"
+2018-03-21,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-05-02,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-05-02,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-05-02,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-05-02,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-12-13,P1_minimal,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2018-06-13,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-06-13,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-06-13,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-06-13,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-01-31,P3_analyst,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2018-08-01,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-08-01,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-08-01,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-08-01,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-09-26,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-09-26,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-09-26,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-03-21,P2_defined,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2018-05-02,P3_analyst,0.35,anthropic/claude-fable-5.1,0.0,0.35
+2018-11-08,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-09-26,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-06-13,P4_reversed,0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2018-11-08,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-09-20,P5_reason_first,0.3,anthropic/claude-fable-5.1,0.0,"This is the September 2017 FOMC statement.  **Hawkish elements** - Announces the start of balance sheet normalization in October — a concrete tightening step. - Labor market ""continued to strengthen,"" job gains ""solid,"" unemployment ""low""; business investment ""picked up."" - Hurricanes judged ""unlike"
+2018-11-08,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-12-19,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-12-19,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-12-19,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-08-01,P4_reversed,0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2019-01-30,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-01-30,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-01-30,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-01-30,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-09-26,P4_reversed,0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2019-03-20,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-03-20,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-01-30,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-12-19,P1_minimal,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2019-03-20,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-11-08,P4_reversed,0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2019-03-20,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-05-01,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-11-08,P3_analyst,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2019-06-19,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-06-19,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-05-01,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-06-19,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-06-19,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-06-19,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-07-31,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-07-31,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-07-31,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-07-31,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-05-01,P1_minimal,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2019-07-31,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-05-01,P3_analyst,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2019-09-18,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-09-18,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-09-18,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-09-18,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-10-11,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-05-01,P4_reversed,-0.3,anthropic/claude-fable-5.1,0.0,"This is the May 2019 FOMC statement: rates held, ""patient"" language retained, inflation noted running below 2 percent, but economic activity described as solid. Mildly dovish overall.  0.3"
+2019-10-11,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-10-11,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-10-30,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-10-30,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-10-30,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-10-30,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-10-30,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-12-19,P5_reason_first,0.4,anthropic/claude-fable-5.1,0.0,"This is the December 2018 FOMC statement.  **Hawkish elements** - The Committee actually raised the target range by 25 bp to 2.25–2.50%. - Continued forward guidance for ""some further gradual increases"" in the funds rate. - Strong characterization of the economy: labor market ""continued to strengthe"
+2019-10-11,P1_minimal,-0.2,anthropic/claude-fable-5.1,0.0,-0.2
+2019-12-11,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-12-11,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-12-11,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-12-11,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-01-29,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-01-29,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-01-29,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-01-29,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-03-03,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-03-03,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-03-03,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-03-03,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-03-03,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-03-15,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-03-20,P3_analyst,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2019-09-18,P3_analyst,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2020-03-15,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-03-15,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-12-11,P1_minimal,-0.2,anthropic/claude-fable-5.1,0.0,-0.2
+2020-03-23,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-03-23,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-01-29,P2_defined,-0.2,anthropic/claude-fable-5.1,0.0,"This is the January 2020 FOMC statement. Rates held steady at 1.50–1.75%, policy described as ""appropriate,"" inflation running below 2 percent, ""muted inflation pressures"" noted, and a tweak to ""inflation returning to"" 2 percent (slightly dovish emphasis). Overall neutral-to-slightly-dovish hold.  -"
+2020-03-31,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-03-31,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-03-23,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-03-31,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-03-31,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-03-23,P4_reversed,-1.0,anthropic/claude-fable-5.1,0.0,1.0
+2020-03-31,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-04-29,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-04-29,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-03-23,P1_minimal,-1.0,anthropic/claude-fable-5.1,0.0,-1
+2020-04-29,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-10-11,P5_reason_first,-0.2,anthropic/claude-fable-5.1,0.0,"**Hawkish elements:** - Essentially none in substance. The statement explicitly states the actions ""do not represent a change in the stance of monetary policy,"" and the fed funds target range (1.75–2.00%) is unchanged. - Reinvestment framework and MBS caps continue as before—no new tightening or eas"
+2020-04-29,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-06-10,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-03-15,P4_reversed,-1.0,anthropic/claude-fable-5.1,0.0,1.0
+2020-06-10,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-06-10,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-07-29,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-07-29,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-07-29,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-07-29,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-04-29,P2_defined,-0.95,anthropic/claude-fable-5.1,0.0,-0.95
+2020-08-27,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-08-27,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-08-27,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-08-27,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-09-16,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-09-16,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-06-10,P3_analyst,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2020-07-29,P1_minimal,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2020-09-16,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-09-16,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-11-05,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-11-05,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-11-05,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-08-27,P2_defined,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2020-12-16,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-11-05,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-12-16,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-12-16,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-12-16,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-03-15,P5_reason_first,-1.0,anthropic/claude-fable-5.1,0.0,"This is the March 15, 2020 emergency FOMC statement.  **Hawkish elements (minimal):** - Acknowledgment that the economy entered the period ""on a strong footing,"" with a strong labor market, solid job gains, low unemployment, and moderate growth through February. - Mester's dissent, preferring a smal"
+2020-11-05,P1_minimal,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2021-01-27,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-01-27,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-01-27,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-03-17,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-12-16,P2_defined,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2020-06-10,P5_reason_first,-0.9,anthropic/claude-fable-5.1,0.0,"This is the June 2020 FOMC statement, issued at the depth of the pandemic shock.  **Hawkish elements (minimal):** - Acknowledgment that ""financial conditions have improved,"" partly due to policy support — a modest upgrade versus the April statement. - No new easing measures announced; the statement "
+2021-03-17,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-03-17,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-01-27,P2_defined,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2021-03-17,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-04-28,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-04-28,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-01-27,P4_reversed,-0.9,anthropic/claude-fable-5.1,0.0,0.9
+2021-04-28,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-06-16,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-06-16,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-04-28,P4_reversed,-0.8,anthropic/claude-fable-5.1,0.0,0.8
+2021-06-16,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-06-16,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-07-28,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-07-28,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-03-17,P2_defined,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2021-07-28,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-04-28,P2_defined,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2021-07-28,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-09-22,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-09-22,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-09-22,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-06-16,P1_minimal,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2021-11-03,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-07-28,P2_defined,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2021-11-03,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-11-03,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-12-15,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-11-03,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-09-16,P5_reason_first,-0.8,anthropic/claude-fable-5.1,0.0,"This is the September 2020 FOMC statement, the first to incorporate the new flexible average inflation targeting (FAIT) framework into forward guidance.  **Hawkish elements (few and minor):** - Acknowledgment that economic activity and employment ""have picked up"" and that financial conditions ""have "
+2021-12-15,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-12-15,P1_minimal,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2021-09-22,P1_minimal,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2021-12-15,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-01-26,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-01-26,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-03-16,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-01-26,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-03-16,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-03-16,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-03-16,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-05-04,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-05-04,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-11-03,P3_analyst,0.2,anthropic/claude-fable-5.1,0.0,"This is the November 2021 FOMC statement announcing the taper. It's a modest hawkish shift (tapering begins, ""transitory"" softened to ""expected to be transitory"") but still maintains highly accommodative rates and language.  0.2"
+2022-03-16,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-01-26,P1_minimal,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2022-05-04,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-05-04,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-06-15,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-01-26,P4_reversed,0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2022-06-15,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-07-27,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-06-15,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-09-22,P2_defined,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2022-07-27,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-07-27,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-07-27,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-09-21,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-09-21,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-05-04,P4_reversed,0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2022-09-21,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-09-21,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-11-02,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-11-02,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-11-02,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-06-15,P2_defined,0.85,anthropic/claude-fable-5.1,0.0,"This is the June 2022 FOMC statement with a 75 bp hike, ongoing increases anticipated, balance sheet reduction, ""highly attentive to inflation risks,"" and ""strongly committed"" to returning inflation to 2%. Very hawkish.  0.85"
+2022-06-15,P4_reversed,0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2022-11-02,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-11-02,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-07-27,P3_analyst,0.7,anthropic/claude-fable-5.1,0.0,0.7
+2022-12-14,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-12-14,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-02-01,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-02-01,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-02-01,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-02-01,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-03-22,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-03-22,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-02-01,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-12-14,P1_minimal,0.7,anthropic/claude-fable-5.1,0.0,0.7
+2021-12-15,P5_reason_first,0.45,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Taper accelerated: monthly reduction in purchases doubled to $30B ($20B Treasuries, $10B MBS), putting QE on track to end by March rather than mid-year. - The word ""transitory"" is gone; inflation is now described as ""elevated,"" driven by supply/demand imbalances. - Forward gui"
+2023-03-22,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-12-14,P4_reversed,0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2023-05-03,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-12-14,P2_defined,0.75,anthropic/claude-fable-5.1,0.0,0.75
+2023-05-03,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-05-03,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-06-14,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-06-14,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-06-14,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-06-14,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-06-14,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-07-26,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-07-26,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-07-26,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-03-22,P4_reversed,0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2022-09-21,P5_reason_first,0.8,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - 75 bp hike to 3–3¼%, the third consecutive 75 bp move, with explicit guidance that ""ongoing increases"" will be appropriate. - Inflation described as ""elevated"" with ""broader price pressures""; Committee ""highly attentive to inflation risks"" and ""strongly committed"" to returning"
+2023-09-20,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-09-20,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-09-20,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-09-20,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-09-20,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-11-01,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-11-01,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-05-03,P2_defined,0.45,anthropic/claude-fable-5.1,0.0,"This is the May 2023 FOMC statement: a 25bp hike to 5-5.25%, but with softened forward guidance (""in determining the extent to which additional policy firming may be appropriate"" replacing ""anticipates that some additional policy firming may be appropriate""), signaling a possible pause. Still a hike"
+2023-11-01,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-12-13,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-11-01,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-12-13,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-07-26,P4_reversed,0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2023-12-13,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-12-13,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-01-31,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-01-31,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-01-31,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-01-31,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-01-31,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-03-20,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-11-01,P3_analyst,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2024-03-20,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-03-20,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-03-20,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-05-01,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-05-01,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-03-22,P5_reason_first,0.2,anthropic/claude-fable-5.1,0.0,"This is the March 2023 FOMC statement, issued shortly after the SVB/Signature bank failures.  **Hawkish elements** - Rate hike of 25 bp to 4.75–5.00% despite acute banking stress. - ""Inflation remains elevated""; ""job gains have picked up... robust pace""; unemployment low. - ""Some additional policy f"
+2024-05-01,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-05-01,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-06-12,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-05-01,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-06-12,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-06-12,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-07-31,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-06-12,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-03-20,P3_analyst,0.2,anthropic/claude-fable-5.1,0.0,0.2
+2023-05-03,P5_reason_first,0.25,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - The Committee raised the target range by 25 bp to 5–5¼%, the highest level in the cycle. - Inflation ""remains elevated""; the Committee is ""highly attentive to inflation risks"" and ""strongly committed"" to the 2% objective. - Labor market described as strong: ""robust"" job gains,"
+2024-07-31,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-09-18,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-07-31,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-09-18,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-09-18,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-09-18,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-09-18,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-11-07,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-11-07,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-12-13,P3_analyst,-0.25,anthropic/claude-fable-5.1,0.0,-0.25
+2024-11-07,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-07-26,P5_reason_first,0.6,anthropic/claude-fable-5.1,0.0,"This is the July 2023 FOMC statement, in which the Committee raised rates by 25 bp to 5.25–5.50% after pausing in June.  **Hawkish elements** - A rate hike to 5-1/4 to 5-1/2 percent, the highest level in over two decades, delivered by a unanimous vote. - Economic activity upgraded to ""moderate"" (fro"
+2024-11-07,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-12-18,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-12-18,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-12-18,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-12-18,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-01-29,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-01-29,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-01-29,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-01-29,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-01-29,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-06-12,P2_defined,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2025-03-19,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-11-07,P4_reversed,-0.5,anthropic/claude-fable-5.1,0.0,0.5
+2024-12-18,P1_minimal,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2025-03-19,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-03-19,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-05-07,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-05-07,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-05-07,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-05-07,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-06-18,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-06-18,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-06-18,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-06-18,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-07-31,P5_reason_first,-0.3,anthropic/claude-fable-5.1,0.0,"This is the July 31, 2024 FOMC statement, a hold at 5.25–5.50% with language shifting toward eventual easing.  **Hawkish elements** - Inflation ""remains somewhat elevated""; rates held at a restrictive 5.25–5.50%. - Explicit bar for cuts retained: no reduction ""until it has gained greater confidence "
+2025-07-30,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-06-18,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-07-30,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-07-31,P3_analyst,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2025-07-30,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-03-19,P2_defined,-0.1,anthropic/claude-fable-5.1,0.0,"This is the March 2025 FOMC statement. Rates held steady; inflation ""somewhat elevated""; uncertainty increased; QT slowed (a mild dovish/easing element); Waller dissented preferring to continue QT pace (hawkish dissent). Overall roughly neutral, slight dovish tilt from QT slowing and heightened unce"
+2025-08-22,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-08-22,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-08-22,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-08-22,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-09-17,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-03-19,P4_reversed,-0.2,anthropic/claude-fable-5.1,0.0,"This is the March 2025 FOMC statement: rates held, QT slowed (dovish technical adjustment), uncertainty increased, inflation ""somewhat elevated,"" dissent from Waller preferring to keep QT pace (a hawkish dissent). Overall a modestly dovish hold.  0.2"
+2025-09-17,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-05-07,P2_defined,0.1,anthropic/claude-fable-5.1,0.0,"This is the May 2025 FOMC statement. Hold at 4.25-4.5%, ""additional adjustments"" language (implying cuts eventually), but noting inflation somewhat elevated, risks of both higher unemployment and higher inflation risen, uncertainty increased further. Balanced, wait-and-see, slight hawkish tilt relat"
+2025-09-17,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-09-17,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-07-30,P3_analyst,0.1,anthropic/claude-fable-5.1,0.0,0.1
+2025-10-29,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-10-29,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-10-29,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-10-29,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-12-10,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-12-10,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-12-10,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-12-10,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-01-28,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-09-17,P2_defined,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2026-01-28,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-01-28,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-07-30,P4_reversed,-0.15,anthropic/claude-fable-5.1,0.0,0.15
+2026-01-28,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-10-29,P2_defined,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2026-03-18,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-03-18,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-03-18,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-08-22,P4_reversed,0.1,anthropic/claude-fable-5.1,0.0,-0.1
+2026-04-29,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-04-29,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-04-29,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-12-10,P1_minimal,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2026-06-17,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-06-17,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-06-17,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-06-17,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-07-29,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-07-29,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-06-17,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-07-29,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-07-29,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-07-29,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-03-18,P5_reason_first,0.15,anthropic/claude-fable-5.1,0.0,"**Hawkish elements:** - Economic activity described as expanding at a ""solid pace"" (upgraded growth assessment). - ""Inflation remains somewhat elevated"" — no progress language on disinflation. - Rates held steady at 3-1/2 to 3-3/4 percent rather than cut, despite a dissent favoring a cut. - Language"
+2026-03-18,P2_defined,-0.1,anthropic/claude-fable-5.1,0.0,-0.1
+2026-01-28,P5_reason_first,0.2,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Economic activity described as expanding at a ""solid pace"" (upgraded language, less urgency to ease). - Inflation ""remains somewhat elevated."" - Rates held steady rather than cut, despite the recent easing cycle; guidance shifts to ""the extent and timing of additional adjustme"
+2026-04-29,P1_minimal,-0.1,anthropic/claude-fable-5.1,0.0,-0.1
+2026-04-29,P5_reason_first,-0.1,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Economic activity described as expanding at a ""solid pace."" - Inflation characterized as ""elevated,"" with the energy-price shock flagged as a fresh upside source. - Rates held rather than cut, and the Committee stresses attentiveness to risks on ""both sides"" of the mandate. - "
+2010-04-28,P1_minimal,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2010-04-28,P2_defined,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2010-03-16,P1_minimal,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2010-05-09,P4_reversed,-0.6,anthropic/claude-fable-5.1,0.0,0.6
+2010-05-09,P2_defined,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2010-06-23,P4_reversed,-0.7,anthropic/claude-fable-5.1,0.0,0.7
+2010-06-23,P3_analyst,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2010-04-28,P5_reason_first,-0.5,anthropic/claude-fable-5.1,0.0,"This is the April 2010 FOMC statement.  **Hawkish elements** - Upgraded growth assessment: economic activity ""has continued to strengthen,"" labor market ""beginning to improve,"" household spending ""picked up,"" business equipment/software spending ""risen significantly,"" housing starts ""edged up."" - Co"
+2010-09-21,P4_reversed,-0.8,anthropic/claude-fable-5.1,0.0,0.8
+2010-09-21,P1_minimal,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2010-11-03,P1_minimal,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2010-12-14,P1_minimal,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2010-12-14,P2_defined,-0.85,anthropic/claude-fable-5.1,0.0,-0.85
+2010-12-14,P3_analyst,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2011-01-26,P2_defined,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2011-01-26,P4_reversed,-0.8,anthropic/claude-fable-5.1,0.0,0.8
+2011-03-15,P4_reversed,-0.6,anthropic/claude-fable-5.1,0.0,0.6
+2010-12-14,P5_reason_first,-0.75,anthropic/claude-fable-5.1,0.0,"This is the December 2010 FOMC statement, reaffirming QE2.  **Hawkish elements** - Acknowledges the recovery ""is continuing"" and that household and business spending are rising. - Longer-term inflation expectations described as stable. - Hoenig's dissent explicitly warns that continued accommodation"
+2011-04-27,P4_reversed,-0.7,anthropic/claude-fable-5.1,0.0,0.7
+2011-01-26,P5_reason_first,-0.7,anthropic/claude-fable-5.1,0.0,"This is the January 2011 FOMC statement.  **Hawkish elements (few and mild):** - Acknowledges that ""commodity prices have risen,"" a nod to emerging inflation pressures. - Notes household spending ""picked up"" and business equipment/software investment ""is rising"" — modest upgrade to the growth assess"
+2011-06-22,P1_minimal,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2011-03-15,P5_reason_first,-0.5,anthropic/claude-fable-5.1,0.0,"This is the March 2011 FOMC statement.  **Hawkish elements** - Upgraded growth assessment: recovery ""on a firmer footing,"" labor market ""improving gradually,"" household spending and business investment continuing to expand. - Acknowledgment of a ""sharp run-up in oil prices"" and significant commodity"
+2011-08-09,P1_minimal,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2011-04-27,P5_reason_first,-0.6,anthropic/claude-fable-5.1,0.0,"This is the April 2011 FOMC statement.  **Hawkish elements** - Acknowledges inflation ""has picked up in recent months"" and that commodity and oil prices have risen significantly. - Explicit commitment to ""pay close attention to the evolution of inflation and inflation expectations"" — a new vigilance"
+2011-08-09,P3_analyst,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2011-09-21,P1_minimal,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2011-11-02,P2_defined,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2011-09-21,P4_reversed,-0.8,anthropic/claude-fable-5.1,0.0,"This is the September 2011 FOMC statement introducing Operation Twist — new easing (maturity extension, MBS reinvestment), forward guidance through mid-2013, significant downside risks noted, and readiness to do more. Strongly dovish, tempered slightly by three hawkish dissents.  0.8"
+2011-11-02,P4_reversed,-0.7,anthropic/claude-fable-5.1,0.0,0.7
+2011-12-13,P3_analyst,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2011-12-13,P1_minimal,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2011-12-13,P4_reversed,-0.7,anthropic/claude-fable-5.1,0.0,0.7
+2012-01-25,P3_analyst,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2012-01-25,P4_reversed,-0.8,anthropic/claude-fable-5.1,0.0,0.8
+2011-11-02,P5_reason_first,-0.6,anthropic/claude-fable-5.1,0.0,"This is the November 2011 FOMC statement.  **Hawkish elements (mild):** - Acknowledges growth ""strengthened somewhat"" in Q3 and household spending picked up. - No new easing measures announced; simply continues Operation Twist and reinvestment as previously planned. - Retains the line that the Commi"
+2012-03-13,P1_minimal,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2012-03-13,P2_defined,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2012-03-13,P3_analyst,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2012-03-13,P4_reversed,-0.7,anthropic/claude-fable-5.1,0.0,0.7
+2012-04-25,P3_analyst,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2012-06-20,P1_minimal,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2012-06-20,P3_analyst,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2012-04-25,P5_reason_first,-0.6,anthropic/claude-fable-5.1,0.0,"This is the April 2012 FOMC statement.  **Hawkish elements** - Slightly upgraded assessment: economy ""expanding moderately,"" labor market ""improved,"" unemployment ""declined,"" household spending and business investment ""continued to advance."" - Acknowledges inflation ""has picked up somewhat."" - Lacke"
+2012-06-20,P2_defined,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2012-06-20,P4_reversed,-0.8,anthropic/claude-fable-5.1,0.0,0.8
+2012-08-01,P3_analyst,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2012-08-01,P4_reversed,-0.8,anthropic/claude-fable-5.1,0.0,0.8
+2012-09-13,P1_minimal,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2012-09-13,P2_defined,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2012-09-13,P3_analyst,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2012-06-20,P5_reason_first,-0.7,anthropic/claude-fable-5.1,0.0,"This is the June 2012 FOMC statement, in which the Committee extended Operation Twist through year-end.  **Hawkish elements (few and minor):** - Acknowledgment that the economy ""has been expanding moderately"" and business fixed investment ""has continued to advance."" - Longer-term inflation expectati"
+2012-09-13,P4_reversed,-0.95,anthropic/claude-fable-5.1,0.0,0.95
+2012-10-24,P2_defined,-0.85,anthropic/claude-fable-5.1,0.0,-0.85
+2012-12-12,P1_minimal,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2012-09-13,P5_reason_first,-0.9,anthropic/claude-fable-5.1,0.0,"This is the September 2012 FOMC statement announcing QE3.  **Hawkish elements (minor):** - Acknowledges economic activity ""continued to expand at a moderate pace"" and household spending ""continued to advance."" - Notes prices of ""some key commodities have increased recently."" - Includes a caveat that"
+2012-10-24,P5_reason_first,-0.8,anthropic/claude-fable-5.1,0.0,"This is the October 2012 FOMC statement, following the September launch of QE3.  **Hawkish elements (few and minor):** - Inflation ""recently picked up somewhat"" due to energy prices; household spending ""advanced a bit more quickly."" - Housing showing ""further signs of improvement."" - Lacker dissent "
+2012-12-12,P2_defined,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2012-12-12,P3_analyst,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2012-12-12,P4_reversed,-0.9,anthropic/claude-fable-5.1,0.0,0.9
+2013-01-30,P1_minimal,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2013-01-30,P3_analyst,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2013-03-20,P1_minimal,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2013-03-20,P2_defined,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2013-01-30,P5_reason_first,-0.7,anthropic/claude-fable-5.1,0.0,"This is the January 2013 FOMC statement.  **Hawkish elements (few and modest):** - Acknowledgment that the growth pause is largely due to ""weather-related disruptions and other transitory factors,"" implying underlying momentum is intact. - Positive notes on household spending, business investment, a"
+2013-05-01,P1_minimal,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2013-05-01,P3_analyst,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2013-05-01,P2_defined,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2013-03-20,P5_reason_first,-0.7,anthropic/claude-fable-5.1,0.0,"This is the March 2013 FOMC statement, continuing QE3 at $85bn/month with the Evans-rule thresholds.  **Hawkish elements** - Growth described as returning to a ""moderate"" pace; household spending, business investment advanced and housing ""strengthened further."" - Labor market ""shown signs of improve"
+2013-05-01,P4_reversed,-0.8,anthropic/claude-fable-5.1,0.0,0.8
+2013-06-19,P2_defined,-0.7,anthropic/claude-fable-5.1,0.0,"This is the June 2013 FOMC statement. Highly accommodative policy (QE3 at $85B/month, zero rates, forward guidance), but with a slight hawkish tilt relative to prior statements: downside risks ""diminished,"" and this is the meeting where Bernanke signaled tapering. Still overwhelmingly dovish in abso"
+2013-06-19,P1_minimal,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2013-07-31,P2_defined,-0.7,anthropic/claude-fable-5.1,0.0,"This is the July 2013 FOMC statement: continued QE at $85B/month, zero rates, forward guidance, acknowledging inflation below target as a risk, ""modest"" growth, fiscal restraint, mortgage rates rising. Strongly dovish, with slight hawkish elements (downside risks diminished, one hawkish dissent).  -"
+2013-06-19,P3_analyst,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2013-07-31,P4_reversed,-0.7,anthropic/claude-fable-5.1,0.0,0.7
+2013-09-18,P2_defined,-0.7,anthropic/claude-fable-5.1,0.0,"This is the September 2013 ""no taper"" statement, which surprised markets dovishly by maintaining $85B/month purchases, expressing concern about tightening financial conditions and below-target inflation, and reaffirming forward guidance. One hawkish dissent.  -0.7"
+2013-09-18,P3_analyst,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2013-07-31,P5_reason_first,-0.5,anthropic/claude-fable-5.1,0.0,"This is the July 31, 2013 FOMC statement, issued as markets were anticipating a ""taper"" of QE3.  **Hawkish elements** - ""Downside risks to the outlook... have diminished since the fall"" – a more upbeat risk assessment. - Continued acknowledgment of labor market improvement, household spending, busin"
+2013-09-18,P4_reversed,-0.6,anthropic/claude-fable-5.1,0.0,"This is the September 2013 FOMC statement, notable for the surprise ""no taper"" decision, which markets interpreted as dovish. Key dovish elements: continued QE at $85B/month, concern about tightening financial conditions and rising mortgage rates, inflation below target flagged as a risk, reaffirmed"
+2013-10-30,P1_minimal,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2013-06-19,P5_reason_first,0.15,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Upgraded risk assessment: ""downside risks to the outlook for the economy and the labor market as having diminished since the fall"" — new language pointing toward eventual tapering. - Economic description firmer: labor market ""further improvement,"" household spending and busine"
+2013-09-18,P5_reason_first,-0.6,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Economy described as expanding at a moderate pace; some labor-market indicators show ""further improvement""; household spending, business investment and housing all advancing. - Downside risks to the outlook ""have diminished, on net, since last fall."" - Improvement since QE beg"
+2013-10-30,P2_defined,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2013-12-18,P1_minimal,0.2,anthropic/claude-fable-5.1,0.0,0.2
+2013-12-18,P2_defined,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2013-10-30,P3_analyst,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2014-01-29,P1_minimal,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2013-12-18,P3_analyst,0.25,anthropic/claude-fable-5.1,0.0,0.25
+2014-01-29,P2_defined,-0.4,anthropic/claude-fable-5.1,0.0,"This is the January 2014 FOMC statement: a second taper step ($10B reduction), continued highly accommodative forward guidance, rates at zero ""well past"" the 6.5% unemployment threshold, concern about persistently low inflation. Overall still very accommodative in absolute terms but with a hawkish t"
+2013-12-18,P4_reversed,0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2014-01-29,P3_analyst,0.2,anthropic/claude-fable-5.1,0.0,0.2
+2014-03-19,P1_minimal,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2014-01-29,P4_reversed,-0.2,anthropic/claude-fable-5.1,0.0,0.2
+2014-03-19,P2_defined,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2014-03-19,P3_analyst,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2014-01-29,P5_reason_first,0.2,anthropic/claude-fable-5.1,0.0,"This is the January 2014 FOMC statement (second taper step).  **Hawkish elements** - Second consecutive $10B reduction in asset purchases (MBS to $30B, Treasuries to $35B), citing ""cumulative progress toward maximum employment."" - Growth ""picked up in recent quarters""; household spending and busines"
+2014-04-30,P2_defined,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2014-04-30,P3_analyst,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2014-04-30,P4_reversed,-0.3,anthropic/claude-fable-5.1,0.0,0.3
+2014-06-18,P1_minimal,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2014-03-19,P5_reason_first,-0.15,anthropic/claude-fable-5.1,0.0,"This is the March 2014 FOMC statement (Yellen's first as Chair), notable for dropping the 6.5% unemployment threshold in favor of qualitative forward guidance while continuing the taper.  **Hawkish elements** - Continued the taper: another $10bn cut in monthly purchases (to $55bn total), with explic"
+2014-06-18,P3_analyst,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2014-06-18,P2_defined,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2014-06-18,P4_reversed,-0.3,anthropic/claude-fable-5.1,0.0,0.3
+2014-07-30,P2_defined,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2014-06-18,P5_reason_first,-0.1,anthropic/claude-fable-5.1,0.0,"This is the June 2014 FOMC statement (Yellen's second meeting as Chair, first with Fischer, Brainard, and Mester voting).  **Hawkish elements** - Growth ""has rebounded in recent months"" after the weak Q1; labor market indicators ""showed further improvement."" - Another $10 billion taper (to $35 billi"
+2014-04-30,P5_reason_first,0.1,anthropic/claude-fable-5.1,0.0,"This is the April 30, 2014 FOMC statement.  **Hawkish elements** - Continued tapering: another $10 billion cut in monthly asset purchases (to $45 billion total), with explicit guidance that further ""measured"" reductions are likely at upcoming meetings. - Upgraded growth assessment: activity ""has pic"
+2014-07-30,P3_analyst,0.15,anthropic/claude-fable-5.1,0.0,0.15
+2014-07-30,P4_reversed,-0.2,anthropic/claude-fable-5.1,0.0,"This is the July 2014 FOMC statement. It continues tapering (hawkish direction), notes inflation moving closer to target and diminished likelihood of persistently low inflation (slightly hawkish shift), but maintains highly accommodative stance, ""considerable time"" guidance, and emphasizes significa"
+2014-09-17,P2_defined,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2014-07-30,P5_reason_first,0.1,anthropic/claude-fable-5.1,0.0,"This is the July 2014 FOMC statement.  **Hawkish elements** - Growth ""rebounded"" in Q2; labor market improved with unemployment ""declining further."" - Inflation ""moved somewhat closer"" to the 2% objective; the likelihood of inflation running persistently below 2% ""has diminished somewhat"" (a new, no"
+2014-09-17,P4_reversed,-0.3,anthropic/claude-fable-5.1,0.0,0.3
+2014-09-17,P3_analyst,-0.1,anthropic/claude-fable-5.1,0.0,-0.1
+2014-10-29,P3_analyst,0.35,anthropic/claude-fable-5.1,0.0,0.35
+2014-10-29,P1_minimal,0.3,anthropic/claude-fable-5.1,0.0,"This is the October 2014 FOMC statement, ending QE3. It's more hawkish than previous statements (upgraded labor market language, ""underutilization... gradually diminishing,"" reduced concern about inflation running persistently below 2%), while retaining ""considerable time"" forward guidance. Dovish d"
+2014-09-17,P5_reason_first,0.1,anthropic/claude-fable-5.1,0.0,"This is the September 2014 FOMC statement.  **Hawkish elements** - Further taper: purchases cut to $15B/month total, with an explicit signal that the program will end at the next meeting (October) if data cooperate. - Assessment that the likelihood of inflation running persistently below 2% ""has dim"
+2014-10-29,P5_reason_first,0.3,anthropic/claude-fable-5.1,0.0,"This is the October 2014 FOMC statement, in which the Fed ended QE3.  **Hawkish elements:** - Concluded the asset purchase program (end of QE3). - Upgraded labor market language: ""solid job gains,"" lower unemployment, underutilization ""gradually diminishing"" (previously ""significant underutilization"
+2014-12-17,P2_defined,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2015-01-28,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-12-17,P3_analyst,0.25,anthropic/claude-fable-5.1,0.0,0.25
+2015-01-28,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-01-28,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-01-28,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-03-18,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-01-28,P2_defined,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2015-03-18,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2014-12-17,P4_reversed,-0.3,anthropic/claude-fable-5.1,0.0,0.3
+2015-04-29,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-04-29,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-04-29,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-04-29,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-04-29,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-06-17,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-06-17,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-06-17,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-06-17,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-03-18,P3_analyst,-0.1,anthropic/claude-fable-5.1,0.0,-0.1
+2015-07-29,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-07-29,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-07-29,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-09-17,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-09-17,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-09-17,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-09-17,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-03-18,P5_reason_first,0.1,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - The ""patient"" forward guidance from prior statements has been dropped, replaced with conditions for liftoff (""further improvement in the labor market... reasonably confident that inflation will move back to 2 percent""), which opens the door to a rate increase as early as June."
+2015-10-28,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-10-28,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-07-29,P1_minimal,0.2,anthropic/claude-fable-5.1,0.0,0.2
+2015-12-16,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-12-16,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-12-16,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-12-16,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-12-16,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-01-27,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-01-27,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-01-27,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-01-27,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-01-27,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-03-16,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-03-16,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-10-28,P2_defined,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2016-04-27,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-04-27,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2015-10-28,P5_reason_first,0.4,anthropic/claude-fable-5.1,0.0,"**Hawkish elements** - Explicit, unusual reference to possibly raising the target range ""at its next meeting"" — a clear signal that a December hike is on the table. - Softened concern about global risks: the Committee is merely ""monitoring global economic and financial developments"" (dropping the pr"
+2016-04-27,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-04-27,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-06-15,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-03-16,P4_reversed,-0.4,anthropic/claude-fable-5.1,0.0,"This is the March 2016 FOMC statement. It held rates steady, noted global risks, emphasized ""only gradual increases,"" and reduced the dot plot projections (from 4 hikes to 2), which markets read as dovish. One hawkish dissent (George). Overall moderately dovish.  0.4"
+2016-06-15,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-07-27,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-07-27,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-07-27,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-07-27,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-06-15,P3_analyst,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2016-07-27,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-09-21,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-09-21,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-09-21,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-11-02,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-09-21,P1_minimal,0.3,anthropic/claude-fable-5.1,0.0,"This is the September 2016 FOMC statement. Held rates but ""case for an increase has strengthened,"" three hawkish dissents, risks ""roughly balanced."" Moderately hawkish tilt despite holding.  0.3"
+2016-11-02,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-04-27,P5_reason_first,0.1,anthropic/claude-fable-5.1,0.0,"This is the April 2016 FOMC statement.  **Hawkish elements** - Labor market ""improved further,"" ""strong job gains,"" and indicators point to ""additional strengthening."" - Housing sector improved further; real income rising at a solid rate, consumer sentiment high. - Removed the March language that ""g"
+2016-11-02,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-12-14,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-12-14,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-12-14,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-12-14,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-11-02,P3_analyst,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2017-02-01,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-02-01,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-03-15,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-03-15,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-02-01,P1_minimal,0.2,anthropic/claude-fable-5.1,0.0,0.2
+2017-03-15,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-03-15,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2016-11-02,P5_reason_first,0.35,anthropic/claude-fable-5.1,0.0,"This is the November 2016 FOMC statement (held rates, one meeting before the December 2016 hike).  **Hawkish elements** - ""The case for an increase in the federal funds rate has continued to strengthen"" — explicit signal that a hike is near. - Two dissents (George, Mester) in favor of an immediate h"
+2017-03-15,P3_analyst,0.35,anthropic/claude-fable-5.1,0.0,0.35
+2017-05-03,P2_defined,0.2,anthropic/claude-fable-5.1,0.0,0.2
+2017-05-03,P4_reversed,0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2017-05-03,P1_minimal,0.3,anthropic/claude-fable-5.1,0.0,"This is the May 2017 FOMC statement. Held rates, dismissed Q1 slowdown as transitory (hawkish signal), expects gradual increases, but acknowledges core inflation running below 2%. Moderately hawkish tilt.  0.3"
+2017-06-14,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-06-14,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-07-26,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-07-26,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-07-26,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-07-26,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-06-14,P2_defined,0.5,anthropic/claude-fable-5.1,0.0,"This is the June 2017 FOMC statement: rate hike to 1-1.25%, announcement of balance sheet normalization plan this year, expectation of gradual increases — despite inflation running below 2% and a dovish dissent from Kashkari.  0.5"
+2017-09-20,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-09-20,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-11-01,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-11-01,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-09-20,P2_defined,0.35,anthropic/claude-fable-5.1,0.0,0.35
+2017-11-01,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-05-03,P5_reason_first,0.25,anthropic/claude-fable-5.1,0.0,"This is the May 2017 FOMC statement (rates held at 0.75–1.00% after the March hike).  **Hawkish elements** - Labor market ""continued to strengthen,"" job gains ""solid,"" unemployment declined. - Q1 growth slowdown explicitly characterized as ""likely to be transitory"" — the Committee is looking through"
+2017-12-13,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-12-13,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-11-01,P4_reversed,0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2017-12-13,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-01-31,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-01-31,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-01-31,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-12-13,P4_reversed,0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2018-03-21,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-03-21,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-03-21,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-03-21,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-05-02,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-05-02,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2017-11-01,P5_reason_first,0.3,anthropic/claude-fable-5.1,0.0,"This is the November 2017 FOMC statement (rates held at 1–1.25%, following the October start of balance sheet runoff, ahead of the widely expected December hike).  **Hawkish elements** - Economic activity upgraded to ""rising at a solid rate"" (from ""moderately"" in September), explicitly looking throu"
+2018-05-02,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-06-13,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-06-13,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-05-02,P4_reversed,0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2018-01-31,P5_reason_first,0.4,anthropic/claude-fable-5.1,0.0,"This is the January 2018 FOMC statement (Yellen's last meeting), a hold at 1.25–1.50% with an upgraded outlook.  **Hawkish elements** - Economic assessment upgraded: activity ""rising at a solid rate,"" gains in employment, spending, and business investment described as ""solid."" - Inflation language f"
+2018-06-13,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-08-01,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-08-01,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-06-13,P3_analyst,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2018-08-01,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-08-01,P1_minimal,0.5,anthropic/claude-fable-5.1,0.0,0.5
+2018-09-26,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-09-26,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-09-26,P1_minimal,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2018-11-08,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-09-26,P2_defined,0.6,anthropic/claude-fable-5.1,0.0,0.6
+2018-12-19,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-12-19,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-12-19,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-01-30,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-11-08,P2_defined,0.35,anthropic/claude-fable-5.1,0.0,"This is the November 2018 FOMC statement. Rates held steady, but the statement signals ""further gradual increases"" are expected, describes economic activity as ""strong,"" labor market strengthening, and risks balanced. Modestly hawkish forward guidance with a hold decision.  0.35"
+2019-01-30,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-01-30,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-01-30,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-03-20,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-01-30,P2_defined,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2019-03-20,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-03-20,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-05-01,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2018-11-08,P5_reason_first,0.4,anthropic/claude-fable-5.1,0.0,"This is the November 2018 FOMC statement (rate held at 2–2.25% after the September hike).  **Hawkish elements** - Strong characterization of the economy: labor market ""continued to strengthen,"" activity ""rising at a strong rate,"" job gains ""strong,"" unemployment declining, household spending growing"
+2019-06-19,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-03-20,P4_reversed,-0.4,anthropic/claude-fable-5.1,0.0,"This is the March 2019 FOMC statement. The Committee held rates steady, noted slowing growth, muted inflation, and emphasized patience—a dovish tilt relative to the prior tightening cycle, though not aggressively easing.  0.4"
+2019-06-19,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-06-19,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-06-19,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-06-19,P3_analyst,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2019-07-31,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-07-31,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-07-31,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-07-31,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-07-31,P1_minimal,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2019-05-01,P5_reason_first,-0.2,anthropic/claude-fable-5.1,0.0,"This is the May 2019 FOMC statement (rates held at 2.25–2.50%).  **Hawkish elements** - Labor market ""remains strong,"" job gains ""solid,"" unemployment ""low."" - Economic activity ""rose at a solid rate"" (an upgrade from March's ""slowed""). - Baseline outlook still calls for ""sustained expansion"" and in"
+2019-09-18,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-09-18,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-10-11,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-10-11,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-09-18,P2_defined,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2019-09-18,P1_minimal,-0.5,anthropic/claude-fable-5.1,0.0,-0.5
+2019-10-30,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-10-30,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-10-30,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-10-30,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-10-30,P1_minimal,-0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2019-10-11,P4_reversed,-0.2,anthropic/claude-fable-5.1,0.0,"This is a technical statement about reserve management (T-bill purchases and repo operations) explicitly stated as not representing a change in policy stance. Still, balance sheet expansion leans mildly accommodative in market perception.  0.2"
+2019-12-11,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-12-11,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-01-29,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-12-11,P3_analyst,-0.2,anthropic/claude-fable-5.1,0.0,-0.2
+2020-01-29,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2019-12-11,P2_defined,-0.2,anthropic/claude-fable-5.1,0.0,"This is the December 2019 FOMC statement: rates held steady after three cuts, with ""current stance appropriate"" language, noting muted inflation pressures and below-2% inflation. Neutral-to-slightly dovish.  -0.2"
+2020-03-03,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-01-29,P4_reversed,-0.2,anthropic/claude-fable-5.1,0.0,0.2
+2020-03-03,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-03-03,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-03-03,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-03-15,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-03-03,P3_analyst,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2020-03-15,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-03-23,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-03-23,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-03-15,P2_defined,-1.0,anthropic/claude-fable-5.1,0.0,-1
+2020-03-31,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-01-29,P5_reason_first,-0.2,anthropic/claude-fable-5.1,0.0,"This is the January 2020 FOMC statement (rates held at 1.50–1.75% after the three 2019 ""insurance"" cuts).  **Hawkish elements** - Labor market described as ""strong,"" job gains ""solid,"" unemployment ""low."" - Economic activity ""rising at a moderate rate""; household spending rising moderately. - Curren"
+2020-03-31,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-03-31,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-03-31,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-03-31,P2_defined,-0.6,anthropic/claude-fable-5.1,0.0,-0.6
+2020-04-29,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-04-29,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-04-29,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-06-10,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-04-29,P1_minimal,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2020-03-23,P5_reason_first,-1.0,anthropic/claude-fable-5.1,0.0,"This is the March 23, 2020 emergency FOMC statement announcing unlimited QE and a suite of credit facilities at the onset of the COVID crisis.  **Hawkish elements:** - Essentially none. The only faint hint of conditionality is that the Committee ""will assess the appropriate pace of its securities pu"
+2020-07-29,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-07-29,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-06-10,P2_defined,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2020-07-29,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-06-10,P4_reversed,-0.9,anthropic/claude-fable-5.1,0.0,0.9
+2020-08-27,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-08-27,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-08-27,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-09-16,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-08-27,P1_minimal,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2020-09-16,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-09-16,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-11-05,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-11-05,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-09-16,P3_analyst,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2020-11-05,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-07-29,P5_reason_first,-0.8,anthropic/claude-fable-5.1,0.0,"This is the July 2020 FOMC statement.  **Hawkish elements (minimal):** - Acknowledgment that economic activity and employment ""have picked up somewhat in recent months."" - Note that ""overall financial conditions have improved."" - No new easing measures were announced beyond continuing existing progr"
+2020-12-16,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-12-16,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-12-16,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-12-16,P1_minimal,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2021-01-27,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-01-27,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-03-17,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-03-17,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2020-11-05,P5_reason_first,-0.85,anthropic/claude-fable-5.1,0.0,"**Hawkish elements:** Very few. The statement notes that economic activity and employment ""have continued to recover"" and that financial conditions ""remain accommodative,"" which are mildly positive assessments. The vote was unanimous, with no dissents pushing for even more easing.  **Dovish elements"
+2021-01-27,P3_analyst,-0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2021-03-17,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-04-28,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-04-28,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-04-28,P1_minimal,-0.8,anthropic/claude-fable-5.1,0.0,-0.8
+2021-06-16,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-06-16,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-06-16,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-07-28,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-06-16,P2_defined,-0.7,anthropic/claude-fable-5.1,0.0,-0.7
+2021-07-28,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-07-28,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-09-22,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-09-22,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-03-17,P5_reason_first,-0.8,anthropic/claude-fable-5.1,0.0,"This is the March 2021 FOMC statement.  **Hawkish elements (few and mild):** - Acknowledgment that ""indicators of economic activity and employment have turned up recently"" after a moderation — an upgrade to the assessment of activity. - Reference to ""progress on vaccinations"" as a factor in the outl"
+2021-09-22,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-11-03,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-11-03,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-11-03,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-07-28,P4_reversed,-0.6,anthropic/claude-fable-5.1,0.0,0.6
+2021-11-03,P1_minimal,-0.3,anthropic/claude-fable-5.1,0.0,-0.3
+2021-12-15,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-01-26,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-01-26,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-01-26,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-03-16,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-12-15,P2_defined,0.3,anthropic/claude-fable-5.1,0.0,0.3
+2022-03-16,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-03-16,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-03-16,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-05-04,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2021-12-15,P3_analyst,0.45,anthropic/claude-fable-5.1,0.0,0.45
+2022-03-16,P3_analyst,0.7,anthropic/claude-fable-5.1,0.0,0.7
+2022-05-04,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-06-15,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-06-15,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-06-15,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-05-04,P3_analyst,0.8,anthropic/claude-fable-5.1,0.0,0.8
+2022-07-27,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-07-27,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-07-27,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-09-21,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-07-27,P2_defined,0.8,anthropic/claude-fable-5.1,0.0,0.8
+2022-09-21,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-09-21,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-11-02,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-11-02,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-11-02,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-11-02,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-09-21,P4_reversed,0.9,anthropic/claude-fable-5.1,0.0,-0.9
+2022-11-02,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-05-04,P5_reason_first,0.8,anthropic/claude-fable-5.1,0.0,"This is the May 2022 FOMC statement.  **Hawkish elements** - 50 bp rate hike (to 0.75–1.00%), the largest since 2000, with explicit guidance that ""ongoing increases"" will be appropriate. - Formal launch of balance sheet reduction (QT) beginning June 1. - Inflation described as ""elevated,"" with added"
+2023-02-01,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-02-01,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-02-01,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-02-01,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-02-01,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-12-14,P3_analyst,0.7,anthropic/claude-fable-5.1,0.0,0.7
+2023-03-22,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-03-22,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-05-03,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-05-03,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-05-03,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-06-14,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-03-22,P3_analyst,0.35,anthropic/claude-fable-5.1,0.0,0.35
+2023-06-14,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-06-14,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-06-14,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2022-12-14,P5_reason_first,0.5,anthropic/claude-fable-5.1,0.0,"This is the December 2022 FOMC statement (50bp hike to 4.25–4.50%, stepping down from 75bp).  **Hawkish elements** - Another rate hike, bringing the target range to 4-1/4 to 4-1/2 percent. - ""Ongoing increases in the target range will be appropriate"" — explicit forward guidance for further tightenin"
+2023-07-26,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-07-26,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-07-26,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-09-20,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-06-14,P4_reversed,0.4,anthropic/claude-fable-5.1,0.0,-0.4
+2023-09-20,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-09-20,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-11-01,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-11-01,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-09-20,P3_analyst,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2023-09-20,P1_minimal,0.4,anthropic/claude-fable-5.1,0.0,0.4
+2023-11-01,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-12-13,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-12-13,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-11-01,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-01-31,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-12-13,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2023-12-13,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-01-31,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-01-31,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-01-31,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-01-31,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-03-20,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-03-20,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-03-20,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-05-01,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-05-01,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-03-20,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-05-01,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-05-01,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-05-01,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-06-12,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-06-12,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-06-12,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-06-12,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-07-31,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-07-31,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-07-31,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-09-18,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-09-18,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-09-18,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-09-18,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-09-18,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-11-07,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-11-07,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-11-07,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-11-07,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-12-18,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-12-18,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-12-18,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-01-29,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2024-12-18,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-01-29,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-01-29,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-01-29,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-01-29,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-03-19,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-03-19,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-03-19,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-05-07,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-05-07,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-05-07,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-05-07,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-06-18,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-06-18,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-06-18,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-06-18,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-06-18,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-07-30,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-08-22,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-07-30,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-08-22,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-07-30,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-08-22,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-08-22,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-09-17,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-09-17,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-09-17,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-09-17,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-10-29,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-10-29,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-10-29,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-10-29,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-12-10,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-12-10,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-12-10,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2025-12-10,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-01-28,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-01-28,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-01-28,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-01-28,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-03-18,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-03-18,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-03-18,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-04-29,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-04-29,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-04-29,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-06-17,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-06-17,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-06-17,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-06-17,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-07-29,P1_minimal,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-06-17,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-07-29,P2_defined,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-07-29,P4_reversed,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-07-29,P3_analyst,,anthropic/claude-fable-5.1,0.0,FAILED
+2026-07-29,P5_reason_first,,anthropic/claude-fable-5.1,0.0,FAILED

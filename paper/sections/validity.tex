@@ -1,0 +1,319 @@
+%=====================================================================================
+\section{Validity: do score changes track market surprises?}\label{sec:validity}
+
+\subsection{Specification}
+
+If a stance score measures what the statement says about future policy, changes in the score should move
+with the market's reading of the announcement. I estimate
+\begin{equation}
+y_t = \alpha + \beta\,\text{dScore}_t + \varepsilon_t
+\end{equation}
+over statements up to December 2023, where $y_t$ is a market outcome at statement $t$. Standard errors
+are Newey--West \citep{newey1987} with a Bartlett kernel and $\lfloor 4(n/100)^{2/9}\rfloor$ lags, a common
+rule of thumb associated with \citet{newey1994}, which is \R{prim.lag} meetings in these samples;
+$p$-values use the Student $t$ distribution.
+
+The \emph{primary specification} uses MPS as the outcome, Fable's dScore, the policy corpus and hold
+meetings only, with no controls. Hold meetings are the natural test: at a rate change both the score and
+the surprise move with the decision, so their correlation could simply reflect the decision, which no
+LLM is needed to read. MPS is measured in a 30-minute window and so isolates the announcement.
+
+This specification was frozen on 3 October 2026, after earlier versions had been estimated and seen. The
+choice of hold meetings, of MPS as the outcome, of the five-prompt consensus over a single prompt, of
+whether to control for the rate change, and of the corpus definition were all made after looking at
+results. The corpus definition, in particular, followed an independent review of the code which found
+that seven non-policy notices, then coded as hold meetings, drove the earlier daily-yield results. The
+adjusted $p$-values below correct for the twelve regressions in Fable's primary family. They do not
+correct for this search, so even they overstate the evidence. The main analysis run reports
+\R{regs.csv} regression coefficients with their tests (Appendix~\ref{app:disclose}), and the checks in
+this section add more.
+
+\subsection{The primary result}
+
+\begin{table}[t]
+\centering
+\caption{The primary specification and its family}\label{tab:primary}
+\small
+\input{tables/tab_primary}
+\tabnote{\emph{Notes:} Fable consensus dScore, policy corpus, statements to December 2023. Each row is one
+regression of the outcome on dScore (and the rate change in basis points, where shown). The family is
+the twelve combinations of four outcomes (MPS, MPS\_ORTH, $d_2$, $d_{10}$) and three samples; Holm and
+Bonferroni adjust for these twelve tests only. Newey--West $t$ with \R{prim.lag} lags. The primary
+specification is in bold. The last row repeats it on the 2003+ meetings that also have daily yields.}
+\end{table}
+
+Table~\ref{tab:primary} reports the primary regression and its family. On \R{prim.n} hold meetings from
+\R{prim.first} to \R{prim.last}, the slope is \R{prim.beta} percentage points of MPS per unit of dScore,
+with a Newey--West $t$ of \R{prim.t} ($p=\R{prim.p}$) and an $R^2$ of \R{prim.r2}. The OLS and
+heteroskedasticity-robust $t$-statistics are similar (\R{prim.tols} and \R{prim.thc}). In economic terms
+the relation is small: a one-standard-deviation change in dScore (\R{fable.sd}) goes with
+\R{prim.persd} percentage points of MPS, about \R{prim.persd.ratio} of the standard deviation of MPS at
+hold meetings. On the \R{prim03.n} hold meetings from 2003 onwards, which also have daily yields, the
+$t$-statistic is \R{prim03.t}.
+
+The result does not survive a correction for multiple testing. Its Holm-adjusted $p$-value
+\citep{holm1979} over the twelve tests is \R{fam.MPS.hold.none.holm} (Bonferroni
+\R{fam.MPS.hold.none.bonf}). The only regression in the family that survives is MPS on all meetings
+($t=\R{fam.MPS.all.none.t}$, Holm $p=\R{fam.MPS.all.none.holm}$). That regression includes the rate
+decisions; controlling for the size of the rate change lowers its $t$ to \R{fam.MPS.all.ctrl.t}.
+
+\subsection{Other outcomes and other scores}
+
+\begin{table}[t]
+\centering
+\caption{Hold meetings: slopes on dScore by outcome and score}\label{tab:secondary}
+\footnotesize
+\setlength{\tabcolsep}{4.5pt}
+\input{tables/tab_secondary}
+\tabnote{\emph{Notes:} Slope of each outcome on dScore with Newey--West $t$ in parentheses; hold meetings,
+policy corpus, statements to December 2023. Fable and Gemini: five-prompt consensus with prompt fixed
+effects. Dictionary: word-count score. Fable P1: re-score with prompt P1 on the cleaned original text; P1
+blinded and P1 paraphrased: the same prompt on the blinded and paraphrased versions. GPT-4: prompt P1;
+it lacks a few statements, so its $n$ is up to three lower. MPS in percentage points per unit of dScore,
+yields in basis points.}
+\end{table}
+
+Table~\ref{tab:secondary} reports every outcome for every score on hold meetings. Three facts stand out.
+
+First, Fable's dScore is unrelated to MPS\_ORTH ($t=\R{hold.fable.MPS_ORTH.t}$), the part of the surprise
+that \citet{bauer2023reassessment} show is not predictable from macroeconomic and financial data released
+before the meeting. Its relation is with the predictable part: on the same \R{extra.predpart.n} meetings,
+regressing MPS minus MPS\_ORTH on dScore gives $t=\R{extra.predpart.t}$ (Table~\ref{tab:extra}; an
+exploratory check). A model that knows the economic context of each meeting would pick up exactly that
+component, whether it reads it from the text or recalls it.
+
+Second, the 30-minute yield changes give $t$-statistics of \R{hold.fable.t2.t} ($t_2$) and
+\R{hold.fable.t10.t} ($t_{10}$), close to the MPS result. They are not independent evidence: on hold
+meetings their correlation with MPS is \R{desc.corr.MPS.t2} and \R{desc.corr.MPS.t10}. The daily yield
+changes are not significantly related to dScore ($t$ of \R{hold.fable.d2.t} for $d_2$ and
+\R{hold.fable.d10.t} for $d_{10}$). Daily changes also contain the day's other news, so they are a noisier
+outcome.
+
+Third, no other score shows a relation. Gemini's dScore has $t$-statistics between
+\R{hold.gemini.d2.t} and \R{hold.gemini.MPS.t} on the six outcomes, the dictionary's are of either sign
+and none is significant, and GPT-4's are all negative or near zero. Fable's own single-prompt re-score on
+the cleaned text gives an MPS $t$ of \R{hold.clean.MPS.t}; on blinded and paraphrased text the same
+prompt gives \R{hold.blind.MPS.t} and \R{hold.para.MPS.t} (Section~\ref{sec:versions-validity}).
+
+\subsection{Robustness}\label{sec:robust}
+
+\begin{table}[t]
+\centering
+\caption{Hold-meeting $t$-statistics under other score constructions and corpora}\label{tab:variants}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\input{tables/tab_variants}
+\tabnote{\emph{Notes:} Fable dScore, hold meetings, statements to December 2023, Newey--West $t$. Strict
+corpus: policy corpus without the two unscheduled policy statements (17 August 2007 and 23 March 2020).
+All files: also keeps the seven notices. Matched: each pair's change is averaged over the prompts scored
+at both statements. Raw: mean over available prompts without prompt fixed effects. P1: prompt P1 only.}
+\end{table}
+
+\paragraph{Score construction and corpus.} Table~\ref{tab:variants} re-estimates the hold-meeting
+regressions under five alternatives. The MPS $t$-statistic stays between \R{var.strict.MPS.t} and
+\R{var.default.MPS.t} in every variant, including the single prompt P1 (\R{var.p1.MPS.t}). The daily
+yields do not behave this way. Under the policy corpus their $t$-statistics are \R{var.default.d2.t}
+($d_2$) and \R{var.default.d10.t} ($d_{10}$). Dropping the two unscheduled policy statements raises them to
+\R{var.strict.d2.t} and \R{var.strict.d10.t}, and keeping the non-policy notices gives
+\R{var.all.d2.t} and \R{var.all.d10.t}. A result that moves by one unit of $t$ depending on whether two
+statements are in the sample cannot be called established, whichever corpus one prefers. The policy
+corpus was chosen before the strict variant was run. The all-files corpus is not a defensible
+alternative: it treats liquidity and swap-line notices as hold meetings and measures the next
+statement's dScore against them.
+
+\begin{table}[t]
+\centering
+\caption{Placebo days for the daily yield regressions}\label{tab:placebo}
+\small
+\input{tables/tab_placebo}
+\tabnote{\emph{Notes:} Fable dScore, hold meetings. Each placebo replaces the statement-day yield change
+with the change $k$ trading days earlier or later ($k=\pm1,\ldots,\pm30$) and re-runs the regression.
+Columns give the number of placebo days whose $|t|$ exceeds 1.96 and the actual $t$, and the 95th
+percentile and maximum of the 60 placebo $|t|$ values.}
+\end{table}
+
+\paragraph{Placebo days.} If the daily yield regressions had well-behaved $t$-statistics, the same
+regression on yield changes from days without a statement should rarely give $|t|>1.96$. Table~\ref{tab:placebo}
+shows that it often does. Under the policy corpus, \R{placebo.d10.over196} of 60 placebo days give
+$|t|>1.96$ for $d_{10}$, the 95th percentile of placebo $|t|$ is \R{placebo.d10.p95}, and
+\R{placebo.d10.overreal} placebo days match or exceed the actual \R{placebo.d10.real}. The actual
+$t$-statistics are ordinary draws from this distribution. In the other two corpora the picture is
+different: the actual $d_{10}$ $t$ is matched by only \R{placebo.strict.d10.overreal} of 60 placebo days
+under the strict corpus and \R{placebo.all.d10.overreal} under the all-files corpus, and the actual $d_2$
+$t$ by \R{placebo.strict.d2.overreal} and \R{placebo.all.d2.overreal}. That is the strongest evidence for a
+daily yield link in this paper. It appears only in corpora that differ from the policy corpus by two
+borderline statements, or that keep the non-policy notices. The fat tails of the placebo distributions
+are a warning in their own right: GPT-4's coarse score gives a $t$ of \R{h.gpt4.d2.hold-pre.t} for $d_2$
+before its cutoff (Section~\ref{sec:cannot}), with the wrong sign, which shows how large a spurious
+daily-yield $t$ can be here.
+
+\paragraph{Influence.} Table~\ref{tab:influence} and Figure~\ref{fig:scatter} show how much the MPS result
+depends on a few meetings. Leaving out one meeting at a time gives $t$-statistics between
+\R{infl.MPS.loomin} and \R{infl.MPS.loomax}. Dropping the five most influential meetings one after
+another gives \R{infl.MPS.path}. This greedy drop removes the observations most favourable to the result,
+so it weakens any effect of this size. To calibrate it, I simulate 200 data sets from the fitted line with
+resampled residuals, so that the true slope equals the estimate, and apply the same drop. The median
+$t$-statistic falls from \R{bench.full} to \R{bench.after}, and \R{bench.sharepct} of the simulations end
+at or below the actual \R{infl.MPS.after5}. The influence analysis is therefore what a real effect of
+this size would produce, and it is not evidence against the result. The relation is also not driven by
+outliers: winsorising both variables at the 2.5th and 97.5th percentiles gives $t=\R{extra.winsor.t}$,
+the Spearman rank correlation is \R{prim.spearman}, and a permutation test that shuffles dScore across
+hold meetings gives $p=\R{prim.perm}$ (which, like the other $p$-values, ignores the specification
+search).
+
+The most influential meeting for every outcome is the statement of 13 December 2023, widely read as
+signalling the end of the hiking cycle. Among the others are the statement of 28 January 2004, which
+replaced the promise to keep rates low for a ``considerable period'' with a promise to be ``patient'', and
+that of 28 October 2015, which pointed to a possible hike at the next meeting. These meetings are not
+recognised more often than others: Fable names their month and year unprompted in \R{name.infl} scoring
+replies (\R{name.inflpct}), against \R{name.other} (\R{name.otherpct}) at the other hold meetings.
+Conversely, Fable's dScore misses the two largest asset-purchase surprises among the hold meetings: it is
+\R{lsap.2009-03-18.ds} for 18 March 2009, when the 10-year yield changed by \R{lsap.2009-03-18.d10} basis
+points in a day, and \R{lsap.2013-09-18.ds} for 18 September 2013 (\R{lsap.2013-09-18.d10} basis points).
+
+\begin{table}[t]
+\centering
+\caption{Influence of individual meetings}\label{tab:influence}
+\footnotesize
+\input{tables/tab_influence}
+\tabnote{\emph{Notes:} Fable dScore, hold meetings, policy corpus, Newey--West $t$. LOO: range of $t$ when
+one meeting is left out. Greedy: at each step the meeting whose removal lowers $t$ most is dropped.}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\input{figures/fig_scatter}
+\caption{MPS against Fable's dScore at \R{prim.n} hold meetings, 2000--2023, with the fitted line of the
+primary regression. Filled points: the five meetings whose removal lowers the $t$-statistic most.}\label{fig:scatter}
+\end{figure}
+
+\paragraph{Subperiods and other checks.} Table~\ref{tab:extra} reports exploratory checks that an
+independent review asked for. The relation is concentrated in the last third of the sample: the
+$t$-statistic is \R{extra.sub0007.t} for 2000--2007 ($n=\R{extra.sub0007.n}$), \R{extra.sub0815.t} for
+2008--2015 ($n=\R{extra.sub0815.n}$) and \R{extra.sub1623.t} for 2016--2023 ($n=\R{extra.sub1623.n}$). The
+score level, rather than its change, is not significantly related to MPS ($t=\R{extra.level.t}$).
+Controlling for the previous statement's MPS or for the previous dScore leaves the $t$-statistic at
+\R{extra.lagmps.t} and \R{extra.lagds.t}, so the result does not come from persistence in either series.
+The concentration in 2016--2023 coincides with the period in which the Chair held a press conference
+after every meeting from 2019; the 30-minute window of MPS largely precedes the press conference, but the
+daily yield changes include it, and I do not control for it.
+
+\begin{table}[t]
+\centering
+\caption{Exploratory checks}\label{tab:extra}
+\footnotesize
+\input{tables/tab_extra}
+\tabnote{\emph{Notes:} Outcome MPS (or its predictable part, MPS $-$ MPS\_ORTH), hold meetings, policy
+corpus, Newey--West $t$. All rows except the joint rows use Fable's consensus dScore; ``coef.'' rows
+report the dScore coefficient in a regression with the stated control. Joint rows: MPS regressed in one equation on Fable's single-prompt dScore from the paraphrased
+(or blinded) text and on the difference between the clean and the paraphrased (blinded) dScore. These
+checks were added after the primary specification was frozen and count towards the regression total.}
+\end{table}
+
+\paragraph{Information beyond the surprise.} Does dScore tell us anything about yields that the surprise
+does not? It does not. Adding dScore to
+a regression of daily yield changes on MPS raises the $R^2$ by between \R{beyond.fable.gainmin} and
+\R{beyond.fable.gainmax} percentage points, with no $|t|$ above \R{beyond.fable.tmax} (Appendix
+Table~\ref{tab:beyond}).
+
+\subsection{Fable against Gemini}
+
+Gemini's dScore correlates with Fable's at \R{corr.fable.gemini}, yet on its own it has no relation to any
+market outcome. Table~\ref{tab:gemini} puts both in one regression, with each dScore standardised. Fable's
+coefficient has $t$-statistics between \R{j.tFmin} and \R{j.tFmax}, and Gemini's turns negative, between
+\R{j.tGmin} and \R{j.tGmax}. With two correlated regressors this joint regression is close to a
+regression on the difference between them: the market-related information sits in the part of Fable's
+score change that Gemini does not share. The negative Gemini coefficient does not mean that Gemini's score
+is informative with the wrong sign. The difference between the two models' standardised slopes, estimated
+from separate regressions, has a block-bootstrap $z$ between \R{j.zmin} and \R{j.zmax}
+\citep[moving blocks of four meetings, 2{,}000 draws;][]{kunsch1989}, and every 95\% interval excludes
+zero. Without the five meetings most influential for the primary result (Table~\ref{tab:influence}), the
+joint $t$-statistics are between \R{jdrop.tFmin} and \R{jdrop.tFmax} for Fable and between \R{jdrop.tGmin}
+and \R{jdrop.tGmax} for Gemini, and the gap $z$ is between \R{jdrop.zmin} and \R{jdrop.zmax}. These
+comparisons were added after the primary specification was frozen and lie outside its family, so they
+are exploratory.
+
+\begin{table}[t]
+\centering
+\caption{Fable against Gemini, hold meetings}\label{tab:gemini}
+\small
+\input{tables/tab_gemini}
+\tabnote{\emph{Notes:} Both dScores standardised on the common hold meetings. Joint: one regression of
+the outcome on both, Newey--West $t$. Gap: Fable's minus Gemini's per-standard-deviation slope from
+separate regressions; $z$ and the 95\% percentile interval from a moving-block bootstrap over meetings in
+time order (block length 4, 2{,}000 draws). MPS in percentage points, yields in basis points, per
+standard deviation of dScore.}
+\end{table}
+
+The difference between the two models is therefore suggestive, and more than a difference in
+significance. It has two readings. Fable may read the statements better. Or it may know more about them,
+including what followed. Section~\ref{sec:recognition} shows that Fable recognises the statements.
+Gemini never names a date while scoring, but it was not given the dating probe, so whether it could
+recognise them is untested. The human labels below help to tell the readings apart, but only a little.
+
+\subsection{Agreement with human labels}
+
+\begin{table}[t]
+\centering
+\caption{Correlation of score levels with published human sentence labels}\label{tab:tdw}
+\small
+\input{tables/tab_tdw}
+\tabnote{\emph{Notes:} Statements with at least two sentences that appear word for word among the
+hand-labelled sentences of \citet{shah2023} (hawkish $+1$, neutral 0, dovish $-1$); $r$ is the correlation
+of the model's score level with the mean label, \R{tdw.first}--\R{tdw.last}. GPT-4 lacks scores for three
+statements.}
+\end{table}
+
+If Fable's edge over Gemini came from better reading, Fable should also agree better with human readers.
+Table~\ref{tab:tdw} compares each score's level with the mean of the human labels of \citet{shah2023} on
+the \R{tdw.n} statements with at least two labelled sentences. All three LLMs agree moderately with the
+labels, and Fable does not agree best: its correlation is \R{tdw.fable.r}, against \R{tdw.gemini.r} for
+Gemini and \R{tdw.gpt4.r} for GPT-4, and \R{tdw.fable.rhold} against \R{tdw.gemini.rhold} and
+\R{tdw.gpt4.rhold} on hold meetings. The dictionary reaches \R{tdw.dict.r}.
+
+This benchmark is limited. The labels were made for sentences, not statements; only a few sentences per
+statement are labelled, many of them boilerplate; and the test is on levels, while the market test is on
+changes. The labelled sentences differ between neighbouring statements, so a change test with these labels
+mostly measures which sentences happen to be labelled (all models' correlations with the change in the mean
+label are between \R{tdw.fable.rchg} and \R{tdw.gemini.rchg}). Within these limits, the human benchmark does
+not single out Fable as the better reader. Its market edge is not matched by an edge in agreement with
+humans, which fits ``knows more'' at least as well as ``reads better''.
+
+\subsection{Blinded and paraphrased text}\label{sec:versions-validity}
+
+It is tempting to read the fall in the MPS $t$-statistic from \R{hold.clean.MPS.t} on the clean text to
+\R{hold.blind.MPS.t} on blinded and \R{hold.para.MPS.t} on paraphrased text as evidence that recalled
+information was removed. The evidence is mixed. The falls are not clearly significant: of the
+\R{g.n} bootstrap gaps between the clean slope and the blinded or paraphrased one (three outcomes, two
+text versions), with $z$-statistics between \R{g.zmin} and \R{g.zmax}, only \R{g.over196} has $|z|$
+above 1.96 (the $d_2$ gap for blinding), and every 95\% percentile interval includes zero
+(Appendix Table~\ref{tab:gaps}). Recognition on request hardly changes: Fable still dates
+\R{probe.blind.exactpct} of blinded and \R{probe.para.exactpct} of paraphrased statements. But
+recognition while scoring does fall: Fable names the statement's month and year in
+\R{spont.cleanfable.all.pct} of its P1 replies on the clean text, \R{spont.blindfable.all.pct} on blinded
+and \R{spont.parafable.all.pct} on paraphrased text. And paraphrasing removes legitimate information:
+markets react to exact wording such as ``considerable period'' or ``patient'', which a paraphrase must
+change.
+
+The last point can be made concrete. Splitting the clean dScore into the paraphrased dScore and the
+difference between the two, and entering both in one regression for MPS, gives a $t$-statistic of
+\R{extra.decpara.t} for the paraphrased part and \R{extra.decparares.t} for the difference
+(Table~\ref{tab:extra}); for blinding the figures are \R{extra.decblind.t} and \R{extra.decblindres.t}.
+The market-related part of the score is concentrated in what paraphrasing and blinding change. For the
+paraphrase, that fits both readings: exact wording carries information, and identity cues may trigger
+recall. Blinding is more telling, because it leaves the wording of the policy paragraphs intact and
+removes mainly dates, names, vote rosters and named events. That the part of the score blinding removes is
+related to MPS ($t=\R{extra.decblindres.t}$) points towards identity cues, or towards the context they
+carry, rather than towards wording. This is the strongest indication of recall in the paper. It is weak
+evidence: the blinded and clean dScores correlate at \R{corr.clean.blind}, the check is
+exploratory, and the gap between the clean and blinded slopes is not significant on its own.
+
+\subsection{Summary}
+
+Fable's dScore has a positive and small relation to the policy surprise at hold meetings. It changes
+little with how the score is built or how the corpus is defined, it is not driven by outliers, and its
+sensitivity to influential meetings is what a real effect of this size would show. But it does not survive
+a multiple-testing correction, it was found after a specification search, and it is concentrated in
+2016--2023. The daily yield link depends on the corpus definition. Fable outperforms Gemini on market
+data but not on human labels. None of this separates reading from remembering, and the one check that
+leans either way (the part of the score that blinding removes) leans towards remembering.

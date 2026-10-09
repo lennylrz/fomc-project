@@ -1,0 +1,62 @@
+%=====================================================================================
+\section{What can and cannot be tested}\label{sec:cannot}
+
+The central question, whether Fable's market link comes from reading or from remembering, has a clean
+answer only if some statements are unknown to the model. This section goes through the ways to get such
+statements and explains why none of them works with the data at hand.
+
+\subsection{Waiting for new statements}
+
+The policy corpus has \R{post.pairs} statement pairs from 2024 to July 2026, \R{post.d2.hold.n} of them at
+hold meetings. The surprise series ends in 2023, so only the daily yields can be used. No score shows a
+significant relation (Appendix Table~\ref{tab:post}): on hold meetings Fable's $t$-statistics are
+\R{post.fable.d2.hold.t} ($d_2$) and \R{post.fable.d10.hold.t} ($d_{10}$), Gemini's
+\R{post.gemini.d2.hold.t} and \R{post.gemini.d10.hold.t}.
+
+This is not evidence against the pre-2024 result, because the test has almost no power. If Fable's
+pre-2024 $R^2$ were the true effect, the current post-2024 sample would detect it with a probability of
+\R{power.min} to \R{power.max} (Appendix Table~\ref{tab:power}). Reaching 80\% power would take between
+\R{power.d10.hold.need} and \R{power.d10.all.need} meetings, or \R{power.d2.all.years} to
+\R{power.d10.all.years} more years at the current pace. These $R^2$ values come from the sample that
+first suggested the effect and are, if anything, too high, so the true requirement is likely larger. Worse, Section~\ref{sec:cutoff}
+showed that Fable knows the 2024--2025 statements. At most the four statements from March to July 2026
+may be unseen.
+
+\subsection{A model with a documented training cutoff}
+
+GPT-4 is listed with a training cutoff of September 2021. In principle it allows a comparison within one
+model: statements before the cutoff it may have memorised, statements after it cannot have. In practice
+it fails as an instrument. Its \R{gpt4.nscores} scores take only \R{gpt4.distinct} distinct values;
+\R{gpt4.atminus1} of them (\R{gpt4.atminus1pct}) are exactly $-1$; \R{gpt4.zeropct} of its hold-meeting
+dScores are exactly zero (Fable: \R{fable.zero} of \R{fable.zeron}); and \R{gpt4.zlbfloor} of the
+\R{gpt4.zlbn} zero-lower-bound statements sit at the floor of $-1$. A score that rarely changes between
+meetings cannot track meeting-to-meeting surprises.
+
+Its regressions show no positive relation before the cutoff (hold-meeting $t$ of \R{h.gpt4.MPS.hold-pre.t}
+for MPS and \R{h.gpt4.d2.hold-pre.t} for $d_2$, the latter with the wrong sign) or after it
+($|t|\le\R{h.gpt4.d10.hold-post.t}$ on \R{h.gpt4.d2.all-post.n} or fewer statements; Appendix
+Table~\ref{tab:gpt4}). On the same post-cutoff statements Fable's $t$-statistics are between
+\R{h.fable.d10.all-post.t} and \R{h.fable.d10.hold-post.t}, but Fable may know those statements. GPT-4's
+null result therefore says nothing about whether having seen the statements is enough to produce a
+market link. It shows only that GPT-4 with this prompt is too coarse to be a control.
+
+\subsection{Recognised against unrecognised statements}
+
+The planned test was to compare the market link on statements that Fable recognises with the link on
+statements it does not. Section~\ref{sec:recognition} showed that the second group is nearly empty
+(\R{probe.hold.not} meetings): Fable dates
+\R{probe.hold.recog} of the \R{probe.hold.n} probed hold meetings exactly, and blinding and paraphrasing do
+not change that. Restricting the regressions to the recognised statements simply repeats the main result.
+
+\subsection{What would settle the question}
+
+Three designs could separate reading from remembering. First, chronologically consistent models
+\citep{he2025,drinkall2024} are trained only on text available before each date and so cannot remember
+what followed a statement. Scoring the corpus with such models, using the same prompts, would give an
+uncontaminated version of the market test. Whether such models produce scores fine enough to detect an
+effect of this size is an open question; GPT-4's coarse output shows that it cannot be taken for granted.
+Second, a second frontier model with a different training cutoff would show whether the link appears only
+for statements a model knows. A dating probe on such a model is cheap (a few dollars) but was not run here.
+Third, human labels of meeting-to-meeting \emph{changes} would provide a validity anchor that neither
+markets nor model memory can touch. A sheet of \R{humansheet.n} randomly drawn hold-meeting pairs is
+prepared in the repository but has not been labelled.

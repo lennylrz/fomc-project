@@ -1,0 +1,40 @@
+Exploratory checks (Fable, hold, policy corpus, NW)
+  check                                   y       n     beta   t_nw   p_nw
+  subperiod 2000-2007                     MPS    32    0.036   1.32  0.196  2000-06-28..2007-08-17
+  subperiod 2008-2015                     MPS    58    0.012   0.42  0.673  2008-06-25..2015-10-28
+  subperiod 2016-2023                     MPS    42    0.049   3.40  0.002  2016-01-27..2023-12-13
+  score level instead of dScore           MPS   132    0.010   1.38  0.170  2000-06-28..2023-12-13
+  primary + previous statement's MPS      MPS   132    0.033   2.39  0.019  2000-06-28..2023-12-13
+  primary + lagged dScore                 MPS   132    0.033   2.29  0.024  2000-06-28..2023-12-13
+  decomposition: para dScore              MPS   132    0.015   0.98  0.331  2000-06-28..2023-12-13
+  decomposition: clean - para             MPS   132    0.045   3.59  0.000  2000-06-28..2023-12-13
+  decomposition: blind dScore             MPS   132    0.021   1.83  0.070  2000-06-28..2023-12-13
+  decomposition: clean - blind            MPS   132    0.060   2.25  0.026  2000-06-28..2023-12-13
+  predictable part (MPS - MPS_ORTH)       MPSp  125    0.022   4.99  0.000  2000-06-28..2023-12-13
+  MPS on the same meetings                MPS   125    0.033   2.39  0.018  2000-06-28..2023-12-13
+  primary, x and y winsorised 2.5/97.5%   MPS   132    0.034   2.54  0.012  2000-06-28..2023-12-13
+
+  sd(para dScore) 0.236, sd(clean - para) 0.178, n 132
+  sd(blind dScore) 0.281, sd(clean - blind) 0.123, n 132
+  2009-03-18: Fable dScore -0.080, d10 -51 bp, d2 -23 bp, MPS -0.058
+  2013-09-18: Fable dScore +0.000, d10 -17 bp, d2 -5 bp, MPS -0.004
+
+  ICC resid, 2015-19 block: linear code vs hike/cut dummies
+  changes.csv            n 40 (hikes 9, cuts 3)  raw 0.810  resid linear 0.562  resid dummies 0.557  drop 31% / 31%
+  changes_claude.csv     n 40 (hikes 9, cuts 3)  raw 0.609  resid linear 0.333  resid dummies 0.371  drop 45% / 39%
+  changes_openai.csv     n 40 (hikes 9, cuts 3)  raw 0.728  resid linear 0.517  resid dummies 0.541  drop 29% / 26%
+  changes_frontier.csv   n 40 (hikes 9, cuts 3)  raw 0.957  resid linear 0.929  resid dummies 0.930  drop 3% / 3%
+
+  primary Spearman rho 0.277; permutation p (2000 shuffles of dScore, seed 1) 0.006
+  greedy drop (fast NW, check vs part K): full t 2.39 -> 2.13 -> 1.87 -> 1.58 -> 1.34 -> 1.12; dropped 2023-12-13, 2007-08-17, 2002-08-13, 2004-01-28, 2015-10-28
+  benchmark (200 simulations, true slope = estimate, resampled residuals, seed 2): median full t 2.75, median t after greedy drop of 5 1.15, share at or below the actual 1.12: 0.49
+
+  Fable vs Gemini without 2023-12-13, 2007-08-17, 2002-08-13, 2004-01-28, 2015-10-28
+  J-drop5 MPS  n 127  joint t Fable 2.29 Gemini -2.15  gap z 1.83  [0.001, 0.012]
+  J-drop5 d2   n 116  joint t Fable 2.42 Gemini -2.77  gap z 2.03  [0.156, 1.938]
+  J-drop5 d10  n 116  joint t Fable 2.58 Gemini -2.26  gap z 2.12  [0.171, 2.163]
+  J-drop5 t2   n 127  joint t Fable 2.32 Gemini -2.19  gap z 1.91  [0.087, 1.365]
+  J-drop5 t10  n 127  joint t Fable 2.75 Gemini -2.80  gap z 2.16  [0.172, 1.191]
+  naming own month+year (scores_fable replies): influential 5 8/29, other hold 168/708
+
+  13 regression coefficients
