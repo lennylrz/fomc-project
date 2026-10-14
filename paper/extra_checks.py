@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-paper/extra_checks.py - Exploratory checks the 2026-10-03 review asked for
-that analysis.py does not print, plus the data behind the paper's figures.
+paper/extra_checks.py - Exploratory robustness checks that analysis.py does
+not print, plus the data behind the paper's figures.
 No API calls, stdlib only; reuses analysis.py's loaders and OLS.
 
     python3 paper/extra_checks.py            # from the repo root or paper/
@@ -11,15 +11,23 @@ hold meetings, statements to 2023-12, Newey-West SE with analysis.py's lag
 rule. They are secondary and exploratory and count towards the regression
 total the paper reports.
 
-  (1) subperiods   primary spec on 2000-07, 2008-15, 2016-23 (review 4.4)
-  (2) levels       MPS on the score LEVEL instead of its change (review 4.6)
+  (1) subperiods   primary spec on 2000-07, 2008-15, 2016-23
+  (2) levels       MPS on the score LEVEL instead of its change
   (3) lags         primary + previous policy statement's MPS; primary +
-                   lagged dScore (review 4.6)
+                   lagged dScore
   (4) decomposition  MPS on the paraphrase (or blinded) dScore and on the
                    part paraphrasing (blinding) removed, clean - para, in one
-                   regression (review section 5)
-  (5) LSAP days    Fable dScore and yield moves on 2009-03-18 and 2013-09-18
-                   (review 4.4), descriptive
+                   regression
+  (5) LSAP days    Fable dScore and yield moves on 2009-03-18 and 2013-09-18,
+                   descriptive
+  (6) reliability  ICC after removing the rate decision with hike and cut
+                   dummies instead of a linear -1/0/+1 code
+  (7) MPS - MPS_ORTH (the predictable part of the surprise) on dScore
+  (8) primary winsorised, Spearman rank correlation, permutation p-value
+  (9) greedy drop of the 5 most influential meetings, benchmarked on data
+                   simulated from the fitted line with resampled residuals
+  (10) Fable vs Gemini without those 5 meetings
+  (11) unprompted naming of the statement's date at those 5 meetings
 Writes paper/runs/extra.csv (regressions), paper/runs/extra.txt (log) and
 paper/runs/scatter.csv (hold-meeting MPS and Fable dScore, for figure 3).
 """
@@ -110,7 +118,7 @@ def main():
                    f" d2 {m.get('d2', float('nan')):+.0f} bp, MPS {m.get('MPS', float('nan')):+.3f}")
 
     # (6) reliability "resid" with separate hike and cut dummies instead of
-    # the linear -1/0/+1 code (review m7), crossed 2015-19 block
+    # the linear -1/0/+1 code, crossed 2015-19 block
     from report import icc
     keep = set(statements)
     order = sorted(keep)

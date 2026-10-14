@@ -68,6 +68,11 @@ and `fix_dates.py` applies the mapping to every file on disk (done 2026-10-03).
 - Human sentence labels (`tdw_labels.csv`): Shah, A., Paturi, S. and Chava, S. (2023), "Trillion
   Dollar Words", ACL 2023, github.com/gtfintechlab/fomc-hawkish-dovish, licensed CC BY-NC 4.0.
 
+## License
+The code is released under the MIT License (`LICENSE`). Third-party data keep their own terms: the
+Trillion Dollar Words labels are CC BY-NC 4.0, and the surprise series and yields belong to their
+sources listed above.
+
 ## Scripts
 - `openrouter.py` – the one OpenRouter client every scorer uses (key handling, retries, `OUT_OF_CREDIT` / `EMPTY_REPLY` errors)
 - `pilot.py` – the five prompts, score parsing (strict since 2026-10-03: the reply must end in a number in [-1, 1]), one-statement demo. Scorers store the full reply (before 2026-10-03 replies were cut at 300 characters); `openrouter.chat` returns a `TRUNCATED` error when a reply hits `max_tokens`

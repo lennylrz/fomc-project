@@ -179,7 +179,7 @@ def parse_score(reply, flip):
     "Score: 0.6" or "+0.60" or write three sentences first. So we look for an
     explicit SCORE: line, and otherwise take the number the reply ENDS with.
 
-    Stricter since 2026-10-03 (review m2): the old version took the last
+    Stricter since 2026-10-03: the old version took the last
     number anywhere and clipped it to [-1, 1], so a reply cut off after
     "rates unchanged at 1.75%" became 1.0 (and -1.0 after the P4 flip), and a
     truncated "-0." became 0.0. Now a reply that does not end in a number, a

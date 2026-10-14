@@ -36,13 +36,13 @@ PART I - RECOGNITION WHILE SCORING (stored replies, no API)
   replies were stored cut at 300 characters, and most prompts ask for the
   number only. Fable's full-corpus file is also split by prompt.
 
-PART J - FABLE vs GEMINI (review section 4.5)
+PART J - FABLE vs GEMINI
   Hold meetings to 2023-12, both dScores standardised (z) on the common
   meetings. (1) Joint regression y = a + bF zF + bG zG, NW t. (2) Paired gap
   in per-sd betas from the two separate regressions, bF - bG, with the part G
   moving-block bootstrap (block 4, 2000 draws, seed 1).
 
-PART K - CHECKS OF THE REVIEW'S CLAIMS (Fable, hold, statements to 2023-12)
+PART K - ROBUSTNESS CHECKS (Fable, hold, statements to 2023-12)
   (1) Placebo days: d2/d10 measured k trading days from the statement day
       (k = -30..-1, +1..+30; yields.csv close-to-close changes), same
       regression; how often |t| reaches the real one, and the placebo 95th
@@ -85,7 +85,7 @@ PRIMARY SPECIFICATION (frozen 2026-10-03, printed last as part P)
   the primary row, the Holm and Bonferroni adjusted p over the family of
   Fable's 12 part-B regressions (MPS, MPS_ORTH, d2, d10 x all / all +
   change_bp / hold), the total number of regressions printed, and the
-  primary on the 2003+ sample that d2/d10 have (review m6).
+  primary on the 2003+ sample that d2/d10 have.
   The primary is only "primary" with the defaults (--corpus policy,
   --dscore demeaned, --score consensus); part P says so when they differ.
 
@@ -129,7 +129,7 @@ PART E - RECOGNITION (if probe_fable.csv exists; built by probe.py)
   where the rate level gives no clue). Then the hold-meeting regressions split
   by whether the statement was dated to the exact month ("recognised").
   A split with fewer than 8 meetings is not run.
-  Text-similarity baseline (no memory, no API; review section 5): each
+  Text-similarity baseline (no memory, no API): each
   blinded pre-2024 statement is matched to its most similar OTHER blinded
   statement (TF-IDF over words and word pairs, cosine) and given that
   statement's date. A generous baseline - it sees every other statement with
@@ -190,7 +190,7 @@ CORPUS_DROP = {"policy": {"notice"}, "strict": {"notice", "unscheduled_policy"},
 
 # --- data --------------------------------------------------------------------
 
-# Score-parsing audit (review m2). Replies were stored cut at 300 characters
+# Score-parsing audit. Replies were stored cut at 300 characters
 # before 2026-10-03. A reply shorter than that is complete, so it is re-parsed
 # with pilot.parse_score (strict since 2026-10-03) and the row is dropped if
 # that fails or disagrees with the stored score ("-0.", "0."). Longer replies
@@ -298,7 +298,7 @@ DSCORE = "demeaned"  # --dscore; how the consensus copes with missing prompts
 def dscores(scores, statements, how):
     """dScore from {date: {prompt: score}} between consecutive corpus statements.
 
-    One prompt (how = its name): the plain change. Consensus (review m1: from
+    One prompt (how = its name): the plain change. Consensus (from
     2020 many Fable statements have 1-3 prompts, so 54 pairs differenced
     averages over DIFFERENT prompt sets and picked up prompt level offsets):
       demeaned (default) - prompt fixed effects: each prompt's mean offset
@@ -443,7 +443,7 @@ def reliability_row(label, scores, actions, order):
     resid = [[c[i] for c in cols] for i in range(len(dates))]
     holds = [levels[i] for i, a in enumerate(act) if a == 0]
     # changes only between statements that are adjacent in the corpus, not
-    # across a gap left by a statement without all prompts (review m1)
+    # across a gap left by a statement without all prompts
     pos = {d: i for i, d in enumerate(order)}
     ch = [[levels[i][j] - levels[i - 1][j] for j in range(len(prompts))]
           for i in range(1, len(dates)) if pos[dates[i]] - pos[dates[i - 1]] == 1]

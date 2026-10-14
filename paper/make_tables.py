@@ -398,7 +398,7 @@ def spontaneous():
     body += ["\\bottomrule", "\\end{tabular}"]
     write("tab_spontaneous.tex", "\n".join(body) + "\n")
     # quotes: blinded examples printed by part I, and hindsight phrases found by
-    # searching the stored replies for phrases the review flagged
+    # searching the stored replies for phrases that cite later events
     import csv as _csv
     quotes = []
     for line in re.findall(r"^    blind (\S+): \.\.\.(.*?)\.\.\.$", sec, re.M)[:2]:
@@ -930,24 +930,15 @@ def human_sheet():
 
 
 def nav_year():
-    """Statements whose ORIGINAL scored text (first commit, before the
-    2026-09-25 clean-up) ended with a page-navigation line naming a year."""
-    import subprocess
-    first = "1e6e13f"
-    files = subprocess.run(["git", "ls-tree", "--name-only", first, "statements/"],
-                           capture_output=True, text=True, check=True).stdout.split()
-    nav, own, dates = 0, 0, []
-    for fn in files:
-        t = subprocess.run(["git", "show", f"{first}:{fn}"], capture_output=True, text=True).stdout
-        m = re.search(r"(\d{4}) Monetary policy Home", t[-80:])
-        if m:
-            nav += 1
-            own += m.group(1) == os.path.basename(fn)[:4]
-            dates.append(os.path.basename(fn)[:10])
-    put("nav.n", str(nav))
-    put("nav.own", str(own))
-    put("nav.first", min(dates)[:4])
-    put("nav.last", max(dates)[:4])
+    """Statements whose ORIGINAL scored text (before the 2026-09-25 clean-up)
+    ended with a page-navigation line naming a year; counted from the original
+    download and recorded in runs/nav_line.csv."""
+    rows = [l for l in open(os.path.join(RUNS, "nav_line.csv")) if not l.startswith("#")]
+    r = next(csv.DictReader(rows))
+    put("nav.n", r["statements"])
+    put("nav.own", r["own_year"])
+    put("nav.first", r["first_year"])
+    put("nav.last", r["last_year"])
 
 
 def paraphrase_stats():

@@ -1,0 +1,5 @@
+# Statements whose text, as first downloaded (before trailing page links were
+# stripped on 2026-09-25), ended with a navigation line naming a year. Counted
+# from the original download; that text is no longer in the repository.
+statements,own_year,first_year,last_year
+51,50,2000,2005
